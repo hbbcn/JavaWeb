@@ -1,0 +1,5 @@
+1、解决post请求的中文乱码问题
+一定要在获取请求参数之前调用才有效
+ req.setCharacterEncoding("UTF-8");
+4、解决响应中文乱码问题
+ resp.setContentType("text/html; charset=UTF-8");

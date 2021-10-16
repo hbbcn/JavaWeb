@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript">
+
+        /**
+         * 1.document.getElementById(elementId)可以获取指定id的标签，当多个id相同，
+         * 则永远只会获取到第一个所指定id的标
+         * 2.三个方法的优先使用
+         *          如果有id属性我们优先使用getElementsById(elements)
+         *          没有id属性有name属性我们优先使用getElementByName(elementName）
+         *          id, name 都没有，那么我们用getElementByTagName(tagName)
+         *
+         *    注意：这三个方法一定在页面加载完成之后执行，才能查询到标签对象。
+         *    即，整个页面代码读取完成，形成一个dom模型，这个时候查询才能有效，
+         *    所以这些查询代码需要写在函数里面提供其他代码掉调用，或者写在window.onload = function(){}
+         *
+         *
+         *
+         *
+         */
+        function checkAll() {
+            var inputs = document.getElementsByTagName("input");
+            for (var i = 0; i < inputs.length; i++) {
+                inputs[i].checked = true;
+            }
+        }
+
+    </script>
+</head>
+<body>
+    兴趣爱好：
+    <input type = "checkbox"  value="cpp" checked="checked">C++
+    <input type = "checkbox"  value="Java">Java
+    <input type = "checkbox"  value="cpp">JavaScript
+    <br/>
+    <button onclick="checkAll()">全选</button>
+
+
+</body>
+</html>

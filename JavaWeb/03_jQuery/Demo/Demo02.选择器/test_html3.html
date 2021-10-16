@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript" src="../script/jquery-1.7.2.js"></script>
+    <script type="text/javascript">
+
+        $(function () {
+
+            //attr()
+           // alert($(":checkbox:first").attr("name"));//获取
+           //
+           //  $(":checkbox:first").attr("name","abc");//设置
+           //
+           //
+           //  $(":checkbox").prop("checked",true); //官方觉得返回undefined是一个错误，因此可以使用prop方法
+            /*
+            * attr() 可以设置和获取属性值，不推荐操作checked、readOnly、selected、disabled 等等
+            *
+            * attr()方法还可以操作非标准的属性。比如自定义属性：abc，bbj
+            *
+            * prop() 可以设置和获取属性值，只推荐操作checked、readOnly、selected、disabled 等等
+            *  */
+
+            // $(":checkbox:first").attr("abc","abcValue");
+            // alert($(":checkbox:first").attr("abc"));
+/*
+* DOM的增删改
+* a.appendTo(b):       把a插入到b子元素末尾，成为最后一个子元素
+* a.prependTo(b):      把a插入到b所有子元素前面，成为第一个子元素
+* a.insertAfter(b)     把a插入到b前面
+* a.insertBefore(b)    把a插入到b后面
+* a.replaceWith(b)     用b替换a
+* a.replaceAll(b)      用a替换掉所有的b
+* a.remove()           删除a标签
+* a.empty              清空a标签里的内容
+*
+*
+*
+*
+* */
+            // $("<h1>标题</h1>").appendTo("div");//方式一
+            // $("<h1>标题</h1>").appendTo($("div"));
+            // $("<h1>标题</h1>").prependTo($("div"));
+            $("<h1>标题</h1>").insertAfter($("div"));
+            //$("div").replaceWith("<h1>标题</h1>");//替换掉所有div为一个
+            // $("<h1>标题</h1>").replaceAll("div");
+            // $("div").remove();
+
+        });
+
+    </script>
+</head>
+<body>
+
+多选：
+<input name="checkbox" type="checkbox" checked="checked" value="checkbox1" />checkbox1
+<input name="checkbox" type="checkbox" value="checkbox2" />checkbox2
+<input name="checkbox" type="checkbox" value="checkbox3" />checkbox3
+<br/><br/>
+
+<div>1234</div>
+<div>1234</div>
+
+</body>
+</html>

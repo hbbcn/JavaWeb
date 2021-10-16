@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9e5c21f6-b484-4c89-ab31-f4198cf7ce1d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Spring/frequent_annotaton" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring/spring5_AOP/src/com/atguigu/proxy/Proxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring/spring5_AOP_exer/spring5_AOP_exer.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring/spring5_AOP_exer/src/bean1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring/spring5_AOP_exer/src/com/atguigu/aopannotation/BeforeProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring/spring5_AOP_exer/src/com/atguigu/aopannotation/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring/spring5_AOP_exer/src/com/atguigu/aopannotation/UserProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring/spring5_AOP_exer/src/com/atguigu/proxy/JDKProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring/spring5_AOP_exer/src/com/atguigu/proxy/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring/spring5_AOP_exer/src/com/atguigu/proxy/UserDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring/spring5_AOP_exer/src/com/atguigu/test/BeforeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring/spring5_AOP_exer/src/lib/com.springsource.net.sf.cglib-2.2.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring/spring5_AOP_exer/src/lib/com.springsource.org.aopalliance-1.0.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring/spring5_AOP_exer/src/lib/com.springsource.org.aspectj.weaver-1.6.8.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring/spring5_AOP_exer/src/lib/commons-logging-1.1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring/spring5_AOP_exer/src/lib/druid-1.1.9.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring/spring5_AOP_exer/src/lib/javax.annotation-api-1.3.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring/spring5_AOP_exer/src/lib/spring-aop-5.2.6.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring/spring5_AOP_exer/src/lib/spring-aspects-5.2.6.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring/spring5_AOP_exer/src/lib/spring-beans-5.2.6.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring/spring5_AOP_exer/src/lib/spring-context-5.2.6.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring/spring5_AOP_exer/src/lib/spring-core-5.2.6.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring/spring5_AOP_exer/src/lib/spring-expression-5.2.6.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring/spring5_annotation_exer/spring5_annotation_exer.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring/spring5_annotation_exer/src/bean1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring/spring5_annotation_exer/src/com/atguigu/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring/spring5_annotation_exer/src/com/atguigu/dao/UserDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring/spring5_annotation_exer/src/com/atguigu/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring/spring5_annotation_exer/src/com/atguigu/test/Test01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring/spring5_annotation_exer/src/lib/commons-logging-1.1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring/spring5_annotation_exer/src/lib/druid-1.1.9.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring/spring5_annotation_exer/src/lib/hamcrest-core-1.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring/spring5_annotation_exer/src/lib/javax.annotation-api-1.3.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring/spring5_annotation_exer/src/lib/junit-4.12.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring/spring5_annotation_exer/src/lib/spring-aop-5.2.6.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring/spring5_annotation_exer/src/lib/spring-beans-5.2.6.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring/spring5_annotation_exer/src/lib/spring-context-5.2.6.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring/spring5_annotation_exer/src/lib/spring-core-5.2.6.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring/spring5_annotation_exer/src/lib/spring-expression-5.2.6.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring/spring5_exer/src/com/atguigu/Bean/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring/spring5_exer/src/com/atguigu/test/testBook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring/spring5_exer/src/conf/beanbook.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring/spring5_exer/src/conf/userbean.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring/spring5_xml_exer/src/FactoryBean.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring/spring5_xml_exer/src/beanUserService.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring/spring5_xml_exer/src/beanbook.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring/spring5_xml_exer/src/beancollectionType.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring/spring5_xml_exer/src/com/atguigu/bean/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring/spring5_xml_exer/src/com/atguigu/bean/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring/spring5_xml_exer/src/com/atguigu/collectionType/Stu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring/spring5_xml_exer/src/com/atguigu/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring/spring5_xml_exer/src/com/atguigu/dao/UserDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring/spring5_xml_exer/src/com/atguigu/factoryBean/MyBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring/spring5_xml_exer/src/com/atguigu/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring/spring5_xml_exer/src/com/atguigu/test/TestConnectionType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring/spring5_xml_exer/src/com/atguigu/test/TestMyBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring/spring5_xml_exer/src/com/atguigu/test/TestUserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring/spring5_xml_exer/src/com/atguigu/test/testBook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring/.idea/libraries/com_springsource_net_sf_cglib_2_2_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Spring/.idea/libraries/com_springsource_net_sf_cglib_2_2_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Spring/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Spring/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring/SSM" beforeDir="false" afterPath="$PROJECT_DIR$/Spring/Spring" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring/production/spring5_AOP/com/atguigu/aopannotation/PersonProxy.class" beforeDir="false" afterPath="$PROJECT_DIR$/Spring/production/spring5_AOP/com/atguigu/aopannotation/PersonProxy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring/production/spring5_AOP/com/atguigu/aopxml/BookProxy.class" beforeDir="false" afterPath="$PROJECT_DIR$/Spring/production/spring5_AOP/com/atguigu/aopxml/BookProxy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring/production/spring5_AOP/com/atguigu/proxy/JDKProxy.class" beforeDir="false" afterPath="$PROJECT_DIR$/Spring/production/spring5_AOP/com/atguigu/proxy/JDKProxy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring/production/spring5_AOP/com/atguigu/proxy/UserDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/Spring/production/spring5_AOP/com/atguigu/proxy/UserDaoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring/production/spring5_AOP/com/atguigu/proxy/UserDaoProxy.class" beforeDir="false" afterPath="$PROJECT_DIR$/Spring/production/spring5_AOP/com/atguigu/proxy/UserDaoProxy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring/production/spring5_AOP/com/atguigu/test/TestAop.class" beforeDir="false" afterPath="$PROJECT_DIR$/Spring/production/spring5_AOP/com/atguigu/test/TestAop.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring/production/spring5_AOP/proxyBean.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Spring/production/spring5_AOP/proxyBean.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring/production/spring5_annotation/bean1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Spring/production/spring5_annotation/bean1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring/production/spring5_annotation/com/atguigu/testDemo1/AA.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring/production/spring5_demo1/bean1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Spring/production/spring5_demo1/bean1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring/production/spring5_demo1/bean2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Spring/production/spring5_demo1/bean2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring/production/spring5_demo1/com/atguigu/spring5/Book.class" beforeDir="false" afterPath="$PROJECT_DIR$/Spring/production/spring5_demo1/com/atguigu/spring5/Book.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring/production/spring5_demo1/com/atguigu/spring5/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/Spring/production/spring5_demo1/com/atguigu/spring5/service/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring/production/spring5_demo1/com/atguigu/spring5/testdemo/TestBean.class" beforeDir="false" afterPath="$PROJECT_DIR$/Spring/production/spring5_demo1/com/atguigu/spring5/testdemo/TestBean.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring/production/spring5_demo1/com/atguigu/spring5/testdemo/TestSpring5.class" beforeDir="false" afterPath="$PROJECT_DIR$/Spring/production/spring5_demo1/com/atguigu/spring5/testdemo/TestSpring5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring/production/spring5_exer/bean1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring/production/spring5_exer/com/atguigu/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/Spring/production/spring5_exer/com/atguigu/service/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring/production/spring5_exer/com/atguigu/test/ServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/Spring/production/spring5_exer/com/atguigu/test/ServiceTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring/production/spring5_transaction/com/atguigu/test/JTest5.class" beforeDir="false" afterPath="$PROJECT_DIR$/Spring/production/spring5_transaction/com/atguigu/test/JTest5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring/spring5_AOP/src/com/atguigu/aopannotation/PersonProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring/spring5_AOP/src/com/atguigu/aopannotation/PersonProxy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring/spring5_AOP/src/com/atguigu/aopannotation/UserProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring/spring5_AOP/src/com/atguigu/aopannotation/UserProxy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring/spring5_AOP/src/com/atguigu/aopxml/BookProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring/spring5_AOP/src/com/atguigu/aopxml/BookProxy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring/spring5_AOP/src/com/atguigu/proxy/JDKProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring/spring5_AOP/src/com/atguigu/proxy/JDKProxy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring/spring5_AOP/src/com/atguigu/proxy/UserDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring/spring5_AOP/src/com/atguigu/proxy/UserDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring/spring5_AOP/src/com/atguigu/test/TestAop.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring/spring5_AOP/src/com/atguigu/test/TestAop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring/spring5_AOP/src/proxyBean.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Spring/spring5_AOP/src/proxyBean.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring/spring5_demo1/src/bean1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Spring/spring5_demo1/src/bean1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring/spring5_demo1/src/bean2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Spring/spring5_demo1/src/bean2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring/spring5_demo1/src/com/atguigu/spring5/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring/spring5_demo1/src/com/atguigu/spring5/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring/spring5_demo1/src/com/atguigu/spring5/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring/spring5_demo1/src/com/atguigu/spring5/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring/spring5_demo1/src/com/atguigu/spring5/testdemo/TestBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring/spring5_demo1/src/com/atguigu/spring5/testdemo/TestBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring/spring5_demo1/src/com/atguigu/spring5/testdemo/TestSpring5.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring/spring5_demo1/src/com/atguigu/spring5/testdemo/TestSpring5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring/spring5_demo2/src/com/atguigu/autowire/Emp.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring/spring5_demo2/src/com/atguigu/autowire/Emp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring/spring5_demo2/src/empBean.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Spring/spring5_demo2/src/empBean.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring/spring5_exer/src/bean1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Spring/spring5_exer/src/conf/bean1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring/spring5_exer/src/com/atguigu/Bean/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring/spring5_exer/src/com/atguigu/Bean/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring/spring5_exer/src/com/atguigu/test/ServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring/spring5_exer/src/com/atguigu/test/ServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring/spring5_transaction/src/bean2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Spring/spring5_transaction/src/bean2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring/spring5_transaction/src/com/atguigu/dao/UserDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring/spring5_transaction/src/com/atguigu/dao/UserDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring/spring5_transaction/src/com/atguigu/test/JTest5.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring/spring5_transaction/src/com/atguigu/test/JTest5.java" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Spring" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$PROJECT_DIR$/../java_install/maven/apache-maven-3.3.9" />
+        <option name="userSettingsFile" value="D:\java_install\maven\apache-maven-3.3.9\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="#JAVA_HOME" />
+    <option name="vmOptions" value="-DarchetypeCatalog=internal" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="21" />
+    <option name="y" value="137" />
+    <option name="width" value="1055" />
+    <option name="height" value="1065" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="javaWork" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javaWork" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javaWork" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javaWork" type="462c0819:PsiDirectoryNode" />
+              <item name="Mybatis" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javaWork" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javaWork" type="462c0819:PsiDirectoryNode" />
+              <item name="Mybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="01_mybatis" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javaWork" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javaWork" type="462c0819:PsiDirectoryNode" />
+              <item name="Mybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="01_mybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javaWork" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javaWork" type="462c0819:PsiDirectoryNode" />
+              <item name="Mybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="01_mybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javaWork" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javaWork" type="462c0819:PsiDirectoryNode" />
+              <item name="Mybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="01_mybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="atguigu" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javaWork" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javaWork" type="462c0819:PsiDirectoryNode" />
+              <item name="Mybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="01_mybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="atguigu" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Spring" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9e5c21f6-b484-4c89-ab31-f4198cf7ce1d" name="Default Changelist" comment="" />
+      <created>1632620782461</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1632620782461</updated>
+      <workItem from="1632620783672" duration="35000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="35000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <layout>
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="UI Designer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Sequence" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>数组测试</title>
+
+    <script type="text/javascript">
+        var arr = [true, 1];
+        alert(arr.length)//0
+        alert(arr[0]);
+        alert(arr[1]);
+        //
+        arr[1] = 12;
+        // alert(arr.length);//2
+// JavaScript语言中的数组，只要我们通过数组下标赋值，那么最大的下标值，就会自动的给数组扩容
+        arr[2] = "abc";
+        alert(arr.length);//3
+
+        // alert(arr[0]);
+
+        //数组的遍历
+        for (var i = 0; i < arr.length; i++){
+            alert(arr[i]);
+        }
+
+
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>

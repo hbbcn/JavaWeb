@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--以上内容就是xml的声明-->
+
+<books>
+    <book sn="32424">  <!-- book表示一本图书信息 sn属性表示图书序列号>-->
+
+        <name>时间简史</name>
+        <author><![CDATA[<<<<<<霍金]]></author>
+        <price>35</price>
+    </book>
+
+    <book sn="483545"
+          name = "java从入门到放弃"
+          author = "沙老师"
+          price = "99"/>//单标签
+
+
+</books>

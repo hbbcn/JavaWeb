@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #tab{
+            margin: 0 auto;
+            color:cadetblue;
+            border: 1px solid #003E3E;
+        }
+        #but{
+            display: block;
+            margin:0 auto;
+        }
+    </style>
+    <script>
+            function aaa(){
+                alert("你好");
+                alert(document.getElementById("bb").innerHTML)
+            }
+
+    </script>
+</head>
+<body>
+<table id="tab">
+    <tr id="bb">
+        <th>春花</th>
+        <th>秋月</th>
+        <th>何时了</th>
+    </tr>
+    <tr class="tbb">
+        <th>小楼</th>
+        <th>昨夜</th>
+        <th>又东风</th>
+    </tr>
+</table>
+<br />
+<br />
+<input id="but" type="button" value="please chick it" onclick="aaa()">
+
+</body>
+</html>

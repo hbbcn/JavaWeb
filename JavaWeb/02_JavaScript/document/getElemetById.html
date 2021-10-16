@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head
+>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript">
+        /*
+            需求：当用户点击了校验按钮，要获取输出框中的内容，然后验证其是否合法
+            验证的原则：必须由字母、数字、下划线组成。并且长度是5到12
+         */
+        function onclickFun(){
+            //1.当我们操作一个标签的时候，一定要先获取这个标签的对象
+            var usernameObj = document.getElementById("username");
+            alert(usernameObj.value);
+            var patt = /^\w{5,12}$/;
+            /*
+                test用于测试某个字符串，是否符合匹配规则
+             */
+
+            var usernameSpanObj = document.getElementById("usernameSpan");
+            // innerHTML: 表示起始标签和结束标签中的内容
+            // innerHTML: 这个属性可读，可写
+             alert( usernameSpanObj.innerHTML);
+             usernameSpanObj.innerHTML = "国歌真可爱";
+
+            if(patt.test(usernameObj.value)){
+                // alert("用户名合法！");
+                usernameSpanObj.innerHTML = " <img src = \"right.png\" width = \"18\" height=\"18\"/>";
+            }else{
+                // alert("用户名不合法！");
+                usernameSpanObj.innerHTML = " <img src = \"wrong.png\" width = \"18\" height=\"18\"/>";
+            }
+
+        }
+    </script>
+</head>
+<body>
+
+    用户名：<input type="text" id="username" value="wzg"/>
+    <span id = "usernameSpan" style="color: red">
+    123</span>
+
+    <button onclick="onclickFun()">校验</button>
+
+</body>
+</html>

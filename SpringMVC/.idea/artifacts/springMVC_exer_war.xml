@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="springMVC_exer:war">
+    <output-path>$PROJECT_DIR$/springMVC_exer/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>springMVC_exer</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="springMVC_exer.war">
+      <element id="artifact" artifact-name="springMVC_exer:war exploded" />
+    </root>
+  </artifact>
+</component>

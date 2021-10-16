@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/springMVC_Anno/springMVC_Anno.iml" filepath="$PROJECT_DIR$/springMVC_Anno/springMVC_Anno.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springMVC_InterceptorAndConverter/springMVC_InterceptorAndConverter.iml" filepath="$PROJECT_DIR$/springMVC_InterceptorAndConverter/springMVC_InterceptorAndConverter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springMVC_annotation/springMVC_annotation.iml" filepath="$PROJECT_DIR$/springMVC_annotation/springMVC_annotation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springMVC_demo1/springMVC_demo1.iml" filepath="$PROJECT_DIR$/springMVC_demo1/springMVC_demo1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springMVC_demo2/springMVC_demo2.iml" filepath="$PROJECT_DIR$/springMVC_demo2/springMVC_demo2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springMVC_demo3/springMVC_demo3.iml" filepath="$PROJECT_DIR$/springMVC_demo3/springMVC_demo3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springMVC_exer/springMVC_exer.iml" filepath="$PROJECT_DIR$/springMVC_exer/springMVC_exer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springMVC_jsp/springMVC_jsp.iml" filepath="$PROJECT_DIR$/springMVC_jsp/springMVC_jsp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springMVC_rest/springMVC_rest.iml" filepath="$PROJECT_DIR$/springMVC_rest/springMVC_rest.iml" />
+    </modules>
+  </component>
+</project>

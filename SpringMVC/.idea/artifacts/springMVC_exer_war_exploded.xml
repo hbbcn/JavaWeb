@@ -1,0 +1,23 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="springMVC_exer:war exploded">
+    <output-path>$PROJECT_DIR$/springMVC_exer/target/springMVC_exer</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <exploded>true</exploded>
+        <module>springMVC_exer</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="springMVC_exer" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/springMVC_exer/target/springMVC_exer/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="springMVC_exer/web/Web" />
+    </root>
+  </artifact>
+</component>

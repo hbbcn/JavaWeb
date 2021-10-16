@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Object形式的自定义对象</title>
+    <script type="text/javascript">
+        var obj = new Object();
+        obj.name = "华仔";
+        obj.age = 18;
+
+        obj.fun = function(){
+            alert("我爱中国");
+            alert("姓名" + this.name + "年龄" + this.age);
+        }
+
+        alert(obj.age);
+        obj.fun();
+    </script>
+
+</head>
+<body>
+
+</body>
+</html>

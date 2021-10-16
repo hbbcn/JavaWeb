@@ -1,0 +1,45 @@
+一、什么是 MyBatis？
+    MyBatis 是一款优秀的持久层框架，它支持自定义 SQL、存储过程以及高级映射。
+MyBatis 免除了几乎所有的 JDBC 代码以及设置参数和获取结果集的工作。MyBatis 可以通过简单的 XML
+或注解来配置和映射原始类型、接口和 Java POJO（Plain Old Java Objects，普通老式 Java 对象）为数据库中的记录
+
+二、
+①  association定义关联的单个对象的封装规则
+②  collection定义关联的集合属性的封装规则
+③  map集合遍历：  for (Map.Entry emp : empMap.entrySet()) {
+                          System.out.println(emp); }
+④
+
+###############################复习Mybatis##############################
+1、@MapKey("name") 用在方法上，告诉Mybatis查询结果返回为Map类型的时候，使用哪个属性作为主键
+        @MapKey("name")
+        public Map<Integer,Employee> getEmpByNameLikeResultMap(String name);
+   @Param("id") 注解在方法的形参上，传入多个参数作为条件执行sql语句的时候可以 多个参数会被封装为map集合类型，
+                该注解可以指定传入参数的Key，方便sql语句中的占位符调用
+        public Employee getEmpByIdAndName(@Param("id") Integer id, @Param("name") String name);
+2、 resultMap标签：自定义结果集映射规则，可以指定数据表中列对应的JavaBean的哪个属性
+3、 使用association定义对象的属性的封装规则
+    collection定义关联的集合的属性的封装规则
+4、缓存的顺序：二级缓存（范围更大） 一级缓存  数据库
+5、四大对象：
+  StatementHandler：处理sql语句预编译，设置参数等相关工作
+  ParameterHandler：设置预编译参数用的
+  ResultHandler：处理结果集
+  Executor：它是一个执行器，真正进行java与数据库交互的对象
+  查询过程：
+  1.根据配置文件(全局，sql映射)初始化出Configuration对象
+  2.创建一个DefaultSqlSession对象，它里面包含Configuration以及Executor(根据全局配置文件的defaultExecutorType创建出对应的Executor)
+  3.DefaultSqlSession.getMapper()拿到Mapper接口对应的MapperProxy
+  4.MapperProxy里面有DefaultSqlSession
+  5.执行增删改查方法：
+
+  (代理对象)调用DefaultSqlSession的增删改查(Executor)
+  创建一个StatementHandler对象，同时也创建ParameterHandler和ResultSetHandler
+  调用StatementHandler的预编译参数（使用ParameterHandler设置参数值）
+  调用StatementHandler的增删改查方法
+  ResultSetHandler封装结果
+  注意
+  四大队向每个创建的时候都有一个interceptorChain.pluginAll(parameterHandler),每个对象不是直接返回的，
+  而是调用interceptorChain.pluginAll()，获取到所有的Interceptor，调用interceptor.plugin(target)，
+  返回target包装后的对象
+  插件机制：可以使用插件为目标对象创建一个代理对象，代理对象会拦截每一个对象的执行。

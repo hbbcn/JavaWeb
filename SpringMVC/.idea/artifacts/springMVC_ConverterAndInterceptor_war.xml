@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="springMVC_ConverterAndInterceptor:war">
+    <output-path>$PROJECT_DIR$/springMVC_HttpMessageConverter/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>springMVC_ConverterAndInterceptor</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="springMVC_HttpMessageConvert-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="springMVC_ConverterAndInterceptor:war exploded" />
+    </root>
+  </artifact>
+</component>

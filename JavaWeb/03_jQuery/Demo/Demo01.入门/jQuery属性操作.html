@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <script type="text/javascript">
+
+        function getInner() {
+            var elements = document.getElementsByName("id1");
+            elements.innerHTML="中国"
+            alert(elements.innerHTML)
+        }
+        window.onload(function () {
+
+
+        })
+        alert("你好");
+
+
+
+    </script>
+</head>
+<body>
+<!--
+html() 它可以设置和获取起始标签和结束标签中的内容。 跟 dom 属性 innerHTML 一样。
+text() 它可以设置和获取起始标签和结束标签中的文本。 跟 dom 属性 innerText 一样。
+val() 它可以设置和获取表单项的 value 属性值。 跟 dom 属性 value 一样
+
+attr() 可以设置和获取属性的值，不推荐操作 checked、readOnly、selected、disabled 等等
+attr 方法还可以操作非标准的属性。比如自定义属性：abc,bbj
+prop() 可以设置和获取属性的值,只推荐操作 checked、readOnly、selected、disabled 等等
+-->
+
+<div id="id1"><a href="# ">你好</a> </div>
+</body>
+</html>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.atguigu.dao.EmployeeMapper">
+
+    <!--
+    eviction:缓存的回收策略
+            LRU(Least Recently Used)        -  最近最少使用的，移除最长时间不被使用的对象
+            FIFO( First Input First Output) -  先进先出，按对象进入缓存的顺序来移除它们
+            SOFT -  软引用 移除基于垃圾回收器状态和软引用规则的对象
+            WEAK -  弱引用 更积极地移除基于垃圾收集器状态和弱引用规则的对象
+            默认的是LRU
+    flushInterval：缓存刷新间隔，
+                缓存多长时间清空一次，默认是不清空，设置毫秒值
+    readOnly: 是否只读
+            true:只读 mybatis认为所有的缓存中换取数据都是只读操作，不会修改数据
+                      mybatis为了加快获取速度，直接会将数据在缓存中的引用交给用户，不安全，速度快
+
+           false:非只读 mybatis觉得获取的数据可能会被修改
+                        mybatis会利用序列化&反序列化克隆技术，安全，速度慢 默认false
+    size:缓存存放多少元素
+
+    type:自定义缓存的全类名
+        实现Cache接口即可
+    -->
+
+    <cache type="org.mybatis.caches.ehcache.EhcacheCache"></cache>
+    <!--<cache eviction="FIFO" flushInterval="60000" readOnly="false" size="1024"></cache>-->
+
+    <!--
+    namespace: 名称空间
+    id: 唯一标识
+    resultType: 返回值类型
+    #{id}: 从传递过来的参数种取出id值
+    -->
+    <select id="getEmpById" resultType="com.atguigu.mybatis.Employee" databaseId="mysql" useCache="true">
+     select * from tb_employee where id = #{id}
+
+    </select>
+
+    <select id="getEmpByIdAndName" resultType="com.atguigu.mybatis.Employee" databaseId="mysql">
+
+        select * from tb_employee where id = #{id} and name = #{name}
+    </select>
+
+
+
+    <!--
+      单个参数：mybatis不会做特殊的处理
+    *          #{参数名}：取出参数值
+    *
+    * 多个参数：mybatis会做特殊处理
+    *          多个参数会被封装成为一个Map
+    *          key:param1...paramN,或者参数的索引也可以
+    *          value:传入的参数值
+    *
+    *       #{}就是从map中获取指定的Key值
+    * 命名参数：明确指定封装参数时map的key使用注解:@param("id")
+    *          多个参数会被封装成一个map
+    *          key：使用@param注解指定的值
+    *          value：参数值
+    *       #{指定的key}取出相应的的参数的值
+    *
+    *
+    * 区别：
+    *      #{}:是以预编译的形式，将参数设置到sql语句中：和PrepareStatement一样:防止sql注入
+    *      ${}:取出的值直接拼装在sql语句中会有安全问题 类似于Statement
+    *      大多情况下：我们参数的值都应该去使用#{}
+    *
+    *      原生jdbc不支持占位符的地方我们就可以使用${}进行取值
+    *      比如分表：按照年份分表拆分
+    *
+    -->
+
+    <select id="getEmpByMap" resultType="com.atguigu.mybatis.Employee">
+        select * from ${tableName} where id = #{id} and name = #{name}
+    </select>
+
+    <!--resultType:如果返回的是一个集合，要写集合中元素的类型-->
+    <select id="getEmpByNameLike" resultType="com.atguigu.mybatis.Employee">
+        select * from tb_employee where name like #{name}
+    </select>
+
+    <!--如果返回的是一条记录-->
+    <select id="getEmpByIdResultMap" resultType="map">
+        select * from tb_employee where id=#{id};
+    </select>
+    
+    <select id="getEmpByNameLikeResultMap" resultType="com.atguigu.mybatis.Employee">
+        select * from tb_employee where  name like #{name}
+    </select>
+
+
+    <!--public void addEmp(Employee employee);-->
+    <!-- parameterType参数类型 可以省略
+        mysql支持自增主键，自增主键值的获取，mybatis也是利用statement.getGeneratedKey();
+        useGeneratedKeys="true",使用自增主键获取主键值策略
+        keyProperty:指定对应主键属性，也就是mybatis获取到主键值以后，将这个值封装给javaBean的哪个属性
+
+    -->
+    <insert id="addEmp" parameterType="com.atguigu.mybatis.Employee"
+    useGeneratedKeys="true" keyProperty="id" flushCache="true">
+      insert into tb_employee (name,gender,email) values(#{name},#{gender},#{email})
+    </insert>
+
+    <!--public void updateEmp(Employee employee);-->
+        <update id="updateEmp">
+            update tb_employee set name=#{name},gender=#{gender},email=#{email}
+            where id = #{id}
+        </update>
+    <!--public void deleteEmpById(Integer id);-->
+
+    <delete id="deleteEmpById">
+        delete from tb_employee where id = #{id}
+    </delete>
+    <!--resultType和resultMap不是一个东西-->
+    <!--注意数据库的列名和对象的字段要对应上
+    如果对应不上的话 可以使用resultMap来进行映射 或者直接给数据库列名起别名也是可以的-->
+    <select id="getEmpById" resultType="com.atguigu.mybatis.Employee" databaseId="oracle">
+      select id as id,last_name as name, gender as gender, email as email from tb_employee where id=#{id}
+    </select>
+</mapper>
