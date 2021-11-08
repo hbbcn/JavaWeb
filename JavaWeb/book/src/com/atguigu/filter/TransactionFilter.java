@@ -27,6 +27,7 @@ public class TransactionFilter implements Filter {
             chain.doFilter(request,response);
 
             JdbcUtils.commitAndClose();//提交事务
+
         } catch (Exception e) {
 
             JdbcUtils.rollbackAndClose();//回滚事务

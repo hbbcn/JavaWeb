@@ -12,5 +12,6 @@
 </head>
 <body>
 success
+${pageContext.request.contextPath}
 </body>
 </html>

@@ -19,7 +19,6 @@ import java.util.Arrays;
 public class ParamController{
 
     @RequestMapping("/testServletAPI")
-
     //形参位置request表示当前请求
     public String testServletAPI(HttpServletRequest request){
         HttpSession session = request.getSession();
@@ -29,7 +28,6 @@ public class ParamController{
         String password = request.getParameter("password");
         System.out.println("username:" + username + ",password" + password);
         return "success";
-
     }
 
     @RequestMapping("/testParam")

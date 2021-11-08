@@ -51,9 +51,7 @@
             <property name="username" value="root"/>
             <property name="password" value="root"/>
         </plugin>
-        
         <plugin interceptor="com.atguigu.dao.MySecondPlugin">
-
         </plugin>
     </plugins>
 

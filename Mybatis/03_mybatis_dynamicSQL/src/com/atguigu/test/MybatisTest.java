@@ -21,6 +21,7 @@ import java.lang.invoke.WrongMethodTypeException;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.TreeSet;
 
 /**
  * @ClassName MybatisTest
@@ -314,6 +315,19 @@ public class MybatisTest {
         System.out.println(empByDeptId);
     }
 
+    @Test
+    public void test01(){
+        TreeSet<Integer> set = new TreeSet<Integer>();
+        TreeSet<Integer> subSet = new TreeSet<Integer>();
+        for(int i=606;i<613;i++){
+            if(i%2==0){
+                set.add(i);
+            }
+        }
+        subSet = (TreeSet)set.subSet(608,false,611,true);
+        set.add(609);
+        System.out.println(set+" "+subSet);
+    }
 
 }
 

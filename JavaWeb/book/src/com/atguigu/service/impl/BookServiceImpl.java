@@ -65,12 +65,12 @@ public class BookServiceImpl implements BookService {
         page.setPageTotal(pageTotal);
         //设置当前页码
         page.setPageNo(pageNo);
-        // 求当前也数据的索引
+        // 求当前页数据的索引
         int begin = (page.getPageNo()-1) * pageSize;
         //设置当前页数据
         //求当前页数据
         List<Book> items = bookDao.queryForPageItems(begin,pageSize);
-        //设置当前也数据
+        //设置当前页数据
         page.setItems(items);
         return page;
     }
@@ -94,7 +94,7 @@ public class BookServiceImpl implements BookService {
         //设置当前页码
         page.setPageNo(pageNo);
 
-        // 求当前也数据的索引
+        // 求当前页数据的索引
         int begin = (page.getPageNo()-1) * pageSize;
         //求当前页数据
         List<Book> items = bookDao.queryForPagePrice(min, max, begin, pageSize);

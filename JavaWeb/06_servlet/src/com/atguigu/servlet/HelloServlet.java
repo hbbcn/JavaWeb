@@ -41,6 +41,7 @@ public class HelloServlet implements Servlet {
         // 2、获取初始化参数init-param
         System.out.println("初始化参数username的值是：" + servletConfig.getInitParameter("username"));
         System.out.println("初始化参数url的值是：" + servletConfig.getInitParameter("url"));
+        String url = servletConfig.getInitParameter("url");
         //3、获取ServletContext对象
         System.out.println(servletConfig.getServletContext());
     }

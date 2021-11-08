@@ -18,7 +18,9 @@ public class ForwardC extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         System.out.println("经过了ForwardC程序");
-        req.getRequestDispatcher("a/b/c.html").forward(req,resp);
+
+        // 请求转发 / 是被服务器解析 地址为当前工程下
+        req.getRequestDispatcher("/form.html").forward(req,resp);
 
 
 

@@ -54,7 +54,7 @@ public class FileUpAndDownController{
 //设置响应状态码
         HttpStatus statusCode = HttpStatus.OK;
 //创建ResponseEntity对象
-        ResponseEntity<byte[]> responseEntity = new ResponseEntity<>(bytes, headers,
+        ResponseEntity<byte[]> responseEntity = new ResponseEntity(bytes, headers,
                 statusCode);
 //关闭输入流
         is.close();

@@ -43,5 +43,36 @@ public class Test01 {
         Test01 test01 = new Test01();
         return test01;
     }
+
+    @Test
+    public void test04(){
+        int j = 0;
+        for (int i = 0; i < 10; i++) {
+            if (i == 5){
+                j = i;
+                break;
+            }
+        }
+
+    }
+}
+
+class AA{
+    public static void main(String[] args) {
+        int i = test04();
+        System.out.println(i);
+    }
+
+    public static int test04(){
+        int j = 0;
+        for (int i = 0; i < 10; i++) {
+            if (i == 5){
+                j = i;
+                return j;
+            }
+        }
+
+        return j;
+    }
 }
 

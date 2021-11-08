@@ -24,7 +24,7 @@
       <module name="springMVC_demo2" target="1.5" />
       <module name="springMVC_demo3" target="1.5" />
       <module name="springMVC_exer" target="1.7" />
-      <module name="springMVC_InterceptorAndConverter" target="8" />
+      <module name="springMVC_InterceptorAndConverter" target="1.5" />
       <module name="springMVC_jsp" target="1.5" />
       <module name="springMVC_rest" target="1.5" />
     </bytecodeTargetLevel>

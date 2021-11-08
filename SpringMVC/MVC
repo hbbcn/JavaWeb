@@ -59,7 +59,7 @@ WEB-INF下面的内容都是只能由服务器级别才能访问，客户端并�
         RESTful具体说：就是HTTP协议里面，四个表示操作方式的动词:GET、POST、PUT、DElETE
         它们分别对应四种基本操作：GET用来获取资源，POST用来新建资源、PUT用来更新资源、DELETE用来删除资源。
 
-        REST风格提倡URL地址使用统一的风格设计，从前到后各个单词使用斜杠分开，不使用问号键值对方式携带请求参数，
+        REST风格提倡URL地址使用统一的风格设计，从前到后各个单词使用斜杠分开，不使用问号键值对方式携带请求参数,
         而是将要发送给服务器的数据作为URL的一部分，以保证整体风格的一致性。
     注：对于处理指定请求方式的控制器，SpringMVC中提供了@RequestMapping的派生注解
         > 处理get请求的映射--> @GetMapping
@@ -98,7 +98,7 @@ SpringMVC处理json
         preHandle:控制器方法执行之前执行preHandle(),其boolean类型返回值表示是否拦截或者放行，
     返回true为放行，即调用控制器方法；返回false表示拦截，即不调用控制器方法
         postHandle:控制器方法执行之后执行
-        afterComplation:处理完视图和模型数据，渲染视图完毕之后执行
+        afterCompilation:处理完视图和模型数据，渲染视图完毕之后执行
 
 七、springMVC常用组件
     ① DispatcherServlet:前端控制器

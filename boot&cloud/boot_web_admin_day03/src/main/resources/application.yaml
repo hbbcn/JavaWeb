@@ -1,0 +1,62 @@
+
+
+spring:
+  application:
+    name: test-worklog
+#  messages:
+#    basename: i18n/messages
+#    encoding: UTF-8
+  datasource:
+    url: jdbc:mysql://localhost:3306/jdbc_data
+    username: root
+    password: root
+    driver-class-name: com.mysql.jdbc.Driver
+#    type: com.zaxxer.hikari.HikariDataSource
+  jdbc:
+    template:
+      query-timeout: 3
+  boot:
+    admin:
+      client:
+        url: http://localhost:8888
+
+#配置mybatis规则
+mybatis:
+#  config-location: classpath:mybatis/mybatis-config.xml
+  mapper-locations: classpath:mybatis/mapper/*.xml
+  configuration:
+    map-underscore-to-camel-case: true
+server:
+  port: 8080
+
+
+#management 是所有actuator的配置
+#management.endpoint.端点名.xxxx : 对某个端点具体配置
+management:
+  endpoints:
+    enabled-by-default: true  # 默认开始所有监控端点
+    web:
+      exposure:
+        include: '*' #以web方式暴露所有端点
+
+  endpoint:
+    health:
+      show-details: always
+      enabled: true
+
+    info:
+      enabled: true
+
+    beans:
+      enabled: true
+
+    metrics:
+      enabled: true
+info:
+  appName: boot-admin
+  appVersion: 1.0.0
+  mavenProjectName: @project.artifactId@
+  mavenProjectVersion: @project.version@
+
+
+

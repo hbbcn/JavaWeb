@@ -21,7 +21,7 @@ public class RequestMappingController{
         "/testRequestMapping",
             "/test"
     },
-     method = {RequestMethod.GET,RequestMethod.POST}
+     method = {}
     )
     public String testRequestMapping(){
         return "success";
@@ -32,7 +32,7 @@ public class RequestMappingController{
         return "success";
     }
 
-    @RequestMapping(value = "/testPut",method = RequestMethod.PUT)
+    @RequestMapping(value = "/testPut")
     public String testPut(){
 
         return "success";

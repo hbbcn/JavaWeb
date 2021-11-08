@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!--
+欢迎页支持
+    可以配置静态资源路径
+    但是不可以配置静态资源的前缀，否则导致index.html不能被默认访问
+
+#    mvc:
+#      static-path-pattern: /res/**
+也会导致标题小图标下失效
+
+-->
+<h1>atguigu，欢迎你</h1>
+<a href="car/3/owner/lisi?age=18&inters=basketball&inters=game">car/{id}/owner/{username}</a>
+
+
+<a href="/cars/sell;low=34;brand=byd,audi,yd">@MatrixVariable(矩阵变量)</a>
+<a href="/cars/sell;low=34;brand=byd;brand=audi;brand=yd">@MatrixVariable(矩阵变量</a>
+<a href="/boss/1;age=20/2;age=10">@MatrixVariable（矩阵变量）/boss/{bossId}/{empId}</a>
+<form action="/save" method="post">
+    测试@RequestBody获取数据<br/>
+    用户名：<input type="text" name="username"><br/>
+    密码：<input type="password" name="password"><br/>
+    提交：<input type="submit">
+</form>
+
+测试封装POJO
+<form action="/saveuser" method="post">
+     姓名：<input name="userName" value="zhangsan"><br/>
+     年龄: <input name="age" value="18"/><br/>
+     生日：<input name="birth" value="2019/1/2"/><br/>
+     宠物姓名：<input name="pet.name" value="阿猫"><br/>
+     宠物年龄：<input name="pet.age" value="5">
+    <input type="submit" value="保存">
+
+</form>
+</body>
+</html>
