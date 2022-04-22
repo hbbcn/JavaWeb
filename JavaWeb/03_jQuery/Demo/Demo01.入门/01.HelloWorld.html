@@ -7,14 +7,14 @@
 <script type="text/javascript" src="../script/jquery-1.7.2.js"></script>
 <script type="text/javascript">
 
-	//使用$()代替window.onload
+	//使用$()代替 window.onload
 
 	window.onload = function(){
 		var obj = document.getElementById("btnId");
 		obj.onclick = function () {
 			alert("我爱中国")
 		}
-	}
+	};
 	$(function(){
 		//使用选择器获取按钮对象，随后绑定单击响应函数
 		$("#btnId").click(function(){

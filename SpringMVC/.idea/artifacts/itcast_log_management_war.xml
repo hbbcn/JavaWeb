@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="itcast_log_management:war">
+    <output-path>D:/文档/Desktop/java资料/mysql高级/代码/基本工程/itcast_log_management/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>itcast_log_management</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="itcast_log_management-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="itcast_log_management:war exploded" />
+    </root>
+  </artifact>
+</component>

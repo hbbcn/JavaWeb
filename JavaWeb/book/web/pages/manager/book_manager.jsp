@@ -65,9 +65,6 @@
                 <td><a class="deleteClass" href="manager/bookServlet?action=delete&id=${book.id}&pageNo=${requestScope.page.pageNo}">删除</a></td>
             </tr>
         </c:forEach>
-
-
-
         <tr>
             <td></td>
             <td></td>

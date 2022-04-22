@@ -1,6 +1,4 @@
 package com.atguigu.dao.impl;
-
-import com.atguigu.pojo.User;
 import com.atguigu.utils.JdbcUtils;
 import org.apache.commons.dbutils.QueryRunner;
 import org.apache.commons.dbutils.handlers.BeanHandler;
@@ -54,7 +52,7 @@ public abstract class BaseDao{
         } catch (SQLException e) {
             throw new RuntimeException(e);
         }
-    }
+        }
 
     /**
      *

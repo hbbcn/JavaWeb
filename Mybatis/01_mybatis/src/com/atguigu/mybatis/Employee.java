@@ -1,12 +1,13 @@
 package com.atguigu.mybatis;
+
 /**
- *@ClassName Employee
- *@Description  TODO
- *@Author HuangQingbin
- *@Date 2021/8/15 12:36
- *@Version 1.0
+ * @ClassName Employee
+ * @Description TODO
+ * @Author HuangQingbin
+ * @Date 2021/8/15 12:36
+ * @Version 1.0
  */
-public class Employee{
+public class Employee {
 
     private Integer id;
     private String name;

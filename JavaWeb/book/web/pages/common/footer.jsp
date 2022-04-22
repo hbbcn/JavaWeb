@@ -9,6 +9,6 @@
 
 <div id="bottom">
 		<span>
-			西亚斯网上书城.Copyright &copy;2021
+			西亚斯网上书城.Copyright &copy;2022
 		</span>
 </div>

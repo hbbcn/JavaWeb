@@ -25,10 +25,7 @@
 	</div>
 	
 	<div id="main">
-		
 		<h1>你的订单已结算，订单号为${requestScope.orderId}</h1>
-		
-	
 	</div>
 
 	<%-- 静态包含页脚内容--%>

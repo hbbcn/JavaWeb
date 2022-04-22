@@ -18,6 +18,7 @@ import java.util.Arrays;
 @Controller
 public class ParamController{
 
+    public static String nm;
     @RequestMapping("/testServletAPI")
     //形参位置request表示当前请求
     public String testServletAPI(HttpServletRequest request){

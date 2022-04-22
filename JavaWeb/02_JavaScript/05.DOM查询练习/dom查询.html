@@ -4,18 +4,25 @@
 <meta charset="UTF-8">
 <title>dom查询</title>
 <link rel="stylesheet" type="text/css" href="style/css.css" />
-<script type="text/javascript">
+<script>
 	window.onload = function(){
 		//1.查找#bj节点
 		document.getElementById("btn01").onclick = function(){
 			var bjObj = document.getElementById("bj");
 			alert(bjObj.innerHTML);
-		}
+		};
 		//2.查找所有li节点
-		var btn02Ele = document.getElementById("btn02");
+	/*	var btn02Ele = document.getElementById("btn02");
 		btn02Ele.onclick = function(){
 			var lis = document.getElementsByTagName("li");
 			alert(lis.length);
+		};*/
+
+		//2.查找所有的li 节点
+		var li01 = document.getElementById("btn02");
+		li01.onclick = function () {
+			var liObj = document.getElementById("game");
+			alert(liObj.innerHTML)
 		};
 		//3.查找name=gender的所有节点
 		var btn03Ele = document.getElementById("btn03");
@@ -72,6 +79,7 @@
 			alert(document.getElementById("bj").innerText);
 
 		};
+
 	};
 </script>
 </head>

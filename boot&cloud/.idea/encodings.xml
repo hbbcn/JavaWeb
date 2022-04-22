@@ -2,7 +2,16 @@
 <project version="4">
   <component name="Encoding" addBOMForNewFiles="with NO BOM">
     <file url="file://$PROJECT_DIR$/boot_day02" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/boot_day03-web-admin" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/boot_day03_web_admin" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/boot_day04" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/boot_web_admin_day03" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/boot_day05" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/boot_day06_springboot_starter" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/boot_day07_springboot-starter_autoconfigure" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/boot_day08_test" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/day09" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/demo01" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/seckill-demo" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>

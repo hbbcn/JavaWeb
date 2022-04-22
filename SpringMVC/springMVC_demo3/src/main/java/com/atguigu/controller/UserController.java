@@ -1,8 +1,10 @@
 package com.atguigu.controller;
 
+import com.atguigu.User;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.ResponseBody;
 
 
 /**
@@ -38,10 +40,19 @@ public class UserController{
         return "success";
     }
 
-    @RequestMapping(value = "/user",method = RequestMethod.POST)
+/*    @RequestMapping(value = "/user",method = RequestMethod.POST)
     public String insertUser(String username,String password ){
 
         System.out.println("添加用户信息" + username  + "," + password);
+        return "success";
+    }*/
+
+
+    @RequestMapping(value = "/user",method = RequestMethod.POST)
+    public String insertUser(User user){
+
+        System.out.println("添加用户信息" + user.getUserName()  + "," + user.getPassWord());
+        System.out.println("添加成功");
         return "success";
     }
 

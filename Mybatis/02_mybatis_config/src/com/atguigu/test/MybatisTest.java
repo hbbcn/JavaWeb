@@ -21,6 +21,7 @@ import java.lang.invoke.WrongMethodTypeException;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.Random;
 
 /**
  *@ClassName MybatisTest
@@ -72,6 +73,8 @@ public class MybatisTest{
         InputStream inputStream = Resources.getResourceAsStream(resource);
         SqlSessionFactory sqlSessionFactory = new SqlSessionFactoryBuilder().build(inputStream);
 
+        Random random = new Random();
+        
         //2、获取sqlSession实例，能直接执行已经映射的sql语句
         SqlSession openSession = sqlSessionFactory.openSession();
 

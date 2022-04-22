@@ -63,10 +63,12 @@ public class MybatisTest{
 
     @Test
     public void test() throws IOException {
-        String resource = "mybatis_config.xml";
+      /*  String resource = "mybatis_config.xml";
         InputStream inputStream = Resources.getResourceAsStream(resource);
-        SqlSessionFactory sqlSessionFactory = new SqlSessionFactoryBuilder().build(inputStream);
+        SqlSessionFactory sqlSessionFactory = new SqlSessionFactoryBuilder().build(inputStream);*/
 
+
+        SqlSessionFactory sqlSessionFactory = getSqlSessionFactory();
         //2、获取sqlSession实例，能直接执行已经映射的sql语句
         SqlSession openSession = sqlSessionFactory.openSession();
 
@@ -104,7 +106,7 @@ public class MybatisTest{
     }
 
     /**
-     * 分页测试
+     * 分页测试 PageHelper分页插件
      * @throws IOException
      */
     @Test
@@ -154,11 +156,11 @@ public class MybatisTest{
 //            ExecutorType.BATCH:设置为批量操作
             openSession = sqlSessionFactory.openSession(ExecutorType.BATCH);
             EmployeeMapper mapper = openSession.getMapper(EmployeeMapper.class);
-            for (int i = 0; i < 10000; i++) {
-                mapper.addEmp(new Employee(null, UUID.randomUUID().toString().substring(0,5),"男","12345@qq.com"));
+            for (int i = 0; i < 100000; i++) {
+                mapper.addEmp(new Employee(null, UUID.randomUUID().toString().substring(0,7),"男","12345@qq.com"));
             }
            long end =  System.currentTimeMillis();
-            //批量操作：(预编译sql一次 —> 设置参数一万次 —> 执行（一次）) Parameters: 51d31(String), 男(String), 12345@qq.com(String) 执行的时间：-2770
+            //批量操作：(预编译sql一次 —> 设置参数一万次 —> 执行（一次）) Parameters: 51d31(String), 男(String), 12345@qq.com(String) 执行的时间：2770
             //非批量：(预编译sql -> 设置参数 —>执行)==》10000次 执行的时间：8050
 
             System.out.println("执行的时间：" + (end - start));

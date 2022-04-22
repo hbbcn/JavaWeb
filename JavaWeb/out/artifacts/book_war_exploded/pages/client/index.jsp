@@ -1,3 +1,6 @@
+<%@ page import="java.util.ArrayList" %>
+<%@ page import="java.util.HashMap" %>
+<%@ page import="com.atguigu.pojo.Picture" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <!DOCTYPE html>
@@ -14,12 +17,11 @@
             // 给购物车按钮绑定单击事件
             $(".addToCart").click(function () {
 
-               var bookId =$(this).attr("bookId");
+                var bookId = $(this).attr("bookId");
                 location.href = "http://localhost:8080/book/cartServlet?action=addItem&id=" + bookId;
 
             })
         })
-
 
 
     </script>
@@ -41,7 +43,7 @@
             <a href="userServlet?action=logout">注销</a>
         </c:if>
 
-        <a href="pages/cart/cart.jsp">购物车</a>
+            <a href="http://localhost:8080/book/cartServlet?action=addItemToDb">购物车</a>
         <a href="pages/manager/manager.jsp">后台管理</a>
     </div>
 </div>
@@ -55,27 +57,36 @@
                 <input id="max" type="text" name="max" value="${param.max}"> 元
                 <input type="submit" value="查询"/>
             </form>
-
         </div>
         <div style="text-align: center">
-
             <c:if test="${not empty sessionScope.cart.items}">
                 <span>您的购物车中有${sessionScope.cart.totalCount}件商品</span>
                 <div>
                     您刚刚将<span style="color: red">${sessionScope.lastName}</span>加入到了购物车中
                 </div>
             </c:if>
-
-            <c:if test="${ empty sessionScope.cart.items}">
+            <c:if test="${empty sessionScope.cart.items}">
                 <span style="color: red">您的购物车为空</span>
             </c:if>
-
-
         </div>
+        <%-- <div class="img_div">
+           <img class="book_img" alt="" src="${book.imgPath}"/>
+       </div>--%>
+        <%--Integer id =  ${book.id};--%>
+        <%--  id值在put的时候不存在       String id = ${book.id};
+                pageContext.setAttribute("id",id);
+                <%
+                    Picture p = new Picture();
+                    HashMap<String, String> map = new HashMap<>();
+                    map.put(id ,id+".jpg");
+                    p.setMap(map);
+                    session.setAttribute("p",p);
+                %>--%>
+
         <c:forEach items="${requestScope.page.items}" var="book">
             <div class="b_list">
                 <div class="img_div">
-                    <img class="book_img" alt="" src="${book.imgPath}"/>
+                    <img class="book_img" alt="" src="static/img/${book.id}.jpg"/>
                 </div>
                 <div class="book_info">
                     <div class="book_name">
@@ -99,7 +110,12 @@
                         <span class="sp2">${book.stock}</span>
                     </div>
                     <div class="book_add">
-                        <button bookId="${book.id}" class="addToCart">加入购物车</button>
+                        <c:if test="${not empty sessionScope.user}">
+                            <button bookId="${book.id}" class="addToCart">加入购物车</button>
+                        </c:if>
+                        <c:if test="${empty sessionScope.user}">
+                            <button><a href="pages/user/login.jsp">加入购物车</a> </button>
+                        </c:if>
                     </div>
                 </div>
             </div>

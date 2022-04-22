@@ -1,0 +1,486 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="cfc70e83-3ef4-437f-8f34-419b7b9aee0d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../boot&amp;cloud/.idea/dictionaries/30988.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__redis_clients_jedis_3_6_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day04/src/main/java/com/atguigu/boot/bean/Boss.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day04/src/main/java/com/atguigu/boot/bean/Color.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day04/src/main/java/com/atguigu/boot/bean/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day04/src/main/java/com/atguigu/boot/bean/Worker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day04/src/main/java/com/atguigu/boot/config/Myconfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day04/src/main/java/com/atguigu/boot/controller/HelloController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day04/src/main/resources/config/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day05/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/java/com/atguigu/admin/config/RedisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/java/com/atguigu/admin/controller/RedisTestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../redis/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/boot/BootDay04Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/boot/bean/Boss.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/boot/bean/Color.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/boot/bean/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/boot/bean/Worker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/boot/config/Myconfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/boot/controller/HelloController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/config/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/atguigu/boot/BootDay04ApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SSM&amp;boot" beforeDir="false" afterPath="$PROJECT_DIR$/../SSM&amp;boot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_day04/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day04/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_day04/src/main/java/com/atguigu/boot/BootDay04Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day04/src/main/java/com/atguigu/boot/BootDay04Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_day04/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day04/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/boot_web_admin_day03.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/boot_web_admin_day03.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/java/com/atguigu/admin/BootWebAdminDay03Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/java/com/atguigu/admin/BootWebAdminDay03Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/java/com/atguigu/admin/config/AdminWebConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/java/com/atguigu/admin/config/AdminWebConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/java/com/atguigu/admin/controller/IndexController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/java/com/atguigu/admin/controller/IndexController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/java/com/atguigu/admin/interceptor/LoginInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/java/com/atguigu/admin/interceptor/LoginInterceptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/java/com/atguigu/admin/servlet/MyFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/java/com/atguigu/admin/servlet/MyFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/总结" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/总结" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../redis/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../redis/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../redis/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../redis/pom.xml" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="192">
+              <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/atguigu/boot/bean/Boss.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/atguigu/boot/BootDay04Application.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/atguigu/boot/controller/HelloController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="840">
+              <caret line="33" selection-start-line="33" selection-end-line="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\java_install\maven\apache-maven-3.6.0\repository" />
+        <option name="mavenHome" value="D:/java_install/maven/apache-maven-3.6.0" />
+        <option name="userSettingsFile" value="D:\java_install\maven\apache-maven-3.6.0\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="springbootTest" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="springbootTest" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="springbootTest" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="springbootTest" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+          <item name="resources" type="36feed69:MavenProjectsStructure$PluginNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="#JAVA_HOME" />
+    <option name="vmOptions" value="-DarchetypeCatalog=internal" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1000" />
+    <option name="width" value="885" />
+    <option name="height" value="1070" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="springbootTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springbootTest" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springbootTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springbootTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springbootTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springbootTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springbootTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springbootTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springbootTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springbootTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springbootTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springbootTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="atguigu" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springbootTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springbootTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="atguigu" type="462c0819:PsiDirectoryNode" />
+              <item name="boot" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springbootTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springbootTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="atguigu" type="462c0819:PsiDirectoryNode" />
+              <item name="boot" type="462c0819:PsiDirectoryNode" />
+              <item name="bean" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springbootTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springbootTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="atguigu" type="462c0819:PsiDirectoryNode" />
+              <item name="boot" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springbootTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springbootTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1636471349962" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.40097207" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\javaWork\springbootTest\src" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="BootDay04Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="springbootTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.boot.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.boot.BootDay04Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.BootDay04Application" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cfc70e83-3ef4-437f-8f34-419b7b9aee0d" name="Default Changelist" comment="" />
+      <created>1636470734716</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1636470734716</updated>
+      <workItem from="1636470737412" duration="610000" />
+      <workItem from="1636471359938" duration="498000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1108000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2533512" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.66715544" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Sequence" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" />
+      <window_info anchor="bottom" id="Database Changes" order="14" />
+      <window_info anchor="bottom" id="Version Control" order="15" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.7124665" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/atguigu/boot/bean/Boss.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/atguigu/boot/BootDay04Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/atguigu/boot/controller/HelloController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>springbootTest</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.40097207" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: ch.qos.logback:logback-classic:1.2.6</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

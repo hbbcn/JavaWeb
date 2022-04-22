@@ -1,0 +1,851 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0b407c7f-3ff9-42e2-966e-88ad59709e89" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Arithmetic/DataStructures/src/com/atguigu/tree/ArrBinaryTreeDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Arithmetic/DataStructures/src/com/atguigu/tree/BinaryTreeDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Arithmetic/day_01/src/com/atguigu/bit_operation/NumToBinary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Arithmetic/day_01/src/com/atguigu/demo/RandomTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../boot&amp;cloud/.idea/dictionaries/30988.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__redis_clients_jedis_3_6_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03-web-admin/src/main/java/com/atguigu/admin/controller/FormTestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03-web-admin/src/main/resources/templates/form/form_layouts.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/java/com/atguigu/admin/config/RedisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/java/com/atguigu/admin/controller/RedisTestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/templates/test.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day04/src/main/java/com/atguigu/admin/BootDay04Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day04/src/main/java/com/atguigu/admin/bean/Boss.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day04/src/main/java/com/atguigu/admin/bean/Color.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day04/src/main/java/com/atguigu/admin/bean/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day04/src/main/java/com/atguigu/admin/bean/Worker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day04/src/main/java/com/atguigu/admin/config/Myconfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day04/src/main/java/com/atguigu/admin/controller/HelloController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day04/src/main/resources/application-prod.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day04/src/main/resources/application-test.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day04/src/main/resources/config/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day05/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day06_springboot_starter/boot_day06_springboot_starter.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day06_springboot_starter/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day06_springboot_starter/src/main/java/com/atguigu/hello/Hello.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day07_springboot-starter_autoconfigure/src/main/java/com/atguigu/admin/auto/HelloServiceAutoConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day07_springboot-starter_autoconfigure/src/main/java/com/atguigu/admin/bean/HelloProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day07_springboot-starter_autoconfigure/src/main/java/com/atguigu/admin/service/HelloService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day07_springboot-starter_autoconfigure/src/main/resources/META-INF/spring.factories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day08_test/src/main/java/com/atguigu/admin/controller/HelloController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myProject/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myProject/src/Data.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myProject/test01/src/com/atguigu/DataTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myProject/test01/test01.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../redis/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootTest/src/main/java/com/atguigu/boot/BootDay04Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootTest/src/main/java/com/atguigu/boot/bean/Boss.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootTest/src/main/java/com/atguigu/boot/bean/Color.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootTest/src/main/java/com/atguigu/boot/bean/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootTest/src/main/java/com/atguigu/boot/bean/Worker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootTest/src/main/java/com/atguigu/boot/config/Myconfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootTest/src/main/java/com/atguigu/boot/controller/HelloController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootTest/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootTest/src/main/resources/config/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootTest/src/test/java/com/atguigu/boot/BootDay04ApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/data.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/untitled.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled01/untitled01.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Arithmetic/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Arithmetic/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Arithmetic/DataStructures/dataStructures" beforeDir="false" afterPath="$PROJECT_DIR$/../Arithmetic/DataStructures/dataStructures" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Arithmetic/DataStructures/src/com/atguigu/linkedlist/TestStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Arithmetic/DataStructures/src/com/atguigu/linkedlist/TestStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Arithmetic/DataStructures/src/com/atguigu/queue/ArrayQueueDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Arithmetic/DataStructures/src/com/atguigu/queue/ArrayQueueDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Arithmetic/day_01/src/com/atguigu/bit_operation/Test01.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Arithmetic/day_01/src/com/atguigu/bit_operation/Test01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Arithmetic/day_01/src/com/atguigu/bit_operation/Test02.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Arithmetic/day_01/src/com/atguigu/bit_operation/Test02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Arithmetic/day_01/src/com/atguigu/demo/IntegerDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Arithmetic/day_01/src/com/atguigu/demo/IntegerDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Arithmetic/day_01/src/com/atguigu/niuke/Test01.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Arithmetic/day_01/src/com/atguigu/niuke/Test01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Arithmetic/day_01/src/com/atguigu/niuke/Test02.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Arithmetic/day_01/src/com/atguigu/niuke/Test02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Arithmetic/out/production/DataStructures/com/atguigu/linkedlist/TestStack.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Arithmetic/out/production/DataStructures/com/atguigu/linkedlist/TestStack.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Arithmetic/out/production/day_01/com/atguigu/bit_operation/Test01.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Arithmetic/out/production/day_01/com/atguigu/bit_operation/Test01.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Arithmetic/out/production/day_01/com/atguigu/bit_operation/Test02.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Arithmetic/out/production/day_01/com/atguigu/bit_operation/Test02.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Arithmetic/out/production/day_01/com/atguigu/niuke/A.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Arithmetic/out/production/day_01/com/atguigu/niuke/A.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Arithmetic/out/production/day_01/com/atguigu/niuke/AA.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Arithmetic/out/production/day_01/com/atguigu/niuke/AA.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Arithmetic/out/production/day_01/com/atguigu/niuke/Test01.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Arithmetic/out/production/day_01/com/atguigu/niuke/Test01.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Arithmetic/out/production/day_01/com/atguigu/niuke/Test02.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Arithmetic/out/production/day_01/com/atguigu/niuke/Test02.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataStructures/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DataStructures/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWeb/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/05_xml/src/com/atguigu/pojo/Dom4jTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWeb/05_xml/src/com/atguigu/pojo/Dom4jTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/06_servlet/src/com/atguigu/servlet/ContextServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWeb/06_servlet/src/com/atguigu/servlet/ContextServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/06_servlet/src/com/atguigu/servlet/ContextServlet2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWeb/06_servlet/src/com/atguigu/servlet/ContextServlet2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/06_servlet/src/com/atguigu/servlet/HelloServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWeb/06_servlet/src/com/atguigu/servlet/HelloServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/book/src/com/atguigu/filter/TransactionFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWeb/book/src/com/atguigu/filter/TransactionFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mybatis/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Mybatis/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mybatis/01_mybatis_test/src/EmployeeMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Mybatis/01_mybatis_test/src/EmployeeMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mybatis/02_mybatis_config/src/com/atguigu/test/MybatisTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Mybatis/02_mybatis_config/src/com/atguigu/test/MybatisTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mybatis/10_mybatis_other/src/com/atguigu/dao/EmployeeMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Mybatis/10_mybatis_other/src/com/atguigu/dao/EmployeeMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mybatis/10_mybatis_other/src/com/atguigu/dao/EmployeeMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Mybatis/10_mybatis_other/src/com/atguigu/dao/EmployeeMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mybatis/10_mybatis_other/src/com/atguigu/test/MybatisTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Mybatis/10_mybatis_other/src/com/atguigu/test/MybatisTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mybatis/production/01_mybatis_test/EmployeeMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Mybatis/production/01_mybatis_test/EmployeeMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mybatis/production/02_mybatis_config/com/atguigu/dao/EmployeeMapperPlus.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Mybatis/production/02_mybatis_config/com/atguigu/dao/EmployeeMapperPlus.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mybatis/production/10_mybatis_other/com/atguigu/dao/EmployeeMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Mybatis/production/10_mybatis_other/com/atguigu/dao/EmployeeMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mybatis/production/10_mybatis_other/com/atguigu/test/MybatisTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Mybatis/production/10_mybatis_other/com/atguigu/test/MybatisTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mybatis/production/10_mybatis_other/mybatis_config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Mybatis/production/10_mybatis_other/mybatis_config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SSM&amp;boot" beforeDir="false" afterPath="$PROJECT_DIR$/../SSM&amp;boot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringMVC/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringMVC/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringMVC/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringMVC/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringMVC/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringMVC/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringMVC/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringMVC/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringMVC/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringMVC/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringMVC/springMVC_Anno/springMVC_Anno.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringMVC/springMVC_Anno/springMVC_Anno.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringMVC/springMVC_InterceptorAndConverter/springMVC_InterceptorAndConverter.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringMVC/springMVC_InterceptorAndConverter/springMVC_InterceptorAndConverter.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringMVC/springMVC_InterceptorAndConverter/src/main/java/com/atguigu/controller/FileUpAndDownController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringMVC/springMVC_InterceptorAndConverter/src/main/java/com/atguigu/controller/FileUpAndDownController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringMVC/springMVC_InterceptorAndConverter/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringMVC/springMVC_InterceptorAndConverter/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringMVC/springMVC_demo1/springMVC_demo1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringMVC/springMVC_demo1/springMVC_demo1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringMVC/springMVC_demo2/springMVC_demo2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringMVC/springMVC_demo2/springMVC_demo2.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringMVC/springMVC_demo3/springMVC_demo3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringMVC/springMVC_demo3/springMVC_demo3.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringMVC/springMVC_demo3/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringMVC/springMVC_demo3/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringMVC/springMVC_exer/springMVC_exer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringMVC/springMVC_exer/springMVC_exer.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringMVC/springMVC_jsp/springMVC_jsp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringMVC/springMVC_jsp/springMVC_jsp.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringMVC/springMVC_rest/springMVC_rest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringMVC/springMVC_rest/springMVC_rest.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringMVC/springMVC_rest/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringMVC/springMVC_rest/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/.idea/boot&amp;cloud.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/.idea/boot&amp;cloud.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_6.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_6.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__com_alibaba_druid_1_1_17.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__com_alibaba_druid_1_1_17.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__com_alibaba_druid_spring_boot_starter_1_1_17.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__com_alibaba_druid_spring_boot_starter_1_1_17.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__com_baomidou_mybatis_plus_3_4_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__com_baomidou_mybatis_plus_3_4_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__com_baomidou_mybatis_plus_annotation_3_4_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__com_baomidou_mybatis_plus_annotation_3_4_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__com_baomidou_mybatis_plus_boot_starter_3_4_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__com_baomidou_mybatis_plus_boot_starter_3_4_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__com_baomidou_mybatis_plus_core_3_4_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__com_baomidou_mybatis_plus_core_3_4_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__com_baomidou_mybatis_plus_extension_3_4_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__com_baomidou_mybatis_plus_extension_3_4_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_12_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_12_5.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_12_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_12_5.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_12_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_12_5.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_xml_2_12_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_xml_2_12_5.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_12_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_12_5.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_12_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_12_5.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_jaxb_annotations_2_12_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_jaxb_annotations_2_12_5.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_12_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_12_5.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__com_fasterxml_woodstox_woodstox_core_6_2_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__com_fasterxml_woodstox_woodstox_core_6_2_4.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__com_github_jsqlparser_jsqlparser_3_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__com_github_jsqlparser_jsqlparser_3_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_5_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_5_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__com_zaxxer_HikariCP_4_0_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__com_zaxxer_HikariCP_4_0_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__commons_codec_commons_codec_1_15.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__commons_codec_commons_codec_1_15.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__de_codecentric_spring_boot_admin_client_2_3_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__de_codecentric_spring_boot_admin_client_2_3_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__de_codecentric_spring_boot_admin_server_2_3_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__de_codecentric_spring_boot_admin_server_2_3_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__de_codecentric_spring_boot_admin_server_cloud_2_3_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__de_codecentric_spring_boot_admin_server_cloud_2_3_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__de_codecentric_spring_boot_admin_server_ui_2_3_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__de_codecentric_spring_boot_admin_server_ui_2_3_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__de_codecentric_spring_boot_admin_starter_client_2_3_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__de_codecentric_spring_boot_admin_starter_client_2_3_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__de_codecentric_spring_boot_admin_starter_server_2_3_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__de_codecentric_spring_boot_admin_starter_server_2_3_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__io_lettuce_lettuce_core_6_1_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__io_micrometer_micrometer_core_1_7_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__io_micrometer_micrometer_core_1_7_5.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__io_netty_netty_buffer_4_1_69_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__io_netty_netty_buffer_4_1_69_Final.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__io_netty_netty_codec_4_1_69_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__io_netty_netty_codec_4_1_69_Final.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__io_netty_netty_codec_dns_4_1_69_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__io_netty_netty_codec_dns_4_1_69_Final.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__io_netty_netty_codec_http2_4_1_69_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__io_netty_netty_codec_http2_4_1_69_Final.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__io_netty_netty_codec_http_4_1_69_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__io_netty_netty_codec_http_4_1_69_Final.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__io_netty_netty_codec_socks_4_1_69_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__io_netty_netty_codec_socks_4_1_69_Final.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__io_netty_netty_common_4_1_69_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__io_netty_netty_common_4_1_69_Final.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__io_netty_netty_handler_4_1_69_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__io_netty_netty_handler_4_1_69_Final.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__io_netty_netty_handler_proxy_4_1_69_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__io_netty_netty_handler_proxy_4_1_69_Final.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__io_netty_netty_resolver_4_1_69_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__io_netty_netty_resolver_4_1_69_Final.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__io_netty_netty_resolver_dns_4_1_69_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__io_netty_netty_resolver_dns_4_1_69_Final.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__io_netty_netty_resolver_dns_native_macos_osx_x86_64_4_1_69_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__io_netty_netty_resolver_dns_native_macos_osx_x86_64_4_1_69_Final.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__io_netty_netty_transport_4_1_69_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__io_netty_netty_transport_4_1_69_Final.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__io_netty_netty_transport_native_epoll_linux_x86_64_4_1_69_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__io_netty_netty_transport_native_epoll_linux_x86_64_4_1_69_Final.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__io_netty_netty_transport_native_unix_common_4_1_69_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__io_netty_netty_transport_native_unix_common_4_1_69_Final.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__io_projectreactor_addons_reactor_extra_3_4_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__io_projectreactor_addons_reactor_extra_3_4_5.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__io_projectreactor_netty_reactor_netty_core_1_0_12.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__io_projectreactor_netty_reactor_netty_core_1_0_12.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__io_projectreactor_netty_reactor_netty_http_1_0_12.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__io_projectreactor_netty_reactor_netty_http_1_0_12.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__io_projectreactor_reactor_core_3_4_11.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__io_projectreactor_reactor_core_3_4_11.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__jakarta_activation_jakarta_activation_api_1_2_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__jakarta_activation_jakarta_activation_api_1_2_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__jakarta_annotation_jakarta_annotation_api_1_3_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__jakarta_annotation_jakarta_annotation_api_1_3_5.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__jakarta_xml_bind_jakarta_xml_bind_api_2_3_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__jakarta_xml_bind_jakarta_xml_bind_api_2_3_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__junit_junit_4_13_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__junit_junit_4_13_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_49.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_49.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_10_22.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_10_22.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_10_22.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_10_22.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__net_minidev_accessors_smart_2_4_7.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__net_minidev_accessors_smart_2_4_7.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__net_minidev_json_smart_2_4_7.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__net_minidev_json_smart_2_4_7.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_6_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_6_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_13.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_13.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_14.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_14.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_14_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_14_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_14_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_14_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_54.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_54.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_54.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_54.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_54.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_54.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__org_assertj_assertj_core_3_19_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__org_assertj_assertj_core_3_19_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__org_attoparser_attoparser_2_0_5_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__org_attoparser_attoparser_2_0_5_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__org_codehaus_woodstox_stax2_api_4_2_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__org_codehaus_woodstox_stax2_api_4_2_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__org_hamcrest_hamcrest_2_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__org_hamcrest_hamcrest_2_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__org_hdrhistogram_HdrHistogram_2_1_12.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__org_hdrhistogram_HdrHistogram_2_1_12.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_7_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_7_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_7_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_7_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_7_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_7_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_7_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_7_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_7_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_7_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_7_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_7_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__org_junit_vintage_junit_vintage_engine_5_7_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__org_junit_vintage_junit_vintage_engine_5_7_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__org_latencyutils_LatencyUtils_2_0_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__org_latencyutils_LatencyUtils_2_0_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__org_mockito_mockito_core_3_9_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__org_mockito_mockito_core_3_9_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__org_mockito_mockito_junit_jupiter_3_9_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__org_mockito_mockito_junit_jupiter_3_9_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__org_mybatis_mybatis_3_5_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__org_mybatis_mybatis_3_5_6.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__org_mybatis_mybatis_spring_2_0_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__org_mybatis_mybatis_spring_2_0_5.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__org_objenesis_objenesis_3_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__org_objenesis_objenesis_3_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__org_ow2_asm_asm_9_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__org_ow2_asm_asm_9_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__org_projectlombok_lombok_1_18_22.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__org_projectlombok_lombok_1_18_22.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__org_reactivestreams_reactive_streams_1_0_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__org_reactivestreams_reactive_streams_1_0_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_32.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_32.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_32.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_32.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_5_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_5_6.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__org_springframework_boot_spring_boot_actuator_2_5_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__org_springframework_boot_spring_boot_actuator_2_5_6.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__org_springframework_boot_spring_boot_actuator_autoconfigure_2_5_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__org_springframework_boot_spring_boot_actuator_autoconfigure_2_5_6.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_5_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_5_6.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__org_springframework_boot_spring_boot_configuration_processor_2_5_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__org_springframework_boot_spring_boot_configuration_processor_2_5_6.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__org_springframework_boot_spring_boot_devtools_2_5_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__org_springframework_boot_spring_boot_devtools_2_5_6.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_5_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_5_6.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_actuator_2_5_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_actuator_2_5_6.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_redis_2_5_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_5_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_5_6.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_5_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_5_6.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_5_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_5_6.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_reactor_netty_2_5_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_reactor_netty_2_5_6.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_5_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_5_6.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_thymeleaf_2_5_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_thymeleaf_2_5_6.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_5_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_5_6.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_5_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_5_6.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_webflux_2_5_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_webflux_2_5_6.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_5_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_5_6.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_5_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_5_6.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_5_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__org_springframework_data_spring_data_keyvalue_2_5_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__org_springframework_data_spring_data_redis_2_5_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__org_springframework_spring_aop_5_3_12.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__org_springframework_spring_aop_5_3_12.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__org_springframework_spring_beans_5_3_12.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__org_springframework_spring_beans_5_3_12.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__org_springframework_spring_context_5_3_12.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__org_springframework_spring_context_5_3_12.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__org_springframework_spring_context_support_5_3_12.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__org_springframework_spring_core_5_3_12.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__org_springframework_spring_core_5_3_12.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__org_springframework_spring_expression_5_3_12.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__org_springframework_spring_expression_5_3_12.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__org_springframework_spring_jcl_5_3_12.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__org_springframework_spring_jcl_5_3_12.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__org_springframework_spring_jdbc_5_3_12.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__org_springframework_spring_jdbc_5_3_12.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__org_springframework_spring_oxm_5_3_12.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__org_springframework_spring_test_5_3_12.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__org_springframework_spring_test_5_3_12.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__org_springframework_spring_tx_5_3_12.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__org_springframework_spring_tx_5_3_12.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__org_springframework_spring_web_5_3_12.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__org_springframework_spring_web_5_3_12.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__org_springframework_spring_webflux_5_3_12.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__org_springframework_spring_webflux_5_3_12.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__org_springframework_spring_webmvc_5_3_12.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__org_springframework_spring_webmvc_5_3_12.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__org_thymeleaf_extras_thymeleaf_extras_java8time_3_0_4_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__org_thymeleaf_extras_thymeleaf_extras_java8time_3_0_4_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__org_thymeleaf_thymeleaf_3_0_12_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__org_thymeleaf_thymeleaf_3_0_12_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__org_thymeleaf_thymeleaf_spring5_3_0_12_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__org_thymeleaf_thymeleaf_spring5_3_0_12_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__org_unbescape_unbescape_1_1_6_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__org_unbescape_unbescape_1_1_6_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_8_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_8_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__org_yaml_snakeyaml_1_28.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__org_yaml_snakeyaml_1_28.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_day02/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day02/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_day02/src/main/java/com/atguigu/boot/BootDay02Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day02/src/main/java/com/atguigu/admin/BootDay02Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_day02/src/main/java/com/atguigu/boot/bean/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day02/src/main/java/com/atguigu/admin/bean/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_day02/src/main/java/com/atguigu/boot/bean/Person02.java" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day02/src/main/java/com/atguigu/admin/bean/Person02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_day02/src/main/java/com/atguigu/boot/bean/Pet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day02/src/main/java/com/atguigu/admin/bean/Pet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_day02/src/main/java/com/atguigu/boot/config/WebConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day02/src/main/java/com/atguigu/admin/config/WebConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_day02/src/main/java/com/atguigu/boot/controller/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day02/src/main/java/com/atguigu/admin/controller/HelloController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_day02/src/main/java/com/atguigu/boot/controller/ParameterTestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day02/src/main/java/com/atguigu/admin/controller/ParameterTestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_day02/src/main/java/com/atguigu/boot/controller/RequestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day02/src/main/java/com/atguigu/admin/controller/RequestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_day02/src/main/java/com/atguigu/boot/controller/ResponseTestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day02/src/main/java/com/atguigu/admin/controller/ResponseTestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_day02/src/main/java/com/atguigu/boot/controller/ViewTestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day02/src/main/java/com/atguigu/admin/controller/ViewTestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_day02/src/main/java/com/atguigu/boot/converter/GuiguMessageConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day02/src/main/java/com/atguigu/admin/converter/GuiguMessageConverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_day02/src/test/java/com/atguigu/boot/BootDay02ApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day02/src/test/java/com/atguigu/admin/BootDay02ApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_day04/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day04/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_day04/src/main/java/com/atguigu/boot/BootDay04Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_day04/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day04/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_day04/src/test/java/com/atguigu/boot/BootDay04ApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day04/src/test/java/com/atguigu/admin/BootDay04ApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/boot_web_admin_day03.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/boot_day03_web_admin.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/java/com/atguigu/admin/BootWebAdminDay03Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/java/com/atguigu/admin/BootWebAdminDay03Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/java/com/atguigu/admin/acutuator/health/MyComHealthIndicator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/java/com/atguigu/admin/acutuator/health/MyComHealthIndicator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/java/com/atguigu/admin/acutuator/info/AppInfoInfoContributor.java" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/java/com/atguigu/admin/acutuator/info/AppInfoInfoContributor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/java/com/atguigu/admin/bean/City.java" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/java/com/atguigu/admin/bean/City.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/java/com/atguigu/admin/bean/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/java/com/atguigu/admin/bean/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/java/com/atguigu/admin/bean/User01.java" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/java/com/atguigu/admin/bean/User01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/java/com/atguigu/admin/config/AdminWebConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/java/com/atguigu/admin/config/AdminWebConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/java/com/atguigu/admin/config/MyDataSourceConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/java/com/atguigu/admin/config/MyDataSourceConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/java/com/atguigu/admin/config/MybatisConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/java/com/atguigu/admin/config/MybatisConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/java/com/atguigu/admin/controller/IndexController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/java/com/atguigu/admin/controller/IndexController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/java/com/atguigu/admin/controller/TableController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/java/com/atguigu/admin/controller/TableController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/java/com/atguigu/admin/endpoint/MyServiceEndPoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/java/com/atguigu/admin/endpoint/MyServiceEndPoint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/java/com/atguigu/admin/exception/CustomerHandlerExceptionResolve.java" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/java/com/atguigu/admin/exception/CustomerHandlerExceptionResolve.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/java/com/atguigu/admin/exception/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/java/com/atguigu/admin/exception/GlobalExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/java/com/atguigu/admin/exception/UserTooManyException.java" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/java/com/atguigu/admin/exception/UserTooManyException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/java/com/atguigu/admin/interceptor/LoginInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/java/com/atguigu/admin/interceptor/LoginInterceptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/java/com/atguigu/admin/mapper/CityMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/java/com/atguigu/admin/mapper/CityMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/java/com/atguigu/admin/mapper/User01Mapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/java/com/atguigu/admin/mapper/User01Mapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/java/com/atguigu/admin/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/java/com/atguigu/admin/mapper/UserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/java/com/atguigu/admin/service/CityService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/java/com/atguigu/admin/service/CityService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/java/com/atguigu/admin/service/User01Service.java" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/java/com/atguigu/admin/service/User01Service.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/java/com/atguigu/admin/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/java/com/atguigu/admin/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/java/com/atguigu/admin/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/java/com/atguigu/admin/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/java/com/atguigu/admin/servlet/MyFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/java/com/atguigu/admin/servlet/MyFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/java/com/atguigu/admin/servlet/MyRegistConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/java/com/atguigu/admin/servlet/MyRegistConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/java/com/atguigu/admin/servlet/MyServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/java/com/atguigu/admin/servlet/MyServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/java/com/atguigu/admin/servlet/MyServletContextListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/java/com/atguigu/admin/servlet/MyServletContextListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/mapper/CityMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/mapper/CityMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/mapper/User01Mapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/mapper/User01Mapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/css/bootstrap-fileupload.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/css/bootstrap-fileupload.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/css/bootstrap-reset.css" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/css/bootstrap-reset.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/css/bootstrap.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/css/clndr.css" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/css/clndr.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/css/custom-ico-fonts.css" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/css/custom-ico-fonts.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/css/jquery-ui-1.10.3.css" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/css/jquery-ui-1.10.3.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/css/jquery.stepy.css" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/css/jquery.stepy.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/css/owl.carousel.css" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/css/owl.carousel.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/css/owl.theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/css/owl.theme.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/css/style-responsive.css" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/css/style-responsive.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/css/table-responsive.css" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/css/table-responsive.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/fonts/css/font-awesome.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/fonts/css/font-awesome.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/fonts/custom-ico-fonts/custom-ico-font-.eot" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/fonts/custom-ico-fonts/custom-ico-font-.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/fonts/custom-ico-fonts/custom-ico-font.eot" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/fonts/custom-ico-fonts/custom-ico-font.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/fonts/custom-ico-fonts/custom-ico-font.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/fonts/custom-ico-fonts/custom-ico-font.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/fonts/fonts/fontawesome-webfont-.eot" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/fonts/fonts/fontawesome-webfont-.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/fonts/fonts/fontawesome-webfont-v=4.0.3.eot" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/fonts/fonts/fontawesome-webfont-v=4.0.3.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/fonts/fonts/fontawesome-webfont-v=4.0.3.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/fonts/fonts/fontawesome-webfont-v=4.0.3.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/fonts/glyphicons-halflings-regular-.eot" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/fonts/glyphicons-halflings-regular-.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/fonts/glyphicons-halflings-regular.eot" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/images/404-error.png" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/images/404-error.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/images/500-error.png" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/images/500-error.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/images/alert.png" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/images/alert.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/images/avatar-mini.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/images/avatar-mini.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/images/blog/blog-avatar-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/images/blog/blog-avatar-2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/images/blog/blog-avatar.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/images/blog/blog-avatar.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/images/blog/blog-sm-img.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/images/blog/blog-sm-img.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/images/blog/blog-thumb-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/images/blog/blog-thumb-1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/images/blog/blog-thumb-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/images/blog/blog-thumb-2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/images/blog/blog-thumb-3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/images/blog/blog-thumb-3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/images/blog/blog-wide-img.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/images/blog/blog-wide-img.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/images/blog/image2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/images/blog/image2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/images/blog/image3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/images/blog/image3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/images/error.png" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/images/error.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/images/gallery/image1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/images/gallery/image1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/images/gallery/image2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/images/gallery/image2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/images/gallery/image3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/images/gallery/image3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/images/gallery/image4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/images/gallery/image4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/images/gallery/image5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/images/gallery/image5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/images/gallery/sm-img-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/images/gallery/sm-img-1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/images/gallery/sm-img-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/images/gallery/sm-img-2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/images/gallery/sm-img-3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/images/gallery/sm-img-3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/images/gallery/wdgt-img.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/images/gallery/wdgt-img.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/images/input-spinner.gif" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/images/input-spinner.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/images/invoice-logo.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/images/invoice-logo.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/images/lockscreen-bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/images/lockscreen-bg.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/images/login-bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/images/login-bg.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/images/login-logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/images/login-logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/images/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/images/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/images/logo_icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/images/logo_icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/images/minus.png" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/images/minus.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/images/photos/user-avatar.png" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/images/photos/user-avatar.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/images/photos/user1.png" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/images/photos/user1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/images/photos/user2.png" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/images/photos/user2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/images/photos/user3.png" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/images/photos/user3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/images/photos/user4.png" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/images/photos/user4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/images/photos/user5.png" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/images/photos/user5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/images/photos/userprofile.png" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/images/photos/userprofile.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/images/plus-white.png" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/images/plus-white.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/images/plus.png" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/images/plus.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/js/advanced-datatable/css/demo_page.css" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/js/advanced-datatable/css/demo_page.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/js/advanced-datatable/css/demo_table.css" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/js/advanced-datatable/css/demo_table.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/js/advanced-datatable/images/back_disabled.png" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/js/advanced-datatable/images/back_disabled.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/js/advanced-datatable/images/back_enabled.png" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/js/advanced-datatable/images/back_enabled.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/js/advanced-datatable/images/back_enabled_hover.png" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/js/advanced-datatable/images/back_enabled_hover.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/js/advanced-datatable/images/forward_disabled.png" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/js/advanced-datatable/images/forward_disabled.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/js/advanced-datatable/images/forward_enabled.png" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/js/advanced-datatable/images/forward_enabled.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/js/advanced-datatable/images/forward_enabled_hover.png" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/js/advanced-datatable/images/forward_enabled_hover.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/js/advanced-datatable/images/sort_asc.png" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/js/advanced-datatable/images/sort_asc.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/js/advanced-datatable/images/sort_asc_disabled.png" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/js/advanced-datatable/images/sort_asc_disabled.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/js/advanced-datatable/images/sort_both.png" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/js/advanced-datatable/images/sort_both.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/js/advanced-datatable/images/sort_desc.png" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/js/advanced-datatable/images/sort_desc.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/js/advanced-datatable/images/sort_desc_disabled.png" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/js/advanced-datatable/images/sort_desc_disabled.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/js/advanced-datatable/js/jquery.dataTables.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/js/advanced-datatable/js/jquery.dataTables.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/js/bootstrap-colorpicker/css/colorpicker.css" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/js/bootstrap-colorpicker/css/colorpicker.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/js/bootstrap-colorpicker/img/alpha.png" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/js/bootstrap-colorpicker/img/alpha.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/js/bootstrap-colorpicker/img/hue.png" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/js/bootstrap-colorpicker/img/hue.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/js/bootstrap-colorpicker/img/saturation.png" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/js/bootstrap-colorpicker/img/saturation.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/js/bootstrap-colorpicker/js/bootstrap-colorpicker.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/js/bootstrap-colorpicker/js/bootstrap-colorpicker.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/js/bootstrap-datepicker/css/datepicker-custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/js/bootstrap-datepicker/css/datepicker-custom.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/js/bootstrap-datepicker/js/bootstrap-datepicker.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/js/bootstrap-datepicker/js/bootstrap-datepicker.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/js/bootstrap-daterangepicker/daterangepicker-bs3.css" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/js/bootstrap-daterangepicker/daterangepicker-bs3.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/js/bootstrap-daterangepicker/daterangepicker.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/js/bootstrap-daterangepicker/daterangepicker.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/js/bootstrap-daterangepicker/moment.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/js/bootstrap-daterangepicker/moment.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/js/bootstrap-datetimepicker/css/datetimepicker-custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/js/bootstrap-datetimepicker/css/datetimepicker-custom.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/js/bootstrap-datetimepicker/js/bootstrap-datetimepicker.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/js/bootstrap-datetimepicker/js/bootstrap-datetimepicker.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/js/bootstrap-fileupload.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/js/bootstrap-fileupload.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/js/bootstrap-inputmask/bootstrap-inputmask.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/js/bootstrap-inputmask/bootstrap-inputmask.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/js/bootstrap-timepicker/css/timepicker.css" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/js/bootstrap-timepicker/css/timepicker.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/js/bootstrap-timepicker/js/bootstrap-timepicker.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/js/bootstrap-timepicker/js/bootstrap-timepicker.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/js/bootstrap-wysihtml5/bootstrap-wysihtml5.css" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/js/bootstrap-wysihtml5/bootstrap-wysihtml5.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/js/bootstrap-wysihtml5/bootstrap-wysihtml5.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/js/bootstrap-wysihtml5/bootstrap-wysihtml5.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/js/bootstrap-wysihtml5/wysihtml5-0.3.0.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/js/bootstrap-wysihtml5/wysihtml5-0.3.0.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/js/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/js/bootstrap.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/js/c3-chart/c3-chart.init.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/js/c3-chart/c3-chart.init.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/js/c3-chart/c3.css" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/js/c3-chart/c3.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/js/c3-chart/c3.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/js/c3-chart/c3.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/js/calendar/clndr.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/js/calendar/clndr.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/js/calendar/evnt.calendar.init.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/js/calendar/evnt.calendar.init.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/js/calendar/moment-2.2.1.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/js/calendar/moment-2.2.1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/js/chart-js/Chart.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/js/chart-js/Chart.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/js/chart-js/chartjs.init.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/js/chart-js/chartjs.init.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/js/ckeditor/ckeditor.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/js/ckeditor/ckeditor.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/js/dashboard-chart-init.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/js/dashboard-chart-init.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/js/data-tables/DT_bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/js/data-tables/DT_bootstrap.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/js/data-tables/DT_bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/js/data-tables/DT_bootstrap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/js/data-tables/images/sort_asc.png" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/js/data-tables/images/sort_asc.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/js/data-tables/images/sort_both.png" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/js/data-tables/images/sort_both.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/js/data-tables/images/sort_desc.png" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/js/data-tables/images/sort_desc.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/js/data-tables/jquery.dataTables.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/js/data-tables/jquery.dataTables.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/js/dropzone/css/dropzone.css" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/js/dropzone/css/dropzone.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/js/dropzone/dropzone.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/js/dropzone/dropzone.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/js/dropzone/images/spritemap.png" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/js/dropzone/images/spritemap.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/js/dropzone/images/spritemap@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/js/dropzone/images/spritemap@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/js/dynamic_table_init.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/js/dynamic_table_init.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/js/easypiechart/easypiechart-init.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/js/easypiechart/easypiechart-init.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/js/easypiechart/jquery.easypiechart.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/js/easypiechart/jquery.easypiechart.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/js/editable-table.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/js/editable-table.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/js/external-dragging-calendar.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/js/external-dragging-calendar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/js/flot-chart/jquery.flot.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/js/flot-chart/jquery.flot.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/js/flot-chart/jquery.flot.pie.resize.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/js/flot-chart/jquery.flot.pie.resize.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/js/flot-chart/jquery.flot.resize.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/js/flot-chart/jquery.flot.resize.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/js/flot-chart/jquery.flot.selection.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/js/flot-chart/jquery.flot.selection.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/js/flot-chart/jquery.flot.stack.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/js/flot-chart/jquery.flot.stack.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/js/flot-chart/jquery.flot.time.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/js/flot-chart/jquery.flot.time.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/js/flot-chart/jquery.flot.tooltip.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/js/flot-chart/jquery.flot.tooltip.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/js/flot.chart.init.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/js/flot.chart.init.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/js/fuelux/css/tree-style.css" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/js/fuelux/css/tree-style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/js/fuelux/img/tree-icons.png" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/js/fuelux/img/tree-icons.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/js/fuelux/js/spinner.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/js/fuelux/js/spinner.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/js/fuelux/js/tree.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/js/fuelux/js/tree.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/js/fullcalendar/bootstrap-fullcalendar.css" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/js/fullcalendar/bootstrap-fullcalendar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/js/fullcalendar/fullcalendar.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/js/fullcalendar/fullcalendar.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/js/google-map/gmaps-init.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/js/google-map/gmaps-init.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/js/google-map/gmaps.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/js/google-map/gmaps.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/js/gritter/css/jquery.gritter.css" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/js/gritter/css/jquery.gritter.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/js/gritter/images/gritter-light.png" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/js/gritter/images/gritter-light.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/js/gritter/images/gritter.png" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/js/gritter/images/gritter.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/js/gritter/images/ie-spacer.gif" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/js/gritter/images/ie-spacer.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/js/gritter/js/gritter-init.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/js/gritter/js/gritter-init.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/js/gritter/js/jquery.gritter.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/js/gritter/js/jquery.gritter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/js/iCheck/jquery.icheck.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/js/iCheck/jquery.icheck.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/js/iCheck/skins/flat/blue.css" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/js/iCheck/skins/flat/blue.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/js/iCheck/skins/flat/blue.png" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/js/iCheck/skins/flat/blue.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/js/iCheck/skins/flat/blue@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/js/iCheck/skins/flat/blue@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/js/iCheck/skins/flat/green.css" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/js/iCheck/skins/flat/green.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/js/iCheck/skins/flat/green.png" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/js/iCheck/skins/flat/green.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/js/iCheck/skins/flat/green@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/js/iCheck/skins/flat/green@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/js/iCheck/skins/flat/grey.css" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/js/iCheck/skins/flat/grey.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/js/iCheck/skins/flat/grey.png" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/js/iCheck/skins/flat/grey.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/js/iCheck/skins/flat/grey@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/js/iCheck/skins/flat/grey@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/js/iCheck/skins/flat/purple.css" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/js/iCheck/skins/flat/purple.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/js/iCheck/skins/flat/purple.png" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/js/iCheck/skins/flat/purple.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/js/iCheck/skins/flat/purple@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/js/iCheck/skins/flat/purple@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/js/iCheck/skins/flat/red.css" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/js/iCheck/skins/flat/red.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/js/iCheck/skins/flat/red.png" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/js/iCheck/skins/flat/red.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/js/iCheck/skins/flat/red@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/js/iCheck/skins/flat/red@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/js/iCheck/skins/flat/yellow.css" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/js/iCheck/skins/flat/yellow.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/js/iCheck/skins/flat/yellow.png" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/js/iCheck/skins/flat/yellow.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/js/iCheck/skins/flat/yellow@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/js/iCheck/skins/flat/yellow@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/js/iCheck/skins/minimal/blue.css" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/js/iCheck/skins/minimal/blue.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/js/iCheck/skins/minimal/blue.png" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/js/iCheck/skins/minimal/blue.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/js/iCheck/skins/minimal/blue@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/js/iCheck/skins/minimal/blue@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/js/iCheck/skins/minimal/green.css" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/js/iCheck/skins/minimal/green.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/js/iCheck/skins/minimal/green.png" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/js/iCheck/skins/minimal/green.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/js/iCheck/skins/minimal/green@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/js/iCheck/skins/minimal/green@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/js/iCheck/skins/minimal/minimal.css" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/js/iCheck/skins/minimal/minimal.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/js/iCheck/skins/minimal/minimal.png" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/js/iCheck/skins/minimal/minimal.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/js/iCheck/skins/minimal/minimal@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/js/iCheck/skins/minimal/minimal@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/js/iCheck/skins/minimal/purple.css" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/js/iCheck/skins/minimal/purple.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/js/iCheck/skins/minimal/purple.png" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/js/iCheck/skins/minimal/purple.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/js/iCheck/skins/minimal/purple@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/js/iCheck/skins/minimal/purple@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/js/iCheck/skins/minimal/red.css" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/js/iCheck/skins/minimal/red.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/js/iCheck/skins/minimal/red.png" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/js/iCheck/skins/minimal/red.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/js/iCheck/skins/minimal/red@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/js/iCheck/skins/minimal/red@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/js/iCheck/skins/minimal/yellow.css" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/js/iCheck/skins/minimal/yellow.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/js/iCheck/skins/minimal/yellow.png" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/js/iCheck/skins/minimal/yellow.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/js/iCheck/skins/minimal/yellow@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/js/iCheck/skins/minimal/yellow@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/js/iCheck/skins/square/blue.css" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/js/iCheck/skins/square/blue.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/js/iCheck/skins/square/blue.png" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/js/iCheck/skins/square/blue.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/js/iCheck/skins/square/blue@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/js/iCheck/skins/square/blue@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/js/iCheck/skins/square/green.css" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/js/iCheck/skins/square/green.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/js/iCheck/skins/square/green.png" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/js/iCheck/skins/square/green.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/js/iCheck/skins/square/green@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/js/iCheck/skins/square/green@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/js/iCheck/skins/square/purple.css" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/js/iCheck/skins/square/purple.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/js/iCheck/skins/square/purple.png" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/js/iCheck/skins/square/purple.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/js/iCheck/skins/square/purple@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/js/iCheck/skins/square/purple@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/js/iCheck/skins/square/red.css" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/js/iCheck/skins/square/red.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/js/iCheck/skins/square/red.png" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/js/iCheck/skins/square/red.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/js/iCheck/skins/square/red@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/js/iCheck/skins/square/red@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/js/iCheck/skins/square/square.css" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/js/iCheck/skins/square/square.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/js/iCheck/skins/square/square.png" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/js/iCheck/skins/square/square.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/js/iCheck/skins/square/square@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/js/iCheck/skins/square/square@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/js/iCheck/skins/square/yellow.css" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/js/iCheck/skins/square/yellow.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/js/iCheck/skins/square/yellow.png" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/js/iCheck/skins/square/yellow.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/js/iCheck/skins/square/yellow@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/js/iCheck/skins/square/yellow@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/js/icheck-init.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/js/icheck-init.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/js/ion.rangeSlider-1.8.2/css/ion.rangeSlider.css" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/js/ion.rangeSlider-1.8.2/css/ion.rangeSlider.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/js/ion.rangeSlider-1.8.2/css/ion.rangeSlider.skinFlat.css" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/js/ion.rangeSlider-1.8.2/css/ion.rangeSlider.skinFlat.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/js/ion.rangeSlider-1.8.2/img/sprite-skin-flat.png" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/js/ion.rangeSlider-1.8.2/img/sprite-skin-flat.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/js/ion.rangeSlider-1.8.2/js/ion-rangeSlider/ion.rangeSlider.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/js/ion.rangeSlider-1.8.2/js/ion-rangeSlider/ion.rangeSlider.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/js/ios-switch/ios-init.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/js/ios-switch/ios-init.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/js/ios-switch/switchery.css" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/js/ios-switch/switchery.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/js/ios-switch/switchery.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/js/ios-switch/switchery.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/js/jquery-1.10.2.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/js/jquery-1.10.2.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/js/jquery-migrate-1.2.1.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/js/jquery-migrate-1.2.1.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/js/jquery-multi-select/css/multi-select.css" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/js/jquery-multi-select/css/multi-select.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/js/jquery-multi-select/img/switch.png" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/js/jquery-multi-select/img/switch.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/js/jquery-multi-select/js/jquery.multi-select.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/js/jquery-multi-select/js/jquery.multi-select.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/js/jquery-multi-select/js/jquery.quicksearch.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/js/jquery-multi-select/js/jquery.quicksearch.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/js/jquery-tags-input/jquery.tagsinput.css" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/js/jquery-tags-input/jquery.tagsinput.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/js/jquery-tags-input/jquery.tagsinput.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/js/jquery-tags-input/jquery.tagsinput.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/js/jquery-ui-1.9.2.custom.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/js/jquery-ui-1.9.2.custom.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/js/jquery.isotope.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/js/jquery.isotope.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/js/jquery.nicescroll.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/js/jquery.nicescroll.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/js/jquery.stepy.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/js/jquery.stepy.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/js/jquery.validate.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/js/jquery.validate.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/js/jvector-map/jqvmap/data/jquery.vmap.sampledata.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/js/jvector-map/jqvmap/data/jquery.vmap.sampledata.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/js/jvector-map/jqvmap/jquery.vmap.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/js/jvector-map/jqvmap/jquery.vmap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/js/jvector-map/jqvmap/maps/continents/jquery.vmap.asia.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/js/jvector-map/jqvmap/maps/continents/jquery.vmap.asia.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/js/jvector-map/jqvmap/maps/continents/jquery.vmap.australia.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/js/jvector-map/jqvmap/maps/continents/jquery.vmap.australia.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/js/jvector-map/jqvmap/maps/continents/jquery.vmap.europe.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/js/jvector-map/jqvmap/maps/continents/jquery.vmap.europe.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/js/jvector-map/jqvmap/maps/jquery.vmap.world.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/js/jvector-map/jqvmap/maps/jquery.vmap.world.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/js/main-chart.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/js/main-chart.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/js/modernizr.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/js/modernizr.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/js/morris-chart/morris.css" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/js/morris-chart/morris.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/js/morris-chart/morris.init.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/js/morris-chart/morris.init.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/js/morris-chart/morris.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/js/morris-chart/morris.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/js/morris-chart/raphael-min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/js/morris-chart/raphael-min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/js/multi-select-init.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/js/multi-select-init.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/js/nestable-init.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/js/nestable-init.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/js/nestable/jquery.nestable.css" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/js/nestable/jquery.nestable.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/js/nestable/jquery.nestable.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/js/nestable/jquery.nestable.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/js/owl.carousel.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/js/owl.carousel.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/js/pickers-init.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/js/pickers-init.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/js/scripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/js/scripts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/js/sparkline/jquery.sparkline.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/js/sparkline/jquery.sparkline.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/js/sparkline/sparkline-init.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/js/sparkline/sparkline-init.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/js/spinner-init.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/js/spinner-init.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/js/tagsinput-init.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/js/tagsinput-init.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/js/tree-init.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/js/tree-init.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/static/js/validation-init.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/static/js/validation-init.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/templates/common.html" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/templates/common.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/templates/error/4xx.html" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/templates/error/4xx.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/templates/error/5xx.html" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/templates/error/5xx.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/templates/error/images/404-error.png" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/templates/error/images/404-error.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/templates/error/images/500-error.png" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/templates/error/images/500-error.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/templates/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/templates/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/templates/main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/templates/table/basic_table.html" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/templates/table/basic_table.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/templates/table/dynamic_table.html" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/templates/table/dynamic_table.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/templates/table/editable_table.html" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/templates/table/editable_table.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/templates/table/pricing_table.html" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/templates/table/pricing_table.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/templates/table/responsive_table.html" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/main/resources/templates/table/responsive_table.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/test/java/com/atguigu/admin/BootWebAdminDay03ApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/test/java/com/atguigu/admin/BootWebAdminDay03ApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/test/java/com/atguigu/admin/Junit5Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/test/java/com/atguigu/admin/Junit5Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/test/java/com/atguigu/admin/TestingAstackDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day03_web_admin/src/test/java/com/atguigu/admin/TestingAstackDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/总结" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/总结" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../redis/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../redis/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../redis/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../redis/pom.xml" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/untitled/src/data.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1046">
+              <caret line="36" column="5" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/untitled01/untitled01.iml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test.txt">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/untitled/src/data.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:/java_install/maven/apache-maven-3.3.9" />
+        <option name="userSettingsFile" value="D:\java_install\maven\apache-maven-3.3.9\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="#JAVA_HOME" />
+    <option name="vmOptions" value="-DarchetypeCatalog=internal" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-10" />
+    <option name="y" value="-10" />
+    <option name="width" value="835" />
+    <option name="height" value="1040" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="test02" type="b2602c69:ProjectViewProjectNode" />
+              <item name="untitled" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test02" type="b2602c69:ProjectViewProjectNode" />
+              <item name="untitled01" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1637656010949" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="data" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="data" />
+      <module name="untitled" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.data" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0b407c7f-3ff9-42e2-966e-88ad59709e89" name="Default Changelist" comment="" />
+      <created>1637655881681</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1637655881681</updated>
+      <workItem from="1637655884126" duration="160000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="160000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <layout>
+      <window_info id="Designer" />
+      <window_info id="Image Layers" />
+      <window_info id="Capture Tool" />
+      <window_info id="UI Designer" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Sequence" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Messages" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32991204" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/untitled/untitled02.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/untitled/src/data.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1046">
+          <caret line="36" column="5" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/untitled01/untitled01.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>untitled01</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

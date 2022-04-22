@@ -12,8 +12,6 @@
 		$(function () {
 			$(".deleteItem").click(function () {
 
-
-
 				return confirm("确定要删除 +  【"+ $(this).parent().parent().find("td:first").text() +"】 ")
 			});
 
@@ -93,7 +91,9 @@
 				<span class="cart_span">购物车中共有<span class="b_count">${sessionScope.cart.totalCount}</span>件商品</span>
 				<span class="cart_span">总金额<span class="b_price">${sessionScope.cart.totalPrice}</span>元</span>
 				<span class="cart_span"><a id = "clearCart" href="cartServlet?action=clear">清空购物车</a></span>
+				<%--之前的去结账--%>
 				<span class="cart_span"><a href="orderServlet?action=createOrder">去结账</a></span>
+				<%--<span class="cart_span"><a href="../../pay/index.jsp">去结账</a></span>--%>
 			</div>
 		</c:if>
 

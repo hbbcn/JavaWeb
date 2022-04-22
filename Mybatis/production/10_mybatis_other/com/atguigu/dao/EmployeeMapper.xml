@@ -29,4 +29,25 @@
          values(#{name},#{gender},#{email})
     </insert>
 
+    <!--
+    Oracle分页存储过程的实现
+    使用select标签定义调用存储过程
+    statementType="CALLABLE":表示要调用的存储过程
+    {call procedure_name(params)}
+    -->
+    <select id="getPageByProducer" statementType="CALLABLE">
+        {
+          call hello_test(
+            #{start,mode=IN,jdbcType=INTEGER},
+            #{end,mode=IN,jdbcType=INTEGER},
+            #{count,mode=OUT,jdbcType=INTEGER},
+            #{emps,mode=OUT,jdbcType=CURSOR，javaType=ResultSet,resultMap=PageEmp}
+          )
+        }
+    </select>
+    <resultMap id="PageEmp" type="com.atguigu.dao.EmployeeMapper">
+        <id column="employee_id" property="id"/>
+        <result column="last_name" property="name"/>
+        <result column="email" property="email"/>
+    </resultMap>
 </mapper>

@@ -21,9 +21,7 @@ import java.util.List;
  *@Version 1.0
  */
 public class BookServlet extends BaseServlet{
-
     BookService bookService = new BookServiceImpl();
-
 
     /**
      * 处理分页功能
@@ -33,11 +31,9 @@ public class BookServlet extends BaseServlet{
      * @throws IOException
      */
     protected void page(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-
         //1、获取请求的参数 pageNo 和 pageSize
         int pageNo = WebUtils.parseInt(req.getParameter("pageNo"), 1);
         int pageSize = WebUtils.parseInt(req.getParameter("pageSize"), Page.PAGE_SIZE);
-
         //2、调用BookService.page(pageNo,pageSize):Page对象
         Page<Book> page = bookService.page(pageNo, pageSize);
         page.setUrl("manager/bookServlet?action=page");
@@ -47,6 +43,7 @@ public class BookServlet extends BaseServlet{
         req.getRequestDispatcher("/pages/manager/book_manager.jsp").forward(req,resp);
     }
 
+    //1.添加图书
     protected void add(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 
         int pageNo = WebUtils.parseInt(req.getParameter("pageNo"), 0);
@@ -56,13 +53,12 @@ public class BookServlet extends BaseServlet{
         //2、调用BookService.addBook保存图书
         bookService.addBook(book);
         //3、跳到图书列表页面
-//        req.getRequestDispatcher("/manager/bookServlet?action=list").forward(req,resp);
+        // req.getRequestDispatcher("/manager/bookServlet?action=list").forward(req,resp);
          resp.sendRedirect(req.getContextPath() + "/manager/bookServlet?action=page&pageNo=" + pageNo);
     }
 
-
+    //2. 删除图书
     protected void delete(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-
         //1、获取请求参数id,图书编号
         //2、调用bookService.deleteBookById();删除图书
         int id  = WebUtils.parseInt(req.getParameter("id"),0);
@@ -72,17 +68,14 @@ public class BookServlet extends BaseServlet{
     }
 
 
+    //3. 修改图书
     protected void update(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-
-
         Book book = WebUtils.copyParamToBean(req.getParameterMap(), new Book());
         bookService.updateBook(book);
         //请求重定向服务器解析"/"只解析到端口号
         //3、重定向回到图书列表管理页面
         resp.sendRedirect(req.getContextPath() + "/manager/bookServlet?action=page&pageNo=" + req.getParameter("pageNo"));
-
     }
-
     /*
         遇到问题：book.edit.jsp页面，即要做添加操作，又要做修改操作，而到底是添加还是修改操作是由隐藏域来决定的
         如何动态的修改隐藏域的值。
@@ -112,7 +105,6 @@ public class BookServlet extends BaseServlet{
 
 
     protected void list(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-
         // 1、通过BookService查询全部图书
         List<Book> books = bookService.queryBooks();
         // 2、把全部图书保存到request域中

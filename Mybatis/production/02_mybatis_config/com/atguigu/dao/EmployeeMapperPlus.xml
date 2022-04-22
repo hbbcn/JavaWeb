@@ -133,10 +133,10 @@
         <!-- 如果查出的是女生，就把部门信息查询出来，否则不查询 -->
         <discriminator javaType="string" column="gender">
             <case value="女" resultType="com.atguigu.mybatis.Employee">
-                <association property="dept"
-                             select="com.atguigu.dao.DepartmentMapper.getDeptById"
-                             column="d_id">
-                </association>
+                    <association property="dept"
+                                 select="com.atguigu.dao.DepartmentMapper.getDeptById"
+                                 column="d_id">
+                    </association>
             </case>
             <case value="男" resultType="com.atguigu.mybatis.Employee">
                 <id column="id" property="id"/>

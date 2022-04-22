@@ -64,13 +64,10 @@ public class Dom4jTest{
             //直接 获取指定标签名里面的文本内容
             String priceText = book.elementText("price");
 //            System.out.println(priceText);
-
             String authorText = book.elementText("author");
 //            System.out.println(authorText);
-
             String snValue = book.attributeValue("sn");
 //            System.out.println(snValue);
-
             System.out.println(new Book(nameText,snValue, Double.parseDouble(priceText),authorText));
 
         }

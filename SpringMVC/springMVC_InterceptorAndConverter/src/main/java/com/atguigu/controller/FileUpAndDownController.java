@@ -31,7 +31,6 @@ public class FileUpAndDownController{
             IOException {
 //获取ServletContext对象
         ServletContext servletContext = session.getServletContext();
-
 /*        2、文件上传
         文件上传要求form表单的请求方式必须为post，并且添加属性enctype="multipart/form-data"
         SpringMVC中将上传的文件封装到MultipartFile对象中，通过此对象可以获取文件相关信息
@@ -77,16 +76,13 @@ public class FileUpAndDownController{
         //通过ServletContext获取服务器中photo目录的路径
         ServletContext servletContext = session.getServletContext();
         String photoPath = servletContext.getRealPath("photo");
-
         File file = new File(photoPath);
         if (!file.exists()){
             //若不存在
             file.mkdir();
         }
-
         String finalPath = photoPath + File.separator + filename;
         photo.transferTo(new File(finalPath));
-
 //        photo.transferTo();
         return "success";
     }

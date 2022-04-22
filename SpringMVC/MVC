@@ -166,3 +166,20 @@ PathVariable  汉语意思是：路径变量。顾名思义，就是要获取一
 /blogs/{blogId}
 /blogs?state=publish而不是/blogs/state/publish来表示处于发布状态的博客文章
 
+DispatcherServlet初始化策略
+    FrameworkServlet创建WebApplicationContext后，刷新容器，调用onRefresh(wac),此方法在DispatcherServlet中
+    进行了重写，调用了initStrategies(context)方法，初始化策略，即初始化DispatcherServlet的各个组件
+    protected void initStrategies(ApplicationContext context) {  
+     initMultipartResolver(context);
+     initLocaleResolver(context);  
+     initThemeResolver(context);  
+     initHandlerMappings(context);  
+     initHandlerAdapters(context);  
+     initHandlerExceptionResolvers(context);  
+     initRequestToViewNameTranslator(context);  
+     initViewResolvers(context);  
+     initFlashMapManager(context);
+     }
+
+
+

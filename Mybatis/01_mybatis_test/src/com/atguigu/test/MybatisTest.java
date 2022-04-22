@@ -12,13 +12,13 @@ import java.io.IOException;
 import java.io.InputStream;
 
 /**
- *@ClassName MybatisTest
- *@Description  TODO
- *@Author hqb
- *@Date 2021/9/7 12:39
- *@Version 1.0
+ * @ClassName MybatisTest
+ * @Description TODO
+ * @Author hqb
+ * @Date 2021/9/7 12:39
+ * @Version 1.0
  */
-public class MybatisTest{
+public class MybatisTest {
 
     @Test
     public void test01() throws IOException {

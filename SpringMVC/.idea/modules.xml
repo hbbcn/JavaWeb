@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://D:/文档/Desktop/java资料/mysql高级/代码/基本工程/itcast_log_management/itcast_log_management.iml" filepath="D:/文档/Desktop/java资料/mysql高级/代码/基本工程/itcast_log_management/itcast_log_management.iml" />
       <module fileurl="file://$PROJECT_DIR$/springMVC_Anno/springMVC_Anno.iml" filepath="$PROJECT_DIR$/springMVC_Anno/springMVC_Anno.iml" />
       <module fileurl="file://$PROJECT_DIR$/springMVC_InterceptorAndConverter/springMVC_InterceptorAndConverter.iml" filepath="$PROJECT_DIR$/springMVC_InterceptorAndConverter/springMVC_InterceptorAndConverter.iml" />
       <module fileurl="file://$PROJECT_DIR$/springMVC_annotation/springMVC_annotation.iml" filepath="$PROJECT_DIR$/springMVC_annotation/springMVC_annotation.iml" />

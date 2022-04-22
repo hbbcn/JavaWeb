@@ -1,2 +1,236 @@
-如何分页查询：
-    1、
+################springBoot##############
+SpringBoot是一个框架，一种全新的编程规范，他的产生简化了框架的使用，所谓简化是指简化了Spring众多框架中
+所需的大量且繁琐的配置文件，所以SpringBoot是一个服务于框架服务的框架，范围是简化配置文件。
+1、原理分析套路 场景starter -XXXAutoConfiguration-导入XXX组件-绑定XXXProperties-绑定配置文件项
+2、Filter、Interceptor 几乎拥有相同的功能？
+   Filter是Servlet定义的原生组件。好处，脱离spring应用也能使用
+   Interceptor是spring定义的接口。可以使用spring的装配等功能
+   filter和interceptor的区别总结
+   1、filter接口在javax.servlet包下面。inteceptor定义在org.springframework.web.servlet中。
+   2、filter是servlet规定的，interceptor即可用于web程序，也可用于application中。
+   3、filter是servlet容器支持的，interceptor是spring框架支持的。
+   4、filter通过dochain放行，interceptor通过prehandler放行。
+   5、filter只在方法前后执行，interceptor粒度更细，可以深入到方法前后，异常抛出前后。
+
+   Filter：与Spring 无关，基于Servlet， 可以获取request 和 response，但是具体处理方法及相关参数获取不到；
+   Interceptor：与Spring相关，可以获取request 和 response 以及具体处理方法，但是获取不到具体方法参数的值；
+   Aspect： 与Spring相关，不可获取request和response ， 可以获取具体方法及具体方法参数的值
+
+3、了解自动配置原理
+    1.1、依赖管理
+    1.2 开发导入starter场景启动器：只要引入starter,这个场景的所有常规需要的依赖我们都自动引入
+
+    自动配置好Tomcat
+    自动配置好springMVC：
+            |— 引入SpringMVC全套组件
+            |— 自动配置好SpringMVC常用组件
+    自动配置好web常见功能，如：字符编码问题
+        springBoot帮我们配置好了所有web开发的常见场景
+    默认包结构
+        |— 主程序所在包及其下面的所有子包里面的组件都会被默认扫描进来
+        |— 无需以前的包扫描配置
+        |— 想要改变扫描路径 @SpringBootApplication(scanBasePackages="com.atguigu")
+            或者@ComponentScan指定扫描路径
+        |— 各种配置拥有默认值
+            默认配置最终都是映射到MultipartProperties
+            配置文件的值最终会绑定每个类上，这个类在容器中创建对象
+
+        |— 按需加载所有自动配置项
+            非常多的starter
+            引入了哪些场景这个场景的自动配置才会开启
+            SpringBoot所有的自动配置功能都在<groupId>org.springframework.boot</groupId>
+                                       <artifactId>spring-boot-autoconfigure</artifactId>
+
+
+4、组件添加
+    ① @Configuration
+    ② @Component,@Controller，@Service,@Repository
+    ③ @Import 给容器中自动创建出类的组件，默认组件的名字就是全类名
+    ④ @ImportResource(classpath:bean.xml)在任意一个配置类中使用：导入spring的配置文件
+
+
+5、@Component + @ConfigurationProperties(perfix="mycar")
+    javaBean和配置文件的属性进行绑定
+
+    @EnableConfigurationProperties(Car.class)
+        开启Car配置绑定功能。把这个Car这个组件自动注册到容器中
+
+    @EnableAutoConfiguration
+        @AutoConfigurationPackage
+            @Import(AutoConfigurationPackage.Registrar.class)
+            //利用Registrar给容器中导入一系列组件
+            //将指定的一个包下的所有组件导入进来 MainApplication所在包下
+
+        @Import({AutoConfigurationImportSelector.class})
+            利用getAutoConfigurationEntry(annotationMetadata)给容器中批量导入一些组件 127个
+            虽然我们127场景配置的所有自动配置启动的时候默认全部加载
+            最终会安装条件装配注解（@Conditional）按需配置
+
+@EnableAutoConfiguration
+ 当spring boot扫描到@EnableAutoConfiguration注解时则会将
+ spring-boot-autoconfigure.jar/META-INF/spring.factories文件中
+ org.springframework.boot.autoconfigure.
+ 里的所有xxxAutoConfiguration类加载到IOC容器中。而xxxAutoConfiguration
+ 类一般都会有@ConditionalOnxxx注解，通过这些条件注解来判断是否真正的创建xxxAutoConfiguration对象。
+ spring boot的各种spring-boot-starter-xxx.jar也正是居于此注解来达到自动装配的目的
+
+
+SpringBoot默认配置会在底层配好所有的组件，但是如果用户自己配置了以用户优先
+
+自动配置原理
+    总结：
+       ·SpringBoot先加载所有自动配置类， XXXAutoConfiguration
+       ·每个自动配置类按照条件进行生效，默认都会绑定配置文件指定的值   从xxxProperties里面拿，
+       xxxProperties通过@ConfigurationProperties和配置文件进行绑定
+       ·生效的配置类就会给容器中装配很多组件
+       ·只要容器中有这些组件，相当于功能就有了
+       ·定制化配置
+            用户直接直接@Bean替换底层的组件
+            用户去看这个组件是获取配置文件所对应的前缀去配置文件中修改
+
+
+请求映射原理
+    SpringMVC功能分析都从 org.springframework.web.servlet.DispatcherServlet-》doDispatch（）
+    找到当前请求使用哪个Handler（Controller的方法）处理
+     mappedHandler = getHandler(processedRequest);
+     RequestMappingHandlerMapping:保存了所有@RequestMapping和handler的映射规则
+     所有的请求映射都在HandlerMapping中
+     ·SpringBoot自动配置欢迎页的WelcomePageHandlerMapping, 访问/能访问到index.html
+     ·SpringBoot自动配置了默认的RequestMappingHandlerMapping
+     ·请求进来，挨个尝试所有的HandlerMapping看是否有请求信息
+            如果有就找到这个请求对应的handler
+            如果没有就是下一个HandlerMapping
+      我们需要一些自定义的映射处理，我们也可以自己给容器中防HandlerMapping,自定义HandlerMapping
+
+
+6、静态资源访问
+    静态资源目录
+        只要静态资源放在类路径下 /static or /public or /resources or /META-INF/resources
+    访问：当前项目根路径/ + 静态资源名
+
+    原理：静态映射/**。
+    请求进来，先去找Controller看能不能处理。不能处理的所有请求又都交给静态资源处理器
+    静态资源处理器也找不到则响应404页面
+
+7、请求参数处理
+    Rest风格；核心过滤器 HiddenHttpMethodFilter
+    用法：表单method=post 隐藏域 _method=put
+    springboot中手动开启
+
+    Rest原理（表单提交要使用REST的时候）
+    ● 表单提交会带上_method=PUT
+    ● 请求过来被HiddenHttpMethodFilter拦截
+      ○ 请求是否正常，并且是POST
+        ■ 获取到_method的值。
+        ■ 兼容以下请求；PUT.DELETE.PATCH
+        ■ 原生request（post），包装模式requesWrapper重写了getMethod方法，返回的是传入的值。
+        ■ 过滤器链放行的时候用wrapper。以后的方法调用getMethod是调用requesWrapper的。
+
+
+8、@RequestAttribute 转发的时候可以获取请求域中的数据
+
+9、拦截器 interceptor 实现HandlerInterceptor接口
+
+10、异常处理
+    默认规则，springboot提供/error处理所有错误的映射
+
+    要完全替换默认行为，可以实现ErrorController并注册该类型的Bean定义
+    或添加ErrorAttributes类型的组件以使用现有机制替换其内容
+
+    error/下的4XX, 5XX页面会被自动解析
+
+    定制错误处理逻辑
+    @ControllerAdvice+@ExceptionHandler处理全局异常
+    @ResponseStatus + 自定义异常
+
+11、Web原生组件注入(Servlet、Filter、Listener)
+    @ServletComponentScan(basePackages = "com.atguigu.admin"):指定原生组件都放在哪里
+    @WebServlet(urlPatterns = "/my"):效果，直接响应，不经过spring拦截器
+    @WebFilter(urlPatterns={"/css/*",/images/*})
+    @WebListener
+使用RegistrationBean
+    ServletRegistrationBean,FilterRegistrationBen,and ServletListenerRegistrationBean
+
+12、定制化的常见方式
+    修改配置文件
+    编写自定义的配置类 xxxConfiguration + @Bean替换，增加，容器中默认组件；视图解析器
+    Web应用编写一个配置类实现WebMvcConfigurer 即可定制化web功能；+@Bean给容器中再扩展一些组件
+    @EnableWebMvc + WebMvcConfigurer @Bean可以全面接管springMVC，所有规则全部自己重写配置，实现定制和扩展功能
+
+
+13、整合mybatis-plus
+ 自动配置
+    mybatisPlusAutoConfiguration配置类，MybatisPlushProperties配置项绑定。mybatis-plus:XXX就是对mybatis-plus的定制
+    sqlSessionFactory自动配置好
+    mapperLocations自动配置好的。有默认值。classpath:/mapper/**/*.xml；任意包类路径下的
+    所有mapper文件下任意路径下的所有xml都是sql映射文件，建议以后sql映射文件，就放在mapper下
+    容器中也自动配置好了SqlSessionTemplate
+    @Mapper标注的接口也会自动扫描
+
+  优点：
+    只需要我们的mapper继承BaseMapper就可以拥有crud能力
+
+
+14、断言(assertions)是测试方法中的核心部分，用来对测试需要满足的条件进行验证，这些断言方法都是org.junit.jupiter.api.Assertions静态方法。
+    Junit 5内置的断言可以分成如下几个类别
+    检查业务逻辑返回的数据是否合理
+    所有的测试运行结束后，会有一个详细的测试报告
+    方法
+    assertEquals: 判断两个对象或两个原始类型是否相等
+    assertNotEquals:判断两个对象或原始类型是否不相等
+    assertSame:判断两个对象引用是否指向不同的对象
+    assertTrue:判断给定的布尔值是否为true
+    assertFalse:判断给定的布尔值是否为false
+    assertNull判断给定的对象引用是否不为null
+    assertThrows：判断业务逻辑一定出现异常
+
+    嵌套测试情况下，外层的Test不能驱动内层的Before(After)Each/All之类的方法提前/之后运行
+    内层的Test可以驱动外层的的Before(After)Each/All之类的方法提前/之后运行
+
+15、指标监控
+    SpringBoot Actuator
+    未来每个微服务在云部署以后，我们都需要对其进行监控、跟踪、审计、控制等。
+    springBoot就抽取了Actuator场景，使得我们每个微服务快速引用即可获得生产级别
+    的应用监控，审计等功能
+
+16、为了方便多环境适配 springboot简化了profile功能
+     默认配置文件 application.yaml;任何时候都会加载
+     在默认配置文件中指定环境配置文件 application-env.yaml
+     激活指定环境
+        配置文件激活
+        命令行激活:修改配置文件的默认值,命令行优先
+     默认配置文件和指定环境的配置文件都会生效.指定环境会覆盖默认的配置
+     @Profile条件装配功能
+      profile分组
+         spring.profiles.group.production[0]=proddb
+         spring.profiles.group.production[1]=prodmq
+
+      配置文件查找位置 这写都是默认的配置文件位置
+            classpath 根路径
+            classpath 根路径下config目录
+            jar当前目录
+            jar包当前目录下的config目录
+            /config子目录下的直接子目录
+
+      指定环境优先,外部优先,后面的可以覆盖前面的同名配置项
+
+
+17.自定义starter
+    starter启动原理
+    start->autoConfigure->spring-boot-starter autoConfigure包中
+    配置使用META-INF/spring.factories中EnableAutoConfiguration的值,使得
+    项目启动加载指定的自动配置类
+
+    引入starter-XXXAutoConfiguration-容器中放入组件-绑定XXXProperties-配置项
+
+18 、什么是 JavaConfig？
+Spring JavaConfig 是 Spring 社区的产品，它提供了配置 Spring IoC 容器的纯Java 方法。
+因此它有助于避免使用 XML 配置。使用 JavaConfig 的优点在于：
+（1）面向对象的配置。由于配置被定义为 JavaConfig 中的类，因此用户可以充分利用 Java
+中的面向对象功能。一个配置类可以继承另一个，重写它的@Bean 方法等。
+（2）减少或消除XML 配置。基于依赖注入原则的外化配置的好处已被证明。但是，许多开发人员不希望在 XML
+ 和 Java 之间来回切换。
+ JavaConfig为开发人员提供了一种纯 Java 方法来配置与 XML 配置概念相似的 Spring 容器。从技术角度来讲，
+只使用 JavaConfig配置类来配置容器是可行的，但实际上很多人认为将JavaConfig 与 XML 混合匹配是理想的。
+（3）类型安全和重构友好。JavaConfig 提供了一种类型安全的方法来配置 Spring容器。由于
+ Java 5.0 对泛型的支持，现在可以按类型而不是按名称检索 bean，不需要任何强制转换或基于字符串的查找。

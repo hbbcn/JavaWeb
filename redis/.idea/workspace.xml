@@ -6,7 +6,37 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6ed674ba-cdff-49b1-95c0-c7f189bbfd0b" name="Default Changelist" comment="" />
+    <list default="true" id="6ed674ba-cdff-49b1-95c0-c7f189bbfd0b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../boot&amp;cloud/.idea/libraries/Maven__redis_clients_jedis_3_6_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day04/src/main/java/com/atguigu/boot/bean/Boss.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day04/src/main/java/com/atguigu/boot/bean/Color.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day04/src/main/java/com/atguigu/boot/bean/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day04/src/main/java/com/atguigu/boot/bean/Worker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day04/src/main/java/com/atguigu/boot/config/Myconfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day04/src/main/java/com/atguigu/boot/controller/HelloController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day04/src/main/resources/application-prod.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day04/src/main/resources/application-test.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day04/src/main/resources/static/config/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/java/com/atguigu/admin/config/RedisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/java/com/atguigu/admin/controller/RedisTestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SSM&amp;boot" beforeDir="false" afterPath="$PROJECT_DIR$/../SSM&amp;boot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_day04/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day04/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_day04/src/main/java/com/atguigu/boot/BootDay04Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day04/src/main/java/com/atguigu/boot/BootDay04Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_day04/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_day04/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/boot_web_admin_day03.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/boot_web_admin_day03.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/java/com/atguigu/admin/BootWebAdminDay03Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/java/com/atguigu/admin/BootWebAdminDay03Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/java/com/atguigu/admin/config/AdminWebConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/java/com/atguigu/admin/config/AdminWebConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/java/com/atguigu/admin/controller/IndexController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/java/com/atguigu/admin/controller/IndexController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/boot_web_admin_day03/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot&amp;cloud/总结" beforeDir="false" afterPath="$PROJECT_DIR$/../boot&amp;cloud/总结" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -40,10 +70,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/atguigu/jedis/JedisDemol.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2460">
+            <state relative-caret-position="522">
               <caret line="90" column="28" selection-start-line="90" selection-start-column="28" selection-end-line="90" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -52,11 +82,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/atguigu/jedis/Test01.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="68" selection-start-line="68" selection-end-line="68" />
+            <state relative-caret-position="330">
+              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -101,15 +131,6 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/3.2.0/jedis-3.2.0.jar!/redis/clients/jedis/BinaryJedis.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="24180">
-              <caret line="850" column="19" selection-start-line="850" selection-start-column="19" selection-end-line="850" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="jar://C:/Program Files/java/jdk-15.0.2/lib/src.zip!/java.base/java/net/SocksSocketImpl.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="8640">
@@ -131,6 +152,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -173,12 +197,12 @@
     <option name="jreName" value="#JAVA_HOME" />
     <option name="vmOptions" value="-DarchetypeCatalog=internal" />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="403" />
-    <option name="y" value="17" />
-    <option name="width" value="1000" />
-    <option name="height" value="1035" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1000" />
+    <option name="width" value="885" />
+    <option name="height" value="1070" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -240,6 +264,17 @@
               <item name="redis" type="b2602c69:ProjectViewProjectNode" />
               <item name="redis" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="atguigu" type="462c0819:PsiDirectoryNode" />
+              <item name="jedis" type="462c0819:PsiDirectoryNode" />
+              <item name="Test01.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
+            <path>
+              <item name="redis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="redis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -270,8 +305,8 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1633954499867" />
-    <property name="last_opened_file_path" value="D:/IDEA_javacode/workspace" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1636431901766" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../boot&amp;cloud" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -292,7 +327,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.RedisClusterDemo">
+  <component name="RunManager" selected="Application.JedisDemol">
+    <configuration name="JedisDemol" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.jedis.JedisDemol" />
+      <module name="redis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.jedis.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RedisClusterDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.atguigu.jedis.RedisClusterDemo" />
       <module name="redis" />
@@ -315,22 +363,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test02.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="redis" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.atguigu.jedis.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.atguigu.jedis" />
-      <option name="MAIN_CLASS_NAME" value="com.atguigu.jedis.Test02" />
-      <option name="METHOD_NAME" value="test01" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -439,18 +471,18 @@
     <list>
       <item itemvalue="Application.Test01" />
       <item itemvalue="Application.RedisClusterDemo" />
-      <item itemvalue="JUnit.Test02.test01" />
+      <item itemvalue="Application.JedisDemol" />
       <item itemvalue="JUnit.Test02.test02" />
       <item itemvalue="JUnit.Test02.test03" />
       <item itemvalue="Tomcat Server.Tomcat 9.0.30" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.JedisDemol" />
         <item itemvalue="Application.RedisClusterDemo" />
         <item itemvalue="Application.Test01" />
         <item itemvalue="JUnit.Test02.test03" />
         <item itemvalue="JUnit.Test02.test02" />
-        <item itemvalue="JUnit.Test02.test01" />
       </list>
     </recent_temporary>
   </component>
@@ -473,6 +505,8 @@
       <workItem from="1633954896456" duration="600000" />
       <workItem from="1633997405455" duration="596000" />
       <workItem from="1634085927782" duration="595000" />
+      <workItem from="1636431158319" duration="714000" />
+      <workItem from="1636437219423" duration="1036000" />
     </task>
     <servers />
   </component>
@@ -509,13 +543,12 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36713000" />
+    <option name="totallyTimeSpent" value="38463000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="323" y="14" width="800" height="828" extended-state="0" />
-    <editor active="true" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.42587602" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12533513" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -525,7 +558,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.77286583" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.46627566" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.47291362" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -534,7 +567,7 @@
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Sequence" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.3292683" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.3601757" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.35923752" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="13" />
       <window_info anchor="bottom" id="Application Servers" order="14" weight="0.36163983" />
@@ -555,13 +588,8 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/3.2.0/jedis-3.2.0.jar!/redis/clients/jedis/Jedis.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="258" column="18" selection-start-line="258" selection-start-column="18" selection-end-line="258" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/3.2.0/jedis-3.2.0.jar!/redis/clients/jedis/Jedis.class" />
+    <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/3.2.0/jedis-3.2.0.jar!/redis/clients/jedis/BinaryJedis.class" />
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -569,10 +597,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/atguigu/jedis/JedisDemol.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/atguigu/jedis/Test01.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2460">
-          <caret line="90" column="28" selection-start-line="90" selection-start-column="28" selection-end-line="90" selection-end-column="28" />
+        <state relative-caret-position="330">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -609,13 +637,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/3.2.0/jedis-3.2.0.jar!/redis/clients/jedis/BinaryJedis.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24180">
-          <caret line="850" column="19" selection-start-line="850" selection-start-column="19" selection-end-line="850" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/java/jdk-15.0.2/lib/src.zip!/java.base/java/net/SocksSocketImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="8640">
@@ -626,10 +647,10 @@
     <entry file="file://$PROJECT_DIR$/redis.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/atguigu/jedis/Test01.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/atguigu/jedis/JedisDemol.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="68" selection-start-line="68" selection-end-line="68" />
+        <state relative-caret-position="522">
+          <caret line="90" column="28" selection-start-line="90" selection-start-column="28" selection-end-line="90" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

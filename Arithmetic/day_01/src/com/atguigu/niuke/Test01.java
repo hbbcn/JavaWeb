@@ -12,11 +12,7 @@ import java.util.Random;
  *@Version 1.0
  */
 public class Test01 {
-
-
-
-
-    @org.junit.Test
+   @Test
     public void test01(){
         Integer i01 = 59;
         int i02 = 59;

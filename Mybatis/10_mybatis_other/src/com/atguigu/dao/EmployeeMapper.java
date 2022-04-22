@@ -1,8 +1,7 @@
 package com.atguigu.dao;
 
 import com.atguigu.mybatis.Employee;
-import com.atguigu.mybatis.Page;
-import com.github.pagehelper.PageHelper;
+
 
 import java.util.List;
 
@@ -14,6 +13,6 @@ public interface EmployeeMapper {
 
     public Long addEmp(Employee employee);
 
-    public void getPageByProcedure(Page page);
+//    public void getPageByProcedure(Page page);
 
 }

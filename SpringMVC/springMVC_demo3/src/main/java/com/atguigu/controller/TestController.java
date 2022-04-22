@@ -22,5 +22,10 @@ public class TestController {
     public String testView(){
         return "test_view";
     }
+
+    @RequestMapping("/test_rest")
+    public String test_rest(){
+        return "test_rest";
+    }
 }
 

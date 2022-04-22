@@ -2,6 +2,8 @@ package com.atguigu.servlet;
 
 import javax.servlet.ServletConfig;
 import javax.servlet.ServletException;
+import javax.servlet.ServletRequest;
+import javax.servlet.ServletResponse;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -23,7 +25,6 @@ public class HelloServlet2 extends HttpServlet {
         System.out.println("重写了init初始化方法，做了一些工作");
 
     }
-
 
 
 

@@ -1,8 +1,5 @@
 package com.atguigu.servlet;
-
 import com.atguigu.util.CookieUtils;
-import com.sun.jdi.Value;
-
 import javax.servlet.ServletException;
 import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServletRequest;
@@ -17,19 +14,13 @@ import java.io.IOException;
  *@Version 1.0
  */
 public class CookieServlet extends BaseServlet{
-
-
-
     protected void getCookie(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-
         Cookie[] cookies = req.getCookies();
         for(Cookie cookie : cookies){
-
             // getName方法返回Cookie的key名
             // getValue方法返回Cookie的value值
             resp.getWriter().write("Cookie[" + cookie.getName() + "=" + cookie.getValue() + "]<br/>");
         }
-
 
 /*     for (Cookie cookie : cookies){
          if ("key2".equals(cookie.getName())){
@@ -43,7 +34,6 @@ public class CookieServlet extends BaseServlet{
         if(iWantCookie != null){
             resp.getWriter().write("找到了需要的Cookie");
         }
-
     }
 
     protected void createCookie(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {

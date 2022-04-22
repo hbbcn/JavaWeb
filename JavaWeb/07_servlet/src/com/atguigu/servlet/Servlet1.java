@@ -40,7 +40,7 @@ public class Servlet1 extends HttpServlet {
 
          */
 //      RequestDispatcher requestDispatcher = req.getRequestDispatcher("/WEB-INF/form.html");
-    RequestDispatcher requestDispatcher = req.getRequestDispatcher("/servlet2");
+        RequestDispatcher requestDispatcher = req.getRequestDispatcher("/servlet2");
 
 //走向Servlet2(柜台2)
         requestDispatcher.forward(req,resp);

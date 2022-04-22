@@ -74,20 +74,16 @@ public class HelloServlet implements Servlet {
         } else if ("POST".equals(method)) {
             doPost();
         }
-
-
     }
 
     public void doGet() {
         System.out.println("get请求");
         System.out.println("get请求");
-
     }
 
     public void doPost(){
         System.out.println("post请求");
         System.out.println("post请求");
-
     }
 
 

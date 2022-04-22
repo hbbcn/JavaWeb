@@ -3,7 +3,6 @@ package com.atguigu.json;
 import com.atguigu.pojo.Person;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
-import jdk.jshell.PersistentSnippet;
 import org.junit.Test;
 
 import java.rmi.MarshalledObject;

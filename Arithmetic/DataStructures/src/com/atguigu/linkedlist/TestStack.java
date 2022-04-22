@@ -23,7 +23,6 @@ public class TestStack{
         while (stack.size() > 0){
             System.out.println(stack.pop());
         }
-
     }
 }
 

@@ -26,9 +26,7 @@
 			<span class="wel_word">编辑图书</span>
 				<%-- 静态包含manager管理模块的菜单--%>
 				<%@include file="/pages/common/manager_menu.jsp"%>
-
 		</div>
-		
 		<div id="main">
 			<form action="manager/bookServlet" method="get">
                 <input type="hidden" name="pageNo" value="${param.pageNo}">
@@ -42,15 +40,7 @@
 						<td>销量</td>
 						<td>库存</td>
 						<td colspan="2">操作</td>
-					</tr>		
-			<%--		<tr>
-						<td><input name="name" type="text" value="时间简史"/></td>
-						<td><input name="price" type="text" value="30.00"/></td>
-						<td><input name="author" type="text" value="霍金"/></td>
-						<td><input name="sales" type="text" value="200"/></td>
-						<td><input name="stock" type="text" value="300"/></td>
-						<td><input type="submit" value="提交"/></td>
-					</tr>--%>
+					</tr>
 					<tr>
 						<td><input name="name" type="text" value="${requestScope.book.name}"></td>
 						<td><input name="price" type="text" value="${requestScope.book.price}"></td>
@@ -61,8 +51,6 @@
 					</tr>
 				</table>
 			</form>
-			
-	
 		</div>
 
 		<%-- 静态包含页脚内容--%>

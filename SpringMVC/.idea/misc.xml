@@ -11,6 +11,7 @@
     <file type="web" url="file://$PROJECT_DIR$/springMVC_InterceptorAndConverter" />
     <file type="web" url="file://$PROJECT_DIR$/springMVC_jsp" />
     <file type="web" url="file://$PROJECT_DIR$/springMVC_rest" />
+    <file type="web" url="file://D:/文档/Desktop/java资料/mysql高级/代码/基本工程/itcast_log_management" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
@@ -26,6 +27,7 @@
         <option value="$PROJECT_DIR$/springMVC_ConverterAndInterceptor/pom.xml" />
         <option value="$PROJECT_DIR$/springMVC_InterceptorAndConverter/pom.xml" />
         <option value="$PROJECT_DIR$/springMVC_Anno/pom.xml" />
+        <option value="D:/文档/Desktop/java资料/mysql高级/代码/基本工程/itcast_log_management/pom.xml" />
       </list>
     </option>
   </component>

@@ -5,6 +5,7 @@
   Time: 17:06
   To change this template use File | Settings | File Templates.
 --%>
+
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%--分页条的开始--%>
 <div id="page_nav">
@@ -51,7 +52,7 @@
                 </c:when>
 
                  <c:otherwise>
-                <%--<c:when test="${3 < requestScope.page.pageNo && requestScope.page.pageNo < requestScope.page.pageTotal-2}">--%>
+      <%--<c:when test="${3 < requestScope.page.pageNo && requestScope.page.pageNo < requestScope.page.pageTotal-2}">--%>
                     <c:forEach begin="${requestScope.page.pageNo -2}" end="${requestScope.page.pageNo + 2}" var="i">
                         <c:if test="${requestScope.page.pageNo == i}">
                             【${i}】

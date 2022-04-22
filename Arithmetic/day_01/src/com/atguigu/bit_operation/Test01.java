@@ -38,6 +38,7 @@ public class Test01 {
         if(i++ == 4 & ++j==4){
             i=5;
         }
+        System.out.println(i++ == 4 & ++j==4);
         System.out.println("i= " + i + "j = " + j);
     }
     public static void test01(){
@@ -53,7 +54,6 @@ public class Test01 {
             }
         }
         System.out.println(count);
-
     }
 
 }

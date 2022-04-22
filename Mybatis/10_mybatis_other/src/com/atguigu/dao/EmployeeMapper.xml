@@ -35,7 +35,7 @@
     statementType="CALLABLE":表示要调用的存储过程
     {call procedure_name(params)}
     -->
-    <select id="getPageByProducer" statementType="CALLABLE">
+<!--    <select id="getPageByProducer" statementType="CALLABLE">
         {
           call hello_test(
             #{start,mode=IN,jdbcType=INTEGER},
@@ -49,5 +49,5 @@
         <id column="employee_id" property="id"/>
         <result column="last_name" property="name"/>
         <result column="email" property="email"/>
-    </resultMap>
+    </resultMap>-->
 </mapper>

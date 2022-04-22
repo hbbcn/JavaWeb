@@ -95,7 +95,7 @@ class ArrayQueue {
         return front == rear;
     }
 
-    //添加数九到队列
+    //添加数据到队列
     public void addQueue(int n) {
         //判断队列是否满
         if (ifFull()) {

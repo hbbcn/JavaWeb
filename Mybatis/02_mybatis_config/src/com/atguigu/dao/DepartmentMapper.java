@@ -1,8 +1,10 @@
 package com.atguigu.dao;
 
 import com.atguigu.mybatis.Department;
+import org.apache.ibatis.annotations.Mapper;
 
 import java.util.List;
+
 
 public interface DepartmentMapper {
     public Department getDeptById(Integer id);

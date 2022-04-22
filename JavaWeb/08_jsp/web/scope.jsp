@@ -11,14 +11,13 @@
     <title>Title</title>
     <%--
     四个域对象分别是
-        ①pageContext     PageContextImpl类       当前jsp页面有效
+        ①pageContext     PageContext类       当前jsp页面有效
         ②request         HttpServletRequest类    一次请求内有效
         ③session         HttpSession类           一个会话范围内有效(打开浏览器访问服务器，直到关闭浏览器)
         ④application     ServletContext类        整个web工程范围内都有效(只要web工程步停止)
 
 
     域对象是可用像Map一样存储数据的对象。四个域对象功能一样，不同的是它们对数据的取值范围
-
     四个域在使用的时候，优先顺序分别是，它们从小到大的范围的顺序
 
     --%>

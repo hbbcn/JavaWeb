@@ -9,6 +9,9 @@
         </element>
         <element id="directory" name="lib">
           <element id="library" level="project" name="book_lib" />
+          <element id="library" level="module" name="JUnit4" module-name="book" />
+          <element id="file-copy" path="$PROJECT_DIR$/book/web/WEB-INF/lib/kaptcha-2.3.2.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/book/web/WEB-INF/lib/gson-2.2.4.jar" />
         </element>
       </element>
     </root>
