@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/SSM&amp;boot.iml" filepath="$PROJECT_DIR$/SSM&amp;boot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SSMBuild/SSMBuild.iml" filepath="$PROJECT_DIR$/SSMBuild/SSMBuild.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SSMTest/SSMTest.iml" filepath="$PROJECT_DIR$/SSMTest/SSMTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/boot01/boot01.iml" filepath="$PROJECT_DIR$/boot01/boot01.iml" />
+    </modules>
+  </component>
+</project>
