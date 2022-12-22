@@ -5,7 +5,7 @@
 <mapper namespace="com.atguigu.dao.EmployeeMapper">
 
     <!--
-    namespace: 名称空间当
+    namespace: 名称空间
     你的namespace绑定接口后，你可以不用写接口实现类，mybatis会通过该绑定自动
     帮你找到对应要执行的SQL语句
     id: 唯一标识

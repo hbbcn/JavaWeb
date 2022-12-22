@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/boot&amp;cloud.iml" filepath="$PROJECT_DIR$/.idea/boot&amp;cloud.iml" />
+      <module fileurl="file://$PROJECT_DIR$/boot_day01/boot_day01.iml" filepath="$PROJECT_DIR$/boot_day01/boot_day01.iml" />
       <module fileurl="file://$PROJECT_DIR$/boot_day02/boot_day02.iml" filepath="$PROJECT_DIR$/boot_day02/boot_day02.iml" />
       <module fileurl="file://$PROJECT_DIR$/boot_day03-web-admin/boot_day03-web-admin.iml" filepath="$PROJECT_DIR$/boot_day03-web-admin/boot_day03-web-admin.iml" />
       <module fileurl="file://$PROJECT_DIR$/boot_day04/boot_day04.iml" filepath="$PROJECT_DIR$/boot_day04/boot_day04.iml" />

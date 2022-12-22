@@ -16,7 +16,6 @@
 
             // 给购物车按钮绑定单击事件
             $(".addToCart").click(function () {
-
                 var bookId = $(this).attr("bookId");
                 location.href = "http://localhost:8080/book/cartServlet?action=addItem&id=" + bookId;
 
@@ -44,12 +43,24 @@
         </c:if>
 
             <a href="http://localhost:8080/book/cartServlet?action=addItemToDb">购物车</a>
-        <a href="pages/manager/manager.jsp">后台管理</a>
+
+            <c:if test="${sessionScope.user.username == 'admin'}">
+                <a href="pages/manager/manager.jsp">后台管理</a>
+            </c:if>
+
     </div>
 </div>
 <div id="main">
 
     <div id="book">
+     <%--   <div>
+            <form style="padding-left: 500px;" action="manager/bookServlet" method="get">
+                <input type="hidden" name="action" value="queryBook">
+                图书名:<input type="text" name="book" value="${param.book}">
+                <input type="submit" value="搜索">
+            </form>
+        </div>--%>
+
         <div class="book_cond">
             <form action="client/bookServlet" method="get">
                 <input type="hidden" name="action" value="pageByPrice">

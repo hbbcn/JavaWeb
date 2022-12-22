@@ -3,8 +3,6 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-
 
 /**
  *@ClassName RequestMappingController
@@ -49,7 +47,6 @@ public class RequestMappingController{
 //    @RequestMapping("/a?a/testAnt") //?表示任意单个字符 不能是一些特殊字符如：?
 //    @RequestMapping("/a*a/testAnt") //*表示任意0个或者多个字符不能是一些特殊字符
     @RequestMapping("/**/testAnt") // **表示任意0个或多个目录
-
     public String testAnt(){
         return "success";
     }

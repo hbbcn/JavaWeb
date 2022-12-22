@@ -22,12 +22,14 @@ public class HelloController{
      */
     @RequestMapping("/")
     public String index(){
+
         //返回视图名称
         return "index";
     }
 
     @RequestMapping("/target")
     public String toTarget(){
+
         return "target";
     }
 

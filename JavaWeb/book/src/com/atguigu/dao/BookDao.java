@@ -24,5 +24,7 @@ public interface BookDao {
 
     public Integer queryPriceTotalCount(int min,int max);
 
+//    public Book queryBookByName(String bookName);
+
 
 }

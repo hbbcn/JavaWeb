@@ -21,15 +21,12 @@ import java.util.concurrent.TimeUnit;
 
 @Service
 public class PaymentService{
-
-
     /**
      * 服务Fallback
      * @param id
      * @return
      */
     public String paymentInfo_OK(Integer id){
-
         return "线程池" + Thread.currentThread().getName()+ "paymentInfo_ok" + id +"O(∩_∩)O";
     }
 
@@ -63,7 +60,7 @@ public class PaymentService{
 
     //=======服务熔断
 
-    @HystrixCommand(fallbackMethod = "paymentCircuitBreaker_fallback",commandProperties = {
+            @HystrixCommand(fallbackMethod = "paymentCircuitBreaker_fallback",commandProperties = {
             @HystrixProperty(name = "circuitBreaker.enabled",value = "true"),//是否开启断路器
             @HystrixProperty(name = "circuitBreaker.requestVolumeThreshold",value = "10"),//请求次数
             @HystrixProperty(name = "circuitBreaker.sleepWindowInMilliseconds",value = "10000"),//时间窗口期

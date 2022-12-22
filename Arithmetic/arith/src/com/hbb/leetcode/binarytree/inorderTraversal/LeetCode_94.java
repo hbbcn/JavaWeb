@@ -6,6 +6,7 @@ package com.hbb.leetcode.binarytree.inorderTraversal;
  * @Date 2022/4/12 14:12
  * @Version 1.0
  */
+import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.Stack;
 
@@ -53,7 +54,6 @@ public class LeetCode_94 {
 
     //递归遍历
     public static LinkedList<Integer> recursion(TreeNode root) {
-
         if (root != null) {
             recursion(root.left);
             list.add(root.val);
@@ -67,6 +67,18 @@ public class LeetCode_94 {
         LinkedList<Integer> list = new LinkedList<>();
         Stack<TreeNode> stack = new Stack();
         if (root == null) return list;
+        while (root != null || !stack.isEmpty()) {
+            while (root != null) {
+                stack.push(root);
+                root = root.left;
+            }
+            root = stack.pop();
+            list.add(root.val);
+            root = root.right;
+        }
+        return list;
+/*
+        if (root == null) return list;
         stack.push(root);
         while (!stack.isEmpty()) {
             while (root != null ){
@@ -78,18 +90,9 @@ public class LeetCode_94 {
             root = root.right;
         }
         return list;
+*/
+//        stack.push(root); 错误写法导致两个root
 
-
-     /*   while (root != null || !stack.isEmpty()) {
-            while (root != null) {
-                stack.push(root);
-                root = root.left;
-            }
-            root = stack.pop();
-            list.add(root.val);
-            root = root.right;
-        }
-        return list;*/
     }
 }
 

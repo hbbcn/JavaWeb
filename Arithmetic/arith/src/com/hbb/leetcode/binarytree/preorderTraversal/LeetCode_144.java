@@ -34,7 +34,41 @@ public class LeetCode_144{
         List<Integer> list = recursionTraversal(root);
         System.out.println(list);
 
+        System.out.println("二叉树的递归遍历");
+        List<Integer> list1 = recursionTraversalTest(root);
+        System.out.println(list1);
 
+
+
+    }
+
+    //递归遍历
+    static ArrayList<Integer> array1 = new ArrayList<>();
+    public static List<Integer> recursionTraversalTest(TreeNode root){
+
+        if (root == null) return array1;
+        array1.add(root.val);
+        preorderTraversalTest(root.left);
+        preorderTraversalTest(root.right);
+        return array1;
+    }
+
+    //迭代遍历二叉树
+    public static List<Integer> preorderTraversalTest(TreeNode root) {
+        Stack<TreeNode> stack = new Stack<>();
+        if (root == null) return null;
+        stack.push(root);
+       /* while (!stack.empty()){
+            TreeNode cur = stack.pop();
+            array1.add(cur.val);
+            if (cur.right != null){
+                stack.push(cur.right);
+            }
+            if (cur.left != null){
+                stack.push(cur.left);
+            }
+        }*/
+        return null;
     }
     //递归遍历
    static ArrayList<Integer> array = new ArrayList<>();
@@ -45,8 +79,6 @@ public class LeetCode_144{
           recursionTraversal(root.left);
           recursionTraversal(root.right);
           return array;
-
-
     }
 
     //迭代遍历二叉树
@@ -106,7 +138,6 @@ class TreeNode{
     public void setRight(TreeNode right) {
         this.right = right;
     }
-
 
 
     public int getVal() {

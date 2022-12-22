@@ -1,5 +1,7 @@
 package com.atguigu.web;
 
+import com.atguigu.dao.BookDao;
+import com.atguigu.dao.impl.BookDaoImpl;
 import com.atguigu.pojo.Book;
 import com.atguigu.pojo.Page;
 import com.atguigu.pojo.User;
@@ -21,6 +23,7 @@ import java.util.List;
  *@Version 1.0
  */
 public class BookServlet extends BaseServlet{
+    private BookDao bookDao = new BookDaoImpl();
     BookService bookService = new BookServiceImpl();
 
     /**
@@ -112,5 +115,13 @@ public class BookServlet extends BaseServlet{
         // 3、请求转发到/pages/manager/book_manager.jsp页面
         req.getRequestDispatcher("/pages/manager/book_manager.jsp").forward(req,resp);
     }
+
+  /*  protected void queryBook(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+        String bookName = req.getParameter("book");
+        Book book = bookDao.queryBookByName(bookName);
+        System.out.println(book);
+        req.setAttribute("book",book);
+        req.getRequestDispatcher("/pages/client/index.jsp").forward(req,resp);
+    }*/
 }
 

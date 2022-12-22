@@ -1,8 +1,4 @@
 package com.atguigu.hashtab;
-
-import com.atguigu.tree.BinaryTreeDemo;
-
-import java.util.Calendar;
 import java.util.Scanner;
 
 /**

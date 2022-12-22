@@ -13,7 +13,7 @@
         然后动态的在path下做一个引用 %JAVA_HOME%\bin
 
 二、tomcat的安装和使用：
-        tomcats由Apache组织提供的一种web服务器，提供了对jsp和Servlet的支持。它是一种轻量级的javaWeb容器(服务器)
+        tomcat由Apache组织提供的一种web服务器，提供了对jsp和Servlet的支持。它是一种轻量级的javaWeb容器(服务器)
         安装：找到你需要的tomcat版本对应的zip压缩包，解压到需要安装的目录即可
         使用：找到Tomcat目录下的bin目录下的startup.bat文件，双击，就可以启动Tomcat服务器
         另一种启动tomcat服务器的方式：打开命令行——>cd到你的Tomcat的bin目录下——>敲入启动命令：catalina run

@@ -1,16 +1,12 @@
 package com.atguigu.test;
-
 import com.atguigu.dao.BookDao;
 import com.atguigu.dao.impl.BookDaoImpl;
 import com.atguigu.pojo.Book;
 import org.junit.Test;
-
 import java.math.BigDecimal;
-import java.net.SocketTimeoutException;
-import java.sql.SQLOutput;
 import java.util.List;
 
-import static org.junit.Assert.*;
+
 
 public class BookDaoTest {
 
@@ -39,6 +35,11 @@ public class BookDaoTest {
     public void queryBookById() {
         System.out.println(bookDao.queryBookById(21));
     }
+
+   /* @Test
+    public void queryBookByName() {
+        System.out.println(bookDao.queryBookByName("编程思想"));
+    }*/
 
     @Test
     public void queryBook() {

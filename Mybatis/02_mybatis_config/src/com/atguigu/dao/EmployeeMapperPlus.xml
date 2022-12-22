@@ -6,7 +6,7 @@
 
     <!--javaBean的封装规则
     type:自定义规则的Java类型
-    id:唯一id方便引用
+    id:唯一id方tb_employee where id = 便引用
 
     -->
 
@@ -27,7 +27,7 @@
     <!--resultMap:自定义结果集映射规则：-->
     <!-- public Employee getEmpById(Integer id);-->
     <select id="getEmpById" resultMap="MyEmp">
-      select * from tb_employee where id = #{id};
+      select * from #{id};
     </select>
 
     <!--

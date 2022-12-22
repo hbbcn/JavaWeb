@@ -1,11 +1,10 @@
 package com.atguigu.springcloud.entities;
-
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
 /**
- *@ClassName CommonResule
+ *@ClassName CommonResult
  *@Description  TODO
  *@Author hqb
  *@Date 2022/1/23 21:40

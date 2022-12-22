@@ -27,7 +27,7 @@ public class RegistServlet extends HttpServlet {
         //获取Session中的验证码
         String token = (String) req.getSession().getAttribute(KAPTCHA_SESSION_KEY);
         //删除Session中的验证码
-//        req.getSession().removeAttribute(KAPTCHA_SESSION_KEY);
+        req.getSession().removeAttribute(KAPTCHA_SESSION_KEY);
         System.out.println("###############");
         System.out.println("验证码为：" + token);
         //1、获取请求参数

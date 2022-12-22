@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="Encoding" addBOMForNewFiles="with NO BOM">
+  <component name="Encoding">
     <file url="file://$PROJECT_DIR$/springMVC_Anno" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springMVC_InterceptorAndConverter" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springMVC_annotation" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springMVC_annotation/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springMVC_annotation/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springMVC_demo1" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springMVC_demo2" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springMVC_demo3" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springMVC_exer" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springMVC_jsp" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springMVC_rest" charset="UTF-8" />
-    <file url="file://D:/文档/Desktop/java资料/mysql高级/代码/基本工程/itcast_log_management" charset="UTF-8" />
   </component>
 </project>

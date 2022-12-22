@@ -48,7 +48,12 @@ public class BookDaoImpl extends BaseDao implements BookDao {
         return queryForOne(Book.class, sql, id);
     }
 
-    @Override
+    /*public Book queryBookByName(String bookName){
+        String sql = "select * from t_book where name like %?% ";
+        return queryForOne(Book.class,sql,bookName);
+    }*/
+
+   @Override
     public List<Book> queryBooks() {
         String sql = "select * from t_book";
 

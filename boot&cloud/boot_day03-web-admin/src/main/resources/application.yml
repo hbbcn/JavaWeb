@@ -31,6 +31,7 @@ mybatis:
 #  config-location: classpath:mybatis/mybatis-config.xml
   mapper-locations: classpath:mybatis/mapper/*.xml
   configuration:
+    #开启驼峰命名
     map-underscore-to-camel-case: true
 server:
   port: 8080

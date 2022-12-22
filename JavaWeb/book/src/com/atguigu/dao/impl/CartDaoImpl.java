@@ -15,6 +15,9 @@ import java.util.Map;
 public class CartDaoImpl extends BaseDao{
     public void addCartItem(Cart cart) {
         //将购物车商品添加到数据库中
+        if (cart == null){
+            return;
+        }
         String userName = cart.getUserName();
         for (Map.Entry cartItem : cart.getItems().entrySet()) {
             String sql = "insert into t_cart_item values(?,?,?,?,?,?)";

@@ -7,29 +7,29 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="itcast_log_management" />
-        <module name="springMVC_Anno" />
-        <module name="springMVC_annotation" />
-        <module name="springMVC_demo1" />
         <module name="springMVC_demo2" />
-        <module name="springMVC_demo3" />
         <module name="springMVC_exer" />
+        <module name="springMVC_Anno" />
+        <module name="springMVC_demo1" />
+        <module name="springMVC_demo3" />
         <module name="springMVC_InterceptorAndConverter" />
+        <module name="itcast_log_management" />
         <module name="springMVC_jsp" />
+        <module name="springMVC_annotation" />
         <module name="springMVC_rest" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8">
       <module name="itcast_log_management" target="15" />
-      <module name="springMVC_Anno" target="15" />
-      <module name="springMVC_annotation" target="15" />
-      <module name="springMVC_demo1" target="15" />
-      <module name="springMVC_demo2" target="8" />
-      <module name="springMVC_demo3" target="15" />
-      <module name="springMVC_exer" target="15" />
-      <module name="springMVC_InterceptorAndConverter" target="15" />
-      <module name="springMVC_jsp" target="15" />
-      <module name="springMVC_rest" target="15" />
+      <module name="springMVC_Anno" target="1.8" />
+      <module name="springMVC_annotation" target="1.8" />
+      <module name="springMVC_demo1" target="1.8" />
+      <module name="springMVC_demo2" target="1.8" />
+      <module name="springMVC_demo3" target="1.8" />
+      <module name="springMVC_exer" target="1.8" />
+      <module name="springMVC_InterceptorAndConverter" target="1.8" />
+      <module name="springMVC_jsp" target="1.8" />
+      <module name="springMVC_rest" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
