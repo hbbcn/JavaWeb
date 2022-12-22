@@ -1,0 +1,42 @@
+#######################常用的注解####################
+一、使用bean的注解
+@Value 对普通的属性注入值；
+           @Value(value = "abc")
+            private String name;
+
+@Autowired 注释:
+         它可以对类成员变量、方法及构造函数进行标注，完成自动装配的工作。
+         通过 @Autowired的使用来消除 set ，get方法。
+         @Autowired
+                private UserDao userDao;
+
+@Qualifier: 根据名称进行注入 需要和Autowire一起使用
+        @Qualifier(value = "userDaoImpl1") //根据名称进行注入 需要和Autowire一起使用
+
+@Resource: 根据名称注入
+        @Resource(name = "userDaoImpl1")//根据名称注入
+
+二、注册bean的注解
+    在注意里面value属性值可以省略不写
+            默认值是类名称首字母小写
+@Repository 它用于将数据访问层 (DAO 层 ) 的类标识为 Spring Bean
+@Service 用于业务层bean
+@Controller 用于控制层bean
+@Component:
+            @component （把普通pojo实例化到spring容器中，相当于配置文件中的 <bean id="" class=""/>）
+           泛指各种组件，就是说当我们的类不属于各种归类的时候（不属于@Controller、@Services等的时候），
+           我们就可以使用@Component来标注这个类。
+
+
+
+
+########################其他类型注解######################
+1、 @Configuration :作为配置类，替代xml配置文件
+
+2、 @ComponentScan(basePackages = {"com.atguigu"})
+    创建一个配置类，在配置类上添加 @ComponentScan 注解。该注解默认会扫描该类所在的包下所有的配置类。
+    相当于之前的 <context:component-scan>
+
+3、@Aspect //生成代理对象
+
+4、@Transaction //事务注解

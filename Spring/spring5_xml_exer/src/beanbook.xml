@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:lang="http://www.springframework.org/schema/lang"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/lang http://www.springframework.org/schema/lang/spring-lang.xsd">
+
+    <!--scope设置多实列-->
+    <bean id="book" class="com.atguigu.bean.Book" scope="prototype">
+  <!--      <property name="username" value="平凡的世界"/>
+        <property name="userId" value="1"/>
+        &lt;!&ndash;外部bean进行赋值&ndash;&gt;
+        &lt;!&ndash;<property name="user" ref="user"/>&ndash;&gt;
+
+
+        &lt;!&ndash;内部bean对User对象进行赋值&ndash;&gt;
+       <property name="user" >
+           <bean class="com.atguigu.bean.User"/>
+       </property>-->
+    </bean>
+
+    <!--外部bean-->
+<!--    <bean id="user" class="com.atguigu.bean.User">
+
+    </bean>-->
+
+
+
+</beans>

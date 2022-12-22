@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="bookServiceImpl"  class="com.atguigu.spring5.service.BookServiceImpl">
+    <property name="mapper" ref="bookMapper"></property>
+    </bean>
+
+    <bean id="bookMapper" class="com.atguigu.spring5.dao.BookMapperImpl">
+        <!--        property:表示的是配置当前bean的属性-->
+        <!--        name:表示当前bean的属性名称-->
+        <!--        ref:参照哪一个bean
+                    ref:bean对象的属性是引用类型，value:bean对象的属性是基本类型		-->
+    </bean>
+
+
+</beans>

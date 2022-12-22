@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean name="student" class="com.atguigu.Exer.Student">
+        <property name="course">
+            <array>
+                <value>数学</value>
+                <value>语文</value>
+                <value>物理</value>
+            </array>
+        </property>
+
+        <property name="list">
+            <list>
+                <value>胡歌</value>
+                <value>周星驰</value>
+            </list>
+        </property>
+
+        <property name="set">
+            <set>
+                <value>Spring</value>
+                <value>SpringMVC</value>
+                <value>Mybatis</value>
+            </set>
+        </property>
+
+        <property name="map">
+           <map>
+               <entry key="Java" value="java"></entry>
+               <entry key="javaScript" value="js"></entry>
+           </map>
+        </property>
+
+        <property name="course1List">
+            <list>
+                <ref bean="course2"></ref>
+                <ref bean="course3"></ref>
+            </list>
+
+
+        </property>
+
+    </bean>
+
+    <bean name="course2" class="com.atguigu.Exer.Course1">
+        <property name="name" value="胡歌"></property>
+        <property name="id" value="1"></property>
+    </bean>
+
+    <bean name="course3" class="com.atguigu.Exer.Course1">
+        <property name="id" value="2"></property>
+        <property name="name" value="周星星"></property>
+    </bean>
+
+</beans>

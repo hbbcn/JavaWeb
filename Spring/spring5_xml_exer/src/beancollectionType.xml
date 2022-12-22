@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+    <bean id="stu" class="com.atguigu.collectionType.Stu">
+        <property name="courses">
+            <list>
+                <value>java</value>
+                <value>数据库</value>
+            </list>
+        </property>
+
+        <property name="list">
+            <list>
+                <value>李四</value>
+                <value>周星星</value>
+            </list>
+        </property>
+
+        <property name="books">
+            <list>
+                <ref bean="book"/>
+                <ref bean="book1"/>
+            </list>
+        </property>
+
+        <property name="set">
+            <set>
+                <value>计算机基础</value>
+                <value>计算机导论</value>
+            </set>
+        </property>
+
+        <property name="map">
+            <map>
+                <entry key="1" value="中国"/>
+                <entry key="2" value-ref="book"/>
+            </map>
+        </property>
+    </bean>
+
+    <bean id="book" class="com.atguigu.bean.Book">
+        <property name="userId" value="1"/>
+        <property name="username" value="胡歌"/>
+    </bean>
+
+
+    <bean id="book1" class="com.atguigu.bean.Book">
+        <property name="userId" value="2"/>
+        <property name="username" value="周星星"/>
+    </bean>
+
+
+</beans>

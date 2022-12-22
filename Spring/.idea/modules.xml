@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Spring.iml" filepath="$PROJECT_DIR$/.idea/Spring.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring5_demo2/Spring5_demo2.iml" filepath="$PROJECT_DIR$/spring5_demo2/Spring5_demo2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cache/cache.iml" filepath="$PROJECT_DIR$/cache/cache.iml" />
+      <module fileurl="file://D:/文档/Desktop/java资料/mysql高级/代码/基本工程/itcast_log_management/itcast_log_management.iml" filepath="D:/文档/Desktop/java资料/mysql高级/代码/基本工程/itcast_log_management/itcast_log_management.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring05_exer02/spring05_exer02.iml" filepath="$PROJECT_DIR$/spring05_exer02/spring05_exer02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring5_AOP/spring5_AOP.iml" filepath="$PROJECT_DIR$/spring5_AOP/spring5_AOP.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring5_AOP_exer/spring5_AOP_exer.iml" filepath="$PROJECT_DIR$/spring5_AOP_exer/spring5_AOP_exer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring5_annotation/spring5_annotation.iml" filepath="$PROJECT_DIR$/spring5_annotation/spring5_annotation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring5_annotation_exer/spring5_annotation_exer.iml" filepath="$PROJECT_DIR$/spring5_annotation_exer/spring5_annotation_exer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring5_demo1/spring5_demo1.iml" filepath="$PROJECT_DIR$/spring5_demo1/spring5_demo1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring5_exer/spring5_exer.iml" filepath="$PROJECT_DIR$/spring5_exer/spring5_exer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring5_jdbcTemplate/spring5_jdbcTemplate.iml" filepath="$PROJECT_DIR$/spring5_jdbcTemplate/spring5_jdbcTemplate.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring5_transaction/spring5_transaction.iml" filepath="$PROJECT_DIR$/spring5_transaction/spring5_transaction.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring5_xml_exer/spring5_xml_exer.iml" filepath="$PROJECT_DIR$/spring5_xml_exer/spring5_xml_exer.iml" />
+    </modules>
+  </component>
+</project>

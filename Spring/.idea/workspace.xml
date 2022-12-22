@@ -1,0 +1,1373 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="itcast_log_management:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9209409b-d129-4dee-88a0-2d87a4ec24a5" name="Default Changelist" comment="spring5">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/itcast_log_management_war.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/itcast_log_management_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__c3p0_c3p0_0_9_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_jsp_jsp_api_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_6_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_4_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_16_16.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_6_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_6_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_0_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_0_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_0_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_5_0_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_0_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_0_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_0_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_0_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_orm_5_0_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_0_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_0_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_0_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_0_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cache/cache.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cache/src/com/hbb/A.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cache/src/com/hbb/B.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cache/src/com/hbb/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/production/Spring5_demo2/bean1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/production/Spring5_demo2/bean2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/production/Spring5_demo2/beanExer.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/production/Spring5_demo2/empBean.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/production/Spring5_demo2/factorybean.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/production/Spring5_demo2/jdbc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/production/Spring5_demo2/ordersbean.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/production/Spring5_demo2/propertiesBean.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/production/spring05_exer02/bean1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/production/spring5_AOP_exer/bean1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/production/spring5_annotation_exer/bean1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/production/spring5_exer/conf/bean1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/production/spring5_exer/conf/beanbook.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/production/spring5_exer/conf/userbean.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/production/spring5_xml_exer/FactoryBean.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/production/spring5_xml_exer/beanUserService.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/production/spring5_xml_exer/beanbook.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/production/spring5_xml_exer/beancollectionType.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring5_AOP/src/com/atguigu/proxy/JDKProxy02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring5_demo1/src/bean5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring5_demo1/src/com/atguigu/spring5/bean/AA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring5_demo1/src/com/atguigu/spring5/bean/BB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring5_demo1/src/com/atguigu/spring5/dao/BookMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring5_demo1/src/com/atguigu/spring5/dao/BookMapperImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring5_demo1/src/com/atguigu/spring5/service/BookService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring5_demo1/src/com/atguigu/spring5/service/BookServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring5_demo1/src/com/atguigu/spring5/testdemo/BookServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring5_xml_exer/spring5_xml_exer.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring" beforeDir="false" afterPath="$PROJECT_DIR$/Spring" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/production/spring5_AOP/META-INF/spring5_AOP.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/production/spring5_AOP/com/atguigu/aopannotation/PersonProxy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/production/spring5_AOP/com/atguigu/aopannotation/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/production/spring5_AOP/com/atguigu/aopannotation/UserProxy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/production/spring5_AOP/com/atguigu/aopxml/Book.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/production/spring5_AOP/com/atguigu/aopxml/BookProxy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/production/spring5_AOP/com/atguigu/proxy/JDKProxy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/production/spring5_AOP/com/atguigu/proxy/UserDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/production/spring5_AOP/com/atguigu/proxy/UserDaoImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/production/spring5_AOP/com/atguigu/proxy/UserDaoProxy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/production/spring5_AOP/com/atguigu/test/TestAop.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/production/spring5_AOP/proxyBean.xml" beforeDir="false" afterPath="$PROJECT_DIR$/production/spring5_AOP/proxyBean.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/production/spring5_annotation/bean1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/production/spring5_annotation/bean1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/production/spring5_annotation/com/atguigu/config/SpringConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/production/spring5_annotation/com/atguigu/dao/UserDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/production/spring5_annotation/com/atguigu/dao/UserDaoImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/production/spring5_annotation/com/atguigu/service/UserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/production/spring5_annotation/com/atguigu/testDemo1/TestSpring5Demo1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/production/spring5_demo1/META-INF/spring5_demo1.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/production/spring5_demo1/bean1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/production/spring5_demo1/bean1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/production/spring5_demo1/bean2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/production/spring5_demo1/bean2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/production/spring5_demo1/com/atguigu/spring5/Orders.class" beforeDir="false" afterPath="$PROJECT_DIR$/production/spring5_demo1/com/atguigu/spring5/Orders.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/production/spring5_demo1/com/atguigu/spring5/bean/Emp.class" beforeDir="false" afterPath="$PROJECT_DIR$/production/spring5_demo1/com/atguigu/spring5/bean/Emp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/production/spring5_demo1/com/atguigu/spring5/testdemo/TestBean.class" beforeDir="false" afterPath="$PROJECT_DIR$/production/spring5_demo1/com/atguigu/spring5/testdemo/TestBean.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/production/spring5_demo1/com/atguigu/spring5/testdemo/TestSpring5.class" beforeDir="false" afterPath="$PROJECT_DIR$/production/spring5_demo1/com/atguigu/spring5/testdemo/TestSpring5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/production/spring5_exer/com/atguigu/Bean/Book.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/production/spring5_exer/com/atguigu/Dao/UserDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/production/spring5_exer/com/atguigu/Dao/UserDaoImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/production/spring5_exer/com/atguigu/service/UserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/production/spring5_exer/com/atguigu/test/ServiceTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/production/spring5_jdbcTemplate/bean1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/production/spring5_jdbcTemplate/bean1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/production/spring5_jdbcTemplate/com/atguigu/dao/BookDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/production/spring5_jdbcTemplate/com/atguigu/dao/BookDaoImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/production/spring5_jdbcTemplate/com/atguigu/entity/Book.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/production/spring5_jdbcTemplate/com/atguigu/service/BookService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/production/spring5_jdbcTemplate/com/atguigu/test/TestBook.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/production/spring5_transaction/bean2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/production/spring5_transaction/bean2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/production/spring5_transaction/com/atguigu/config/TxConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/production/spring5_transaction/com/atguigu/dao/UserDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/production/spring5_transaction/com/atguigu/dao/UserDaoImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/production/spring5_transaction/com/atguigu/service/UserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/production/spring5_transaction/com/atguigu/test/JTest4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/production/spring5_transaction/com/atguigu/test/JTest5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/production/spring5_transaction/com/atguigu/test/TestBook.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/production/spring5_transaction/com/atguigu/test/UserLog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/production/spring_demo2/com/atguigu/Exer/Course1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/production/spring_demo2/com/atguigu/Exer/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/production/spring_demo2/com/atguigu/Exer/TestStudent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/production/spring_demo2/com/atguigu/autowire/Dept.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/production/spring_demo2/com/atguigu/autowire/Emp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/production/spring_demo2/com/atguigu/beanlife/MyBeanPost.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/production/spring_demo2/com/atguigu/beanlife/Orders.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/production/spring_demo2/com/atguigu/collectiontype/Book.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/production/spring_demo2/com/atguigu/collectiontype/Course.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/production/spring_demo2/com/atguigu/collectiontype/Stu.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/production/spring_demo2/com/atguigu/factorybean/MyBean.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/production/spring_demo2/com/atguigu/testdemo/TestSpring5Demo1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring5_AOP/spring5_AOP.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring5_AOP/spring5_AOP.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring5_AOP/src/com/atguigu/aopannotation/UserProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring5_AOP/src/com/atguigu/aopannotation/UserProxy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring5_AOP/src/com/atguigu/aopxml/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring5_AOP/src/com/atguigu/aopxml/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring5_AOP/src/com/atguigu/proxy/JDKProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring5_AOP/src/com/atguigu/proxy/JDKProxy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring5_AOP/src/proxyBean.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring5_AOP/src/proxyBean.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring5_AOP_exer/spring5_AOP_exer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring5_AOP_exer/spring5_AOP_exer.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring5_annotation/spring5_annotation.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring5_annotation/spring5_annotation.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring5_annotation/src/bean1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring5_annotation/src/bean1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring5_annotation/src/com/atguigu/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring5_annotation/src/com/atguigu/dao/UserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring5_annotation/src/com/atguigu/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring5_annotation/src/com/atguigu/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring5_annotation/src/com/atguigu/testDemo1/TestSpring5Demo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring5_annotation/src/com/atguigu/testDemo1/TestSpring5Demo1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring5_demo1/spring5_demo1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring5_demo1/spring5_demo1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring5_demo1/src/bean1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring5_demo1/src/bean1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring5_demo1/src/com/atguigu/spring5/Orders.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring5_demo1/src/com/atguigu/spring5/Orders.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring5_demo1/src/com/atguigu/spring5/bean/Emp.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring5_demo1/src/com/atguigu/spring5/bean/Emp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring5_demo1/src/com/atguigu/spring5/testdemo/TestBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring5_demo1/src/com/atguigu/spring5/testdemo/TestBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring5_demo1/src/com/atguigu/spring5/testdemo/TestSpring5.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring5_demo1/src/com/atguigu/spring5/testdemo/TestSpring5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring5_demo2/Spring5_demo2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring5_demo2/Spring5_demo2.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring5_demo2/src/ordersbean.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring5_demo2/src/ordersbean.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring5_demo2/src/propertiesBean.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring5_demo2/src/propertiesBean.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring5_jdbcTemplate/spring5_jdbcTemplate.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring5_jdbcTemplate/spring5_jdbcTemplate.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring5_jdbcTemplate/src/bean1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring5_jdbcTemplate/src/bean1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring5_jdbcTemplate/src/com/atguigu/dao/BookDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring5_jdbcTemplate/src/com/atguigu/dao/BookDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring5_jdbcTemplate/src/com/atguigu/dao/BookDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring5_jdbcTemplate/src/com/atguigu/dao/BookDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring5_jdbcTemplate/src/com/atguigu/service/BookService.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring5_jdbcTemplate/src/com/atguigu/service/BookService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring5_jdbcTemplate/src/com/atguigu/test/TestBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring5_jdbcTemplate/src/com/atguigu/test/TestBook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring5_transaction/spring5_transaction.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring5_transaction/spring5_transaction.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring5_transaction/src/bean2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring5_transaction/src/bean2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring5_transaction/src/com/atguigu/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring5_transaction/src/com/atguigu/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring5_transaction/src/com/atguigu/test/JTest4.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring5_transaction/src/com/atguigu/test/JTest4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring5_transaction/src/com/atguigu/test/UserLog.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring5_transaction/src/com/atguigu/test/UserLog.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+        <option value="HTML File" />
+        <option value="spring-beans.schema" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Tomca</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/spring5_demo2/src/com/atguigu/beanlife/Orders.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="jar://$USER_HOME$/.ideaLibSources/spring-context-5.2.6.RELEASE-sources.jar!/org/springframework/context/support/AbstractXmlApplicationContext.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/spring5_demo2/src/com/atguigu/testdemo/TestSpring5Demo1.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/spring5_AOP/src/proxyBean.xml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="jar://$USER_HOME$/.ideaLibSources/spring-context-5.2.6.RELEASE-sources.jar!/org/springframework/context/support/AbstractRefreshableConfigApplicationContext.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="jar://$PROJECT_DIR$/../../../JavaApp/maven/repository/org/apache/tomcat/embed/tomcat-embed-core/9.0.54/tomcat-embed-core-9.0.54-sources.jar!/javax/servlet/ServletRequest.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="jar://$USER_HOME$/.ideaLibSources/spring-context-5.2.6.RELEASE-sources.jar!/org/springframework/context/support/AbstractRefreshableApplicationContext.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/spring5_AOP/src/bean1.xml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="jar://$USER_HOME$/.ideaLibSources/spring-context-5.2.6.RELEASE-sources.jar!/org/springframework/context/support/ClassPathXmlApplicationContext.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/spring5_demo2/src/propertiesBean.xml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/spring5_demo2/src/ordersbean.xml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="jar://$USER_HOME$/.ideaLibSources/spring-beans-5.2.6.RELEASE-sources.jar!/org/springframework/beans/factory/BeanFactory.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Spring" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/SSM" />
+        <option value="$PROJECT_DIR$/spring05_exer02/spring05_exer02.iml" />
+        <option value="$PROJECT_DIR$/spring5_demo1/src/bean2.xml" />
+        <option value="$PROJECT_DIR$/spring05_exer02/src/com/atguigu/bean/UserDao.java" />
+        <option value="$PROJECT_DIR$/spring05_exer02/src/com/atguigu/bean/UserBean.java" />
+        <option value="$PROJECT_DIR$/spring05_exer02/src/com/atguigu/test/TestDemo1.java" />
+        <option value="$PROJECT_DIR$/spring05_exer02/src/bean1.xml" />
+        <option value="$PROJECT_DIR$/spring5_demo2/src/com/atguigu/autowire/Emp.java" />
+        <option value="$PROJECT_DIR$/spring5_demo2/src/empBean.xml" />
+        <option value="$PROJECT_DIR$/spring5_demo2/src/bean2.xml" />
+        <option value="$PROJECT_DIR$/spring5_demo2/src/com/atguigu/beanlife/MyBeanPost.java" />
+        <option value="$PROJECT_DIR$/spring5_AOP/src/com/atguigu/proxy/UserDaoImpl.java" />
+        <option value="$PROJECT_DIR$/spring5_AOP/src/com/atguigu/proxy/Proxy.java" />
+        <option value="$PROJECT_DIR$/spring5_AOP/src/com/atguigu/test/TestAop.java" />
+        <option value="$PROJECT_DIR$/spring5_jdbcTemplate/src/com/atguigu/dao/BookDaoImpl.java" />
+        <option value="$PROJECT_DIR$/spring5_jdbcTemplate/src/com/atguigu/test/TestBook.java" />
+        <option value="$PROJECT_DIR$/spring5_jdbcTemplate/src/bean1.xml" />
+        <option value="$PROJECT_DIR$/spring5_transaction/src/com/atguigu/test/JTest4.java" />
+        <option value="$PROJECT_DIR$/spring5_demo1/src/com/atguigu/spring5/Orders.java" />
+        <option value="$PROJECT_DIR$/spring5_demo1/src/com/atguigu/spring5/testdemo/TestSpring5.java" />
+        <option value="$PROJECT_DIR$/spring5_demo1/src/com/atguigu/spring5/bean/Dept.java" />
+        <option value="$PROJECT_DIR$/spring5_demo1/src/com/atguigu/spring5/bean/Emp.java" />
+        <option value="$PROJECT_DIR$/spring5_demo1/src/com/atguigu/spring5/bean/AA.java" />
+        <option value="$PROJECT_DIR$/spring5_demo1/src/com/atguigu/spring5/bean/BB.java" />
+        <option value="$PROJECT_DIR$/spring5_annotation/src/com/atguigu/testDemo1/TestSpring5Demo1.java" />
+        <option value="$PROJECT_DIR$/spring5_annotation/src/bean1.xml" />
+        <option value="$PROJECT_DIR$/spring5_annotation/src/com/atguigu/config/SpringConfig.java" />
+        <option value="$PROJECT_DIR$/spring5_demo2/src/beanExer.xml" />
+        <option value="$PROJECT_DIR$/spring5_AOP/src/com/atguigu/aopannotation/PersonProxy.java" />
+        <option value="$PROJECT_DIR$/../../../文档/Desktop/java资料/mysql高级/代码/基本工程/itcast_log_management/src/main/resources/springmvc.xml" />
+        <option value="$PROJECT_DIR$/../../../文档/Desktop/java资料/mysql高级/代码/基本工程/itcast_log_management/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/../../../文档/Desktop/java资料/mysql高级/代码/基本工程/itcast_log_management/pom.xml" />
+        <option value="$PROJECT_DIR$/../../../文档/Desktop/java资料/mysql高级/代码/基本工程/itcast_log_management/src/main/webapp/log.html" />
+        <option value="$PROJECT_DIR$/../../../文档/Desktop/java资料/mysql高级/代码/基本工程/itcast_log_management/src/main/webapp/log-datalist.html" />
+        <option value="$PROJECT_DIR$/../../../文档/Desktop/java资料/mysql高级/代码/基本工程/itcast_log_management/src/main/webapp/index.jsp" />
+        <option value="$PROJECT_DIR$/spring5_demo1/src/bean1.xml" />
+        <option value="$PROJECT_DIR$/spring5_demo2/src/propertiesBean.xml" />
+        <option value="$PROJECT_DIR$/spring5_jdbcTemplate/src/com/atguigu/service/BookService.java" />
+        <option value="$PROJECT_DIR$/spring5_AOP/src/proxyBean.xml" />
+        <option value="$PROJECT_DIR$/spring5_demo1/src/com/atguigu/spring5/testdemo/TestBean.java" />
+        <option value="$PROJECT_DIR$/spring5_AOP/src/com/atguigu/proxy/JDKProxy.java" />
+        <option value="$PROJECT_DIR$/spring5_AOP/src/com/atguigu/proxy/JDKProxy02.java" />
+        <option value="$PROJECT_DIR$/spring5_annotation/src/com/atguigu/service/UserService.java" />
+        <option value="$PROJECT_DIR$/spring5_AOP/src/com/atguigu/aopxml/Book.java" />
+        <option value="$PROJECT_DIR$/spring5_transaction/src/com/atguigu/service/UserService.java" />
+        <option value="$PROJECT_DIR$/spring5_transaction/src/com/atguigu/test/UserLog.java" />
+        <option value="$PROJECT_DIR$/cache/src/com/hbb/B.java" />
+        <option value="$PROJECT_DIR$/Spring" />
+        <option value="$PROJECT_DIR$/cache/src/com/hbb/A.java" />
+        <option value="$PROJECT_DIR$/spring5_transaction/src/bean2.xml" />
+        <option value="$PROJECT_DIR$/spring5_AOP/src/com/atguigu/aopannotation/UserProxy.java" />
+      </list>
+    </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\java_install\maven\apache-maven-3.6.0\repository" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../../java_install/maven/apache-maven-3.6.0" />
+        <option name="userSettingsFile" value="D:\java_install\maven\apache-maven-3.6.0\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="itcast_log_management" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="itcast_log_management" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="itcast_log_management" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="133" />
+    <option name="y" value="18" />
+    <option name="width" value="793" />
+    <option name="height" value="588" />
+  </component>
+  <component name="ProjectId" id="2DyB1lbPhRr2jEvWQs5QW3IZmwh" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Spring" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Spring" type="462c0819:PsiDirectoryNode" />
+              <item name="spring5_AOP" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Spring" type="462c0819:PsiDirectoryNode" />
+              <item name="spring5_AOP" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Spring" type="462c0819:PsiDirectoryNode" />
+              <item name="spring5_AOP" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Spring" type="462c0819:PsiDirectoryNode" />
+              <item name="spring5_AOP" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="atguigu" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Spring" type="462c0819:PsiDirectoryNode" />
+              <item name="spring5_AOP" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="atguigu" type="462c0819:PsiDirectoryNode" />
+              <item name="aopannotation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Spring" type="462c0819:PsiDirectoryNode" />
+              <item name="spring5_AOP" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="atguigu" type="462c0819:PsiDirectoryNode" />
+              <item name="aopxml" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Spring" type="462c0819:PsiDirectoryNode" />
+              <item name="spring5_AOP" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="atguigu" type="462c0819:PsiDirectoryNode" />
+              <item name="proxy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Spring" type="462c0819:PsiDirectoryNode" />
+              <item name="spring5_AOP" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="atguigu" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Spring" type="462c0819:PsiDirectoryNode" />
+              <item name="spring5_demo1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Spring" type="462c0819:PsiDirectoryNode" />
+              <item name="spring5_transaction" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Spring" type="462c0819:PsiDirectoryNode" />
+              <item name="spring5_transaction" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1653031535204" />
+    <property name="jdk.selected.JAVA_MODULE" value="15" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../boot&amp;cloud" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="SDK" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2972028" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.notifications" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="ReaderModeSettings">
+    <option name="enabled" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.atguigu.spring5.testdemo" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\javaWork\Spring\cache\src" />
+      <recent name="D:\javaWork\Spring\spring05_exer02" />
+      <recent name="D:\javaWork\Spring\spring5_AOP_exer\src" />
+      <recent name="D:\javaWork\Spring\spring5_annotation_exer\src" />
+      <recent name="D:\javaWork\Spring\spring5_xml_exer\src" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.atguigu.bean" />
+      <recent name="com.atguigu.test" />
+      <recent name="com.atguigu.entity" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\javaWork\Spring\spring5_exer\src\conf" />
+      <recent name="D:\javaWork\Spring\spring5_jdbcTemplate\lib" />
+      <recent name="D:\javaWork\Spring\spring_demo2\src" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.BookServiceTest.test01">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BookServiceTest.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring5_demo1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.spring5.testdemo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.atguigu.spring5.testdemo" />
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.spring5.testdemo.BookServiceTest" />
+      <option name="METHOD_NAME" value="test01" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestBean.testAdd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring5_demo1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.spring5.testdemo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.atguigu.spring5.testdemo" />
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.spring5.testdemo.TestBean" />
+      <option name="METHOD_NAME" value="testAdd" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestBean.testBookService" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring5_demo1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.spring5.testdemo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.atguigu.spring5.testdemo" />
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.spring5.testdemo.TestBean" />
+      <option name="METHOD_NAME" value="testBookService" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestSpring5Demo1.testOrderBean" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Spring5_demo2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.testdemo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.atguigu.testdemo" />
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.testdemo.TestSpring5Demo1" />
+      <option name="METHOD_NAME" value="testOrderBean" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestSpring5Demo1.testService" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring5_annotation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.testDemo1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.atguigu.testDemo1" />
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.testDemo1.TestSpring5Demo1" />
+      <option name="METHOD_NAME" value="testService" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="itcast_log_management" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.30" ALTERNATIVE_JRE_ENABLED="false" ALTERNATIVE_JRE_PATH="15.0.2">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="itcast_log_management:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_Spring" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="65109" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="itcast_log_management:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.TestSpring5Demo1.testService" />
+      <item itemvalue="JUnit.TestSpring5Demo1.testOrderBean" />
+      <item itemvalue="Tomcat Server.itcast_log_management" />
+      <item itemvalue="JUnit.BookServiceTest.test01" />
+      <item itemvalue="JUnit.TestBean.testAdd" />
+      <item itemvalue="JUnit.TestBean.testBookService" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.BookServiceTest.test01" />
+        <item itemvalue="JUnit.TestBean.testBookService" />
+        <item itemvalue="JUnit.TestBean.testAdd" />
+        <item itemvalue="JUnit.TestSpring5Demo1.testService" />
+        <item itemvalue="JUnit.TestSpring5Demo1.testOrderBean" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="StructuralSearchPlugin">
+    <searchConfiguration name="user defined" created="1647153839387" text="切入表达式" recursive="true" caseInsensitive="true" type="JAVA" scope_type="PROJECT" scope_descriptor="" history="1">
+      <constraint name="__context__" within="" contains="" />
+    </searchConfiguration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9209409b-d129-4dee-88a0-2d87a4ec24a5" name="Default Changelist" comment="" />
+      <created>1628848813400</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1628848813400</updated>
+      <workItem from="1628848814615" duration="13313000" />
+      <workItem from="1628904207439" duration="26654000" />
+      <workItem from="1628940416293" duration="4860000" />
+      <workItem from="1628992640835" duration="9284000" />
+      <workItem from="1629092625132" duration="9969000" />
+      <workItem from="1629164051234" duration="3245000" />
+      <workItem from="1629250062586" duration="716000" />
+      <workItem from="1629421226590" duration="15279000" />
+      <workItem from="1629544631262" duration="26000" />
+      <workItem from="1630237384946" duration="2975000" />
+      <workItem from="1630299776644" duration="26993000" />
+      <workItem from="1630328027707" duration="2935000" />
+      <workItem from="1630376839420" duration="2921000" />
+      <workItem from="1630381503428" duration="4907000" />
+      <workItem from="1630404250858" duration="612000" />
+      <workItem from="1631162348114" duration="625000" />
+      <workItem from="1631177094424" duration="2926000" />
+      <workItem from="1631341311821" duration="4554000" />
+      <workItem from="1631403289431" duration="5528000" />
+      <workItem from="1632620822835" duration="33959000" />
+      <workItem from="1633049765531" duration="5313000" />
+      <workItem from="1633132198425" duration="1570000" />
+      <workItem from="1633268730062" duration="11506000" />
+      <workItem from="1634128918698" duration="2943000" />
+      <workItem from="1634171759500" duration="1898000" />
+      <workItem from="1634257857296" duration="67000" />
+      <workItem from="1635237626797" duration="5789000" />
+      <workItem from="1635298520493" duration="51000" />
+      <workItem from="1635305897772" duration="270000" />
+      <workItem from="1635494323325" duration="747000" />
+      <workItem from="1635997284012" duration="283000" />
+      <workItem from="1636019579604" duration="151000" />
+      <workItem from="1636512451466" duration="9338000" />
+      <workItem from="1636555223234" duration="1947000" />
+      <workItem from="1636604248684" duration="2174000" />
+      <workItem from="1636880302942" duration="17000" />
+      <workItem from="1637328283569" duration="11503000" />
+      <workItem from="1637386664262" duration="1235000" />
+      <workItem from="1637418556863" duration="2058000" />
+      <workItem from="1637423164316" duration="338000" />
+      <workItem from="1637423539344" duration="1231000" />
+      <workItem from="1637463159436" duration="3064000" />
+      <workItem from="1637504180451" duration="490000" />
+      <workItem from="1637546431030" duration="1220000" />
+      <workItem from="1637643685461" duration="30000" />
+      <workItem from="1638513172951" duration="2268000" />
+      <workItem from="1639644784142" duration="428000" />
+      <workItem from="1640522747797" duration="3552000" />
+      <workItem from="1640661395548" duration="4684000" />
+      <workItem from="1641094537767" duration="2281000" />
+      <workItem from="1641174540063" duration="855000" />
+      <workItem from="1641213412142" duration="5686000" />
+      <workItem from="1641479684624" duration="2272000" />
+      <workItem from="1641621500598" duration="3959000" />
+      <workItem from="1642001774803" duration="671000" />
+      <workItem from="1643012537947" duration="1207000" />
+      <workItem from="1644246949285" duration="13404000" />
+      <workItem from="1644467929308" duration="881000" />
+      <workItem from="1644477014883" duration="598000" />
+      <workItem from="1644486857242" duration="1070000" />
+      <workItem from="1644502612483" duration="598000" />
+      <workItem from="1644542308699" duration="3040000" />
+      <workItem from="1644650743611" duration="1757000" />
+      <workItem from="1646107575295" duration="597000" />
+      <workItem from="1646132685369" duration="1139000" />
+      <workItem from="1646283033479" duration="2547000" />
+      <workItem from="1646473320248" duration="3187000" />
+      <workItem from="1646645569251" duration="829000" />
+      <workItem from="1646803079681" duration="1221000" />
+      <workItem from="1647153498840" duration="3790000" />
+      <workItem from="1647839985617" duration="6502000" />
+      <workItem from="1648545385595" duration="648000" />
+      <workItem from="1649398613869" duration="671000" />
+      <workItem from="1650261667246" duration="726000" />
+      <workItem from="1651116703752" duration="4901000" />
+      <workItem from="1651203182586" duration="2713000" />
+      <workItem from="1651802172755" duration="1798000" />
+      <workItem from="1652074023929" duration="1321000" />
+      <workItem from="1652167279038" duration="1566000" />
+      <workItem from="1652335437396" duration="3715000" />
+      <workItem from="1652533394023" duration="78000" />
+      <workItem from="1652678387226" duration="1810000" />
+      <workItem from="1653012688023" duration="2106000" />
+      <workItem from="1661661233381" duration="8276000" />
+      <workItem from="1662796392548" duration="7581000" />
+      <workItem from="1663070348548" duration="10140000" />
+      <workItem from="1663160163872" duration="3363000" />
+      <workItem from="1663330089841" duration="3744000" />
+      <workItem from="1663677674422" duration="4739000" />
+      <workItem from="1663764579417" duration="6207000" />
+      <workItem from="1663851200331" duration="5343000" />
+      <workItem from="1665241345063" duration="2550000" />
+    </task>
+    <task id="LOCAL-00001" summary="spring5">
+      <created>1632657458240</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1632657458240</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="TestSpring5Demo1_testService - 2021.11.10 at 13h 05m 31s.xml">
+      <configuration name="TestSpring5Demo1.testService" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestSpring5Demo1_testService - 2021.11.10 at 13h 06m 29s.xml">
+      <configuration name="TestSpring5Demo1.testService" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestSpring5Demo1_testService - 2021.11.10 at 13h 07m 48s.xml">
+      <configuration name="TestSpring5Demo1.testService" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestSpring5Demo1_testService - 2021.11.10 at 13h 08m 15s.xml">
+      <configuration name="TestSpring5Demo1.testService" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestSpring5Demo1_testService - 2021.11.10 at 13h 54m 54s.xml">
+      <configuration name="TestSpring5Demo1.testService" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestAop_testAopAnno - 2021.11.20 at 11h 39m 49s.xml">
+      <configuration name="TestAop.testAopAnno" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestAop_testAopXml - 2022.01.10 at 13h 19m 06s.xml">
+      <configuration name="TestAop.testAopXml" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestAop_testAopXml - 2022.01.10 at 13h 21m 53s.xml">
+      <configuration name="TestAop.testAopXml" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestSpring5Demo1_testMyBean - 2022.03.22 at 18h 07m 20s.xml">
+      <configuration name="TestSpring5Demo1.testMyBean" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestSpring5Demo1_testMyBean - 2022.04.28 at 12h 09m 28s.xml">
+      <configuration name="TestSpring5Demo1.testMyBean" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="328351000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21648793" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Application Servers" order="0" weight="0.32991204" />
+      <window_info anchor="bottom" id="Java Enterprise" order="1" />
+      <window_info anchor="bottom" id="Message" order="2" />
+      <window_info anchor="bottom" id="Find" order="3" weight="0.32998565" />
+      <window_info anchor="bottom" id="Run" order="4" weight="0.04398827" />
+      <window_info anchor="bottom" id="Debug" order="5" weight="0.34017596" />
+      <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
+      <window_info anchor="bottom" id="Spring" order="8" weight="0.32844576" />
+      <window_info anchor="bottom" id="TODO" order="9" weight="0.32844576" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.329429" />
+      <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Sequence" order="12" />
+      <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" weight="0.32991204" />
+      <window_info anchor="bottom" id="Messages" order="14" weight="0.102639295" />
+      <window_info anchor="bottom" id="Database Changes" order="15" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="16" weight="0.32991204" />
+      <window_info anchor="bottom" id="GitHub Pull Requests" order="17" weight="0.32991204" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.22252011" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.39544237" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" weight="0.3297587" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Codota" order="9" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24664879" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Application Servers" order="0" weight="0.32991204" />
+      <window_info anchor="bottom" id="Java Enterprise" order="1" />
+      <window_info anchor="bottom" id="Message" order="2" />
+      <window_info anchor="bottom" id="Find" order="3" weight="0.32998565" />
+      <window_info anchor="bottom" id="Run" order="4" weight="0.06231003" />
+      <window_info anchor="bottom" id="Debug" order="5" weight="0.34017596" />
+      <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
+      <window_info anchor="bottom" id="Spring" order="8" weight="0.32844576" />
+      <window_info anchor="bottom" id="TODO" order="9" weight="0.32844576" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.329429" />
+      <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Sequence" order="12" />
+      <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" weight="0.32991204" />
+      <window_info anchor="bottom" id="Messages" order="14" weight="0.41348973" />
+      <window_info anchor="bottom" id="Database Changes" order="15" />
+      <window_info anchor="bottom" id="Version Control" order="16" weight="0.32991204" />
+      <window_info anchor="bottom" id="GitHub Pull Requests" order="17" weight="0.32991204" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.22252011" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.39544237" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" weight="0.3297587" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="spring5" />
+    <option name="LAST_COMMIT_MESSAGE" value="spring5" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/spring5_demo1/src/com/atguigu/spring5/testdemo/TestBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring5_exer/src/conf/bean1.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-720" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring5_exer/src/conf/beanbook.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring5_exer/src/conf/userbean.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-282" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring5_demo1/src/bean4.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-162" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring5_demo1/src/bean3.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring5_jdbcTemplate/src/bean1.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring5_AOP/src/com/atguigu/test/TestAop.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-342">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring5_demo1/src/bean1.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-480" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring5_demo1/src/bean2.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring5_demo2/src/com/atguigu/autowire/Dept.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring5_demo2/src/com/atguigu/autowire/Emp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring5_transaction/src/com/atguigu/test/UserLog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="62">
+          <caret line="13" column="21" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring5_transaction/src/com/atguigu/test/TestBook.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring5_transaction/src/com/atguigu/test/JTest5.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring5_transaction/src/com/atguigu/test/JTest4.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring5_transaction/src/com/atguigu/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="26" column="15" lean-forward="true" selection-start-line="26" selection-start-column="15" selection-end-line="26" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring5_transaction/src/com/atguigu/dao/UserDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring5_transaction/src/com/atguigu/config/TxConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring5_demo2/src/propertiesBean.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="18" column="11" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring5_demo2/src/ordersbean.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring5_demo2/src/com/atguigu/collectiontype/Course.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="e#234#235#0" expanded="true" />
+            <element signature="e#268#269#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring5_jdbcTemplate/src/com/atguigu/service/BookService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring5_jdbcTemplate/src/com/atguigu/test/TestBook.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring5_jdbcTemplate/src/com/atguigu/dao/BookDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring5_jdbcTemplate/src/com/atguigu/dao/BookDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/spring5_annotation/src/lib/spring-beans-5.2.6.RELEASE.jar!/org/springframework/beans/factory/FactoryBean.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring5_demo2/src/beanExer.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-240" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring5_demo2/src/empBean.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring5_demo2/src/com/atguigu/factorybean/MyBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+          <folding>
+            <element signature="e#526#527#0" expanded="true" />
+            <element signature="e#553#554#0" expanded="true" />
+            <element signature="e#603#604#0" expanded="true" />
+            <element signature="e#631#632#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring5_demo2/src/jdbc.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring5_demo2/src/factorybean.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring5_demo2/src/com/atguigu/testdemo/TestSpring5Demo1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1080">
+          <caret line="42" column="52" selection-start-line="42" selection-start-column="52" selection-end-line="42" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring5_demo2/src/bean1.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1530">
+          <caret line="51" column="28" selection-start-line="51" selection-start-column="28" selection-end-line="51" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring5_demo2/src/bean2.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring5_demo1/src/com/atguigu/spring5/Book.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring5_demo1/src/com/atguigu/spring5/Orders.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring5_demo1/src/com/atguigu/spring5/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring5_transaction/src/log4j2.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cache/src/com/hbb/A.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cache/src/com/hbb/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cache/src/com/hbb/B.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="11" column="3" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring5_AOP/src/bean1.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring5_AOP/src/proxyBean.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-408" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring5_AOP/src/com/atguigu/aopannotation/ConfigAop.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="332">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring5_AOP/src/com/atguigu/aopannotation/PersonProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring5_AOP/src/com/atguigu/aopannotation/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring5_AOP/src/com/atguigu/aopannotation/UserProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="17" column="12" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring5_transaction/src/bean1.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="572">
+          <caret line="30" column="16" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring5_transaction/src/bean2.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-58">
+          <caret line="26" column="20" lean-forward="true" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spring">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="205" column="44" lean-forward="true" selection-start-line="205" selection-start-column="44" selection-end-line="205" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>itcast_log_management:war exploded</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2972028" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2972028" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>15</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2972028" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>itcast_log_management</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2972028" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>15</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>commons-logging-1.1.1</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2972028" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2972028" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

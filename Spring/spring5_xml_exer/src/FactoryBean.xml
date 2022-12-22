@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="mybean" class="com.atguigu.factoryBean.MyBean">
+        <property name="book">
+            <bean class="com.atguigu.bean.Book">
+                <property name="username" value="刘德华"/>
+                <property name="userId" value="1"/>
+            </bean>
+        </property>
+
+    </bean>
+</beans>

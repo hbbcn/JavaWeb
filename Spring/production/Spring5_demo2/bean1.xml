@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+    <!-- 集合类型属性的注入 -->
+   <bean id="stu" class="com.atguigu.collectiontype.Stu">
+       <!-- 数组类型的属性注入-->
+       <property name="courses">
+           <array>
+               <value>java课程</value>
+               <value>数据库课程</value>
+           </array>
+       </property>
+
+       <!-- list类型属性注入-->
+       <property name="list">
+           <list>
+               <value>张三</value>
+               <value>小三</value>
+           </list>
+       </property>
+
+       <property name="maps">
+           <map>
+               <entry key="JAVA" value="java"></entry>
+               <entry key="PHP" value="php"></entry>
+           </map>
+       </property>
+
+       <property name="set">
+           <set>
+               <value>MySQL</value>
+               <value>Redis</value>
+           </set>
+       </property>
+
+       <property name="courseList">
+            <list>
+                <ref bean="course"></ref>
+
+                <ref bean="course1"></ref>
+            </list>
+       </property>
+
+   </bean>
+
+    <bean id="course" class="com.atguigu.collectiontype.Course">
+        <property name="cname" value="英语"></property>
+    </bean>
+    <bean id="course1" class="com.atguigu.collectiontype.Course">
+        <property name="cname" value="Spring框架"></property>
+    </bean>
+
+</beans>
