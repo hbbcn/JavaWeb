@@ -19,6 +19,26 @@ public class Employee{
     private String email;
     private Department dept;
 
+    public Employee(Integer id, String name, String gender, String email, Department dept) {
+        this.id = id;
+        this.name = name;
+        this.gender = gender;
+        this.email = email;
+        this.dept = dept;
+    }
+
+
+    @Override
+    public String toString() {
+        return "Employee{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", gender='" + gender + '\'' +
+                ", email='" + email + '\'' +
+                ", dept=" + dept +
+                '}';
+    }
+
     public Employee() {
     }
 
@@ -69,14 +89,5 @@ public class Employee{
         this.email = email;
     }
 
-    @Override
-    public String toString() {
-        return "Employee{" +
-                "id=" + id +
-                ", name='" + name + '\'' +
-                ", gender='" + gender + '\'' +
-                ", email='" + email + '\'' +
-                '}';
-    }
 }
 

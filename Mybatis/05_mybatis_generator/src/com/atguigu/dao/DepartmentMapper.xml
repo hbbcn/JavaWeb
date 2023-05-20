@@ -236,4 +236,61 @@
     set dept_name = #{deptName,jdbcType=VARCHAR}
     where id = #{id,jdbcType=INTEGER}
   </update>
+
+  <!-- 表字段 -->
+  <sql id="Columns">
+    t.id
+    , t.name
+        , t.age
+  </sql>
+
+  <!-- 批量插入不为NULL的字段 -->
+  <insert id="addUserList" parameterType="com.syn.model.User"
+          keyProperty="id" keyColumn="id" useGeneratedKeys="true">
+    <foreach item="item" index="index" collection="list" separator=";">
+      INSERT INTO user
+      <trim prefix="(" suffix=")" suffixOverrides=",">
+
+        <if test="item.id != null">
+          id,
+        </if>
+        <if test="item.name != null">
+          name,
+        </if>
+        <if test="item.age != null">
+          age,
+        </if>
+      </trim>
+      <trim prefix="VALUES (" suffix=")" suffixOverrides=",">
+        <if test="item.id != null" >
+          #{item.id},
+        </if>
+        <if test="item.name != null" >
+          #{item.name},
+        </if>
+        <if test="item.age != null" >
+          #{item.age},
+        </if>
+      </trim>
+    </foreach>
+  </insert>
+
+
+
+  <!-- 批量更新不为NULL的字段 -->
+  <update id="updateUserList" parameterType="com.syn.model.User">
+    <foreach item="item" index="index" collection="list" separator=";">
+      UPDATE user
+      <set>
+        <if test="item.name != null" >
+          name=#{item.name},
+        </if>
+        <if test="item.age != null" >
+          age=#{item.age},
+        </if>
+      </set>
+      WHERE id = #{item.id}
+    </foreach>
+  </update>
+
 </mapper>

@@ -1,3 +1,4 @@
+/*
 package com.atguigu.springcloud.filter;
 
 import lombok.extern.slf4j.Slf4j;
@@ -33,3 +34,4 @@ public class MyLogGateWayFilter implements GlobalFilter, Ordered {
         return 0;
     }
 }
+*/

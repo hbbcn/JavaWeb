@@ -15,6 +15,14 @@ public class Department {
     private String departmentName;
     private List<Employee> emps;
 
+    @Override
+    public String toString() {
+        return "Department{" +
+                "id=" + id +
+                ", departmentName='" + departmentName + '\'' +
+                ", emps=" + emps +
+                '}';
+    }
 
     public List<Employee> getEmps() {
         return emps;
@@ -40,11 +48,4 @@ public class Department {
         this.departmentName = departmentName;
     }
 
-    @Override
-    public String toString() {
-        return "Department{" +
-                "id=" + id +
-                ", departmentName='" + departmentName + '\'' +
-                '}';
-    }
 }

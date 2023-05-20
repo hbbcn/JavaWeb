@@ -215,7 +215,7 @@ public class MybatisTest {
         Employee employee = mapper.getEmpByMap(map);
 */
 //        Employee employee = mapper.getEmpByIdAndName(1, "jerry");
-            List<Employee> employees = mapper.getEmpByNameLike("%e%");
+            List<Employee> employees = mapper.getEmpByNameLike("%70e9cef%");
             for (Employee employee : employees) {
                 System.out.println(employee);
             }
@@ -225,11 +225,12 @@ public class MybatisTest {
                 System.out.println(employeeMap);
             }
 
-            Map<Integer, Employee> empMap = mapper.getEmpByNameLikeResultMap("%e%");
+            System.out.println("!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!");
+        /*    Map<Integer, Employee> empMap = mapper.getEmpByNameLikeResultMap("%eac%");
             for (Map.Entry emp : empMap.entrySet()) {
                 System.out.println(emp);
 
-            }
+            }*/
         } catch (Exception e) {
             e.printStackTrace();
         } finally {
@@ -292,9 +293,9 @@ public class MybatisTest {
         System.out.println(deptByIdPlus.getEmps());*/
 
 
-            Department deptByIdStep = mapper.getDeptByIdStep(1);
+            Department deptByIdStep = mapper.getDeptByIdStep(2);
             System.out.println(deptByIdStep.getDepartmentName());
-            System.out.println(deptByIdStep.getEmps());
+//            System.out.println(deptByIdStep.getEmps());
         } catch (Exception e) {
             e.printStackTrace();
         } finally {

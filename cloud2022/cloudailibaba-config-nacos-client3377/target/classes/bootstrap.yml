@@ -4,7 +4,7 @@ server:
 
 spring:
   application:
-    name: nacos-config-client
+    name: nacos-config-develop
   cloud:
     nacos:
       discovery:
@@ -13,7 +13,7 @@ spring:
         server-addr: localhost:8848 #Nacos作为配置中心地址
         file-extension: yaml #指定yaml格式的配置
         group: DEFAULT_GROUP
-        namespace: cd0d73fb-96f4-455d-bc8b-d34b53e62a61
+#        namespace: cd0d73fb-96f4-455d-bc8b-d34b53e62a61
 
 #${spring.application.name}-${spring.profile.active}.${spring.cloud.nacos.config.file-extension}
 #nacos-config-client-dev.yaml

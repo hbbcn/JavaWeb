@@ -252,13 +252,12 @@ public class MybatisTest{
 //            Employee empById = mapper.getEmpById(1);
 //            System.out.println(empById);
             //多表查询
-//            Employee empAndDept = mapper.getEmpAndDept(1);
-//            System.out.println(empAndDept);
+            Employee empAndDept = mapper.getEmpAndDept(1);
+            System.out.println(empAndDept);
 //            System.out.println(empAndDept.getDept());
-            //分步查询
-            Employee employee = mapper.getEmpByIdStep(5);
-            System.out.println(employee.getName());
-            System.out.println(employee.getDept());
+            //分步查询,根据用户id查询部门信息
+//            Employee employee = mapper.getEmpByIdStep(5);
+//            System.out.println(employee);
 
         } catch (Exception e) {
             e.printStackTrace();
@@ -272,6 +271,7 @@ public class MybatisTest{
         SqlSessionFactory sqlSessionFactory = getSqlSessionFactory();
         SqlSession sqlSession = sqlSessionFactory.openSession();
         DepartmentMapper mapper = sqlSession.getMapper(DepartmentMapper.class);
+        //通过部门id查询部门信息
         Department deptById = mapper.getDeptById(1);
         System.out.println(deptById);
     }
@@ -284,14 +284,14 @@ public class MybatisTest{
         //通过1号部门查询所有员工信息
         DepartmentMapper mapper = sqlSession.getMapper(DepartmentMapper.class);
 
-       /* Department deptByIdPlus = mapper.getDeptByIdPlus(1);
+        Department deptByIdPlus = mapper.getDeptByIdPlus(1);
         System.out.println(deptByIdPlus);
-        System.out.println(deptByIdPlus.getEmps());*/
+//        System.out.println(deptByIdPlus.getEmps());
 
 
-        Department deptByIdStep = mapper.getDeptByIdStep(1);
-        System.out.println(deptByIdStep.getDepartmentName());
-        System.out.println(deptByIdStep.getEmps());
+//        Department deptByIdStep = mapper.getDeptByIdStep(1);
+/*        System.out.println(deptByIdStep.getDepartmentName());
+        System.out.println(deptByIdStep.getEmps());*/
 
 
     }

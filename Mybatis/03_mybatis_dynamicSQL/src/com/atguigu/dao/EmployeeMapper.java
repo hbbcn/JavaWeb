@@ -63,6 +63,7 @@ public interface EmployeeMapper {
     @MapKey("name")
     public Map<Integer,Employee> getEmpByNameLikeResultMap(String name);
     //返回的一条记录的map:key就是列名，值就是对应的值
+    @MapKey("gender")
     public Map<String,Object> getEmpByIdResultMap(Integer id);
 
     public List<Employee> getEmpByNameLike(String name);

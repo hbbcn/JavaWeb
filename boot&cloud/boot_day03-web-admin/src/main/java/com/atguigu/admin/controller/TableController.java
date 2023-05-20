@@ -32,13 +32,13 @@ public class TableController {
      * @param a 不带请求参数或者参数类型不敌 400：bad request 一般都是浏览器的参数没有正确传递
      * @return
      */
-    @GetMapping("/basic_table")
+    @GetMapping("basic_table")
     public String basic_table() {
 
         return "table/basic_table";
     }
 
-    @GetMapping("/dynamic_table")
+    @GetMapping("dynamic_table")
     public String dynamic_table(@RequestParam(value = "pn",defaultValue = "1") Integer pn, Model model) {
         //表格内容的遍历
         //response.sendError
@@ -69,7 +69,7 @@ public class TableController {
         return "table/dynamic_table";
     }
 
-    @GetMapping("/user/delete/{id}")
+    @GetMapping("user/delete/{id}")
     public String deleteUser(@PathVariable("id") Long id,
                              @RequestParam(value = "pn",defaultValue = "1") Integer pn,
                              RedirectAttributes ra){
@@ -80,14 +80,14 @@ public class TableController {
         return "redirect:/dynamic_table";
     }
 
-    @GetMapping("/responsive_table")
+    @GetMapping("responsive_table")
     public String responsive_table() {
 
         return "table/responsive_table";
 
     }
 
-    @GetMapping("/editable_table")
+    @GetMapping("editable_table")
     public String editable_table() {
         return "table/editable_table";
     }

@@ -1,5 +1,6 @@
 package com.atguigu.controller;
 
+import com.atguigu.bean.AA;
 import com.atguigu.bean.User;
 import org.springframework.http.RequestEntity;
 import org.springframework.stereotype.Controller;
@@ -21,9 +22,10 @@ import java.io.IOException;
 public class HttpController{
 
     @RequestMapping(value = "/testRequestBody")
-    public String testRequestBody(@RequestBody String requestBody){
+    public String testRequestBody(@RequestBody  String requestBody){
 //        int i = 10/0;
         System.out.println("requestBody:" + requestBody);
+
         return "success";
     }
 

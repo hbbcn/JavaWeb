@@ -74,7 +74,6 @@
         mysql支持自增主键，自增主键值的获取，mybatis也是利用statement.getGeneratedKey();
         useGeneratedKeys="true",使用自增主键获取主键值策略
         keyProperty:指定对应主键属性，也就是mybatis获取到主键值以后，将这个值封装给javaBean的哪个属性
-
     -->
     <insert id="addEmp" parameterType="com.atguigu.mybatis.Employee"
     useGeneratedKeys="true" keyProperty="id">

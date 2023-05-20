@@ -65,7 +65,7 @@ public class IndexController {
 */
 
     @ResponseBody
-    @GetMapping("/city/{name}/{state}/{country}")
+    @GetMapping("city/{name}/{state}/{country}")
     public City saveCity(@PathVariable String name, @PathVariable String state, @PathVariable String country) {
         city.setName(name);
         city.setState(state);
@@ -77,21 +77,21 @@ public class IndexController {
 
 
     @ResponseBody
-    @GetMapping("/city/{id}")
+    @GetMapping("city/{id}")
     public City getCityById(@PathVariable() Long id) {
 
         return cityService.getById(id);
     }
 
     @ResponseBody
-    @RequestMapping("/user")
+    @RequestMapping("user")
     public User01 getById(@RequestParam("id") Long id) {
 
         return userService.getUserById(id);
     }
 
     @ResponseBody
-    @GetMapping("/sql")
+    @GetMapping("sql")
     public List queryFromDb() {
         List<Map<String, Object>> maps = jdbcTemplate.queryForList("select * from user");
         return maps;
@@ -102,13 +102,13 @@ public class IndexController {
      *
      * @return
      */
-    @GetMapping(value = {"/", "/login"})
+    @GetMapping(value = {"/", "login"})
     public String loginPage() {
 
         return "login";
     }
 
-    @PostMapping("/login")
+    @PostMapping("login")
     public String main(User user, HttpSession session, Model model) {
 
         if ("wzg168".equals(user.getUserName()) && "123456".equals(user.getPassword())) {

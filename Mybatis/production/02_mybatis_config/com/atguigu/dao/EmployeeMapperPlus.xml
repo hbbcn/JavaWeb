@@ -6,7 +6,7 @@
 
     <!--javaBean的封装规则
     type:自定义规则的Java类型
-    id:唯一id方便引用
+    id:唯一id方tb_employee where id = 便引用
 
     -->
 
@@ -27,42 +27,53 @@
     <!--resultMap:自定义结果集映射规则：-->
     <!-- public Employee getEmpById(Integer id);-->
     <select id="getEmpById" resultMap="MyEmp">
-      select * from tb_employee where id = #{id};
+      select * from #{id};
     </select>
 
     <!--
         场景一：查询员工所在的部门信息
        方式一: 联合查询 联合级联属性封装结果集
     -->
- <!--   <resultMap id="MyDifEmp" type="com.atguigu.mybatis.Employee">
+<!--    <resultMap id="MyDifEmp" type="com.atguigu.mybatis.Employee">-->
+<!--        <id column="id" property="id"></id>-->
+<!--        <result column="name" property="name"/>-->
+<!--        <result column="email" property="email"></result>-->
+<!--        <result column="did" property="dept.id"/>-->
+<!--        <result column="dept_name" property="dept.departmentName"/>-->
+<!--    </resultMap>-->
+
+    <resultMap id="MyDifEmp" type="com.atguigu.mybatis.Employee">
         <id column="id" property="id"></id>
         <result column="name" property="name"/>
-        <result column="did" property="dept.id"/>
-        <result column="dept_name" property="dept.departmentName"/>
+        <result column="email" property="email"></result>
+       <association property="dept" javaType="Department">
+           <result property="id" column="id"/>
+           <result property="departmentName" column="dept_name"/>
+       </association>
     </resultMap>
--->
     <!--方式二-->
     <!--
         association 可以指定联合的javaBean对象
         property:指定哪个属性的联合对象
         javaType:指定这个属性对象类型
-
         使用association定义关联的单个对象的封装给规则
     -->
-    <resultMap id="MyDifEmp" type="com.atguigu.mybatis.Employee">
-        <id column="id" property="id"></id>
-        <result column="name" property="name"/>
-        <association property="dept" javaType="com.atguigu.mybatis.Department">
-            <id column="did" property="id"/>
-            <result column="dept_name" property="departmentName"></result>
-        </association>
-    </resultMap>
-
-    <!--public Employee getEmpAndDept(Integer id);-->
-    <select id="getEmpAndDept" resultMap="MyDifEmp">
-        select e.id id,e.name name, e.gender gender,e.d_id d_id,
+<!--    <resultMap id="MyDifEmp" type="com.atguigu.mybatis.Employee">-->
+<!--        <id column="id" property="id"></id>-->
+<!--        <result column="name" property="name"/>-->
+<!--        <association property="dept" javaType="com.atguigu.mybatis.Department">-->
+<!--            <id column="did" property="id"/>-->
+<!--            <result column="dept_name" property="departmentName"></result>-->
+<!--        </association>-->
+<!--    </resultMap>-->
+<!--
+   select e.id id,e.name name, e.gender gender,e.d_id d_id,
         d.id did,d.dept_name dept_name from tb_employee e,tb_dept d
         WHERE e.d_id = d.id and e.id = #{id};
+        -->
+    <!--public Employee getEmpAndDept(Integer id);-->
+    <select id="getEmpAndDept" resultMap="MyDifEmp">
+        select * from tb_employee e left join tb_dept d on e.d_id = d.id where e.d_id = #{id}
     </select>
 
     <!-- 使用association进行分布查询

@@ -1,6 +1,8 @@
 package com.atguigu.springcloud;
 
+/*import com.atguigu.myrule.MySelfRule;*/
 import com.atguigu.myrule.MySelfRule;
+import org.springframework.boot.SpringApplication;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.SpringBootConfiguration;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
@@ -8,10 +10,20 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 
 import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
+/*
 import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 import org.springframework.cloud.netflix.ribbon.RibbonClient;
 import org.springframework.cloud.netflix.ribbon.RibbonClients;
+*/
 
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
+import org.springframework.cloud.client.loadbalancer.LoadBalanced;
+import org.springframework.cloud.loadbalancer.annotation.LoadBalancerClients;
+import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
+import org.springframework.cloud.netflix.ribbon.RibbonClient;
 
 /**
  *@ClassName OrderMain80
@@ -23,6 +35,7 @@ import org.springframework.cloud.netflix.ribbon.RibbonClients;
 
 @SpringBootApplication(exclude={DataSourceAutoConfiguration.class})
 @EnableEurekaClient
+@LoadBalancerClients
 @RibbonClient(name = "CLOUD-PAYMENT-SERVICE", configuration= MySelfRule.class)
 public class OrderMain80{
 

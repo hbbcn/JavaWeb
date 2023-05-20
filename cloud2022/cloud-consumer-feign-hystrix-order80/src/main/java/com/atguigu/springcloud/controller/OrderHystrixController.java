@@ -19,7 +19,7 @@ import javax.annotation.Resource;
  *@Version 1.0
  */
 
-@RestController
+    @RestController
 @Slf4j
 @DefaultProperties(defaultFallback = "payment_Global_FallbackMethod")
 public class OrderHystrixController {

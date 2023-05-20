@@ -20,8 +20,7 @@
             <!-- test:判断表达式(OGNL)
             OGNL会进行字符串和数字的转换
              遇见特殊符号应该写转义字符
-             &&：&amp
-                                    -->
+             &&：&amp  -->
             <if test="id!=null">
                 id=#{id}
             </if>

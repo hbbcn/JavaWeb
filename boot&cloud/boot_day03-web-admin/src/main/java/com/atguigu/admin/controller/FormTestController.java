@@ -21,13 +21,13 @@ import javax.sound.sampled.Line;
 @Controller
 public class FormTestController{
 
-    @GetMapping("/form_layouts")
+    @GetMapping("form_layouts")
     public String form_layouts(){
 
         return "form/form_layouts";
     }
 
-    @PostMapping("/upload")
+    @PostMapping("upload")
     @ResponseBody
     public String upload(@RequestParam("email") String email,
                          @RequestParam("username") String username,
